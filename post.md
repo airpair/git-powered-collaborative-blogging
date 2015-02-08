@@ -1,4 +1,6 @@
-> This post is meant to be released March 2, with the our new authoring tools official annoucement. Feedback most welcome.
+
+
+> This post is meant planned to be published March 2, with the official annoucement of AirPair's new authoring tools. Feedback most welcome.
 
 ## 1. `mkdir` cat-brace-pencil-mutant
 
@@ -8,11 +10,11 @@ Today I'm excited to annouce one of the coolest and innovative projects I've eve
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-I'll intertwine quite a few reasons why these tools are so significant, while covering why we chose to build this platform, how we put the it together and what types of things we hope to see from it. Fundamentally, the the most instant value might be summed up up in this screenshot:
+I'll intertwine quite a few reasons why these tools are significant, while covering why we buitd this platform, how we put the it together and what types of things we hope to see. Before going into detail, perhaps much of the value of these tools can be summed up in this screenshot:
 
 ![Fork a post on AirPair](/static/img/pages/posts/fork-post-dymo.png)
 
-Anyone can fork an Authors post and submit them a pull request. 
+With the power of forking, we can tackle some age old scenarios with far less friction.
 
 - Annoyed with that typo? *Fixed*. 
 - Code sample has a syntax error? *Fixed*.

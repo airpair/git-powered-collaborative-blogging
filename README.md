@@ -1,0 +1,1 @@
+This repo is for WhenIdeasHaveSex = (airpair, gihub) => 'Git Powered Collaborative Blogging' by Jonathon Kresner. And it's one of the first ever git backed AirPair posts :{}

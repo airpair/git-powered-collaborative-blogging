@@ -1,6 +1,6 @@
--
+--
 
-> **This post is meant planned to be published March 2, with the official annoucement of AirPair's new authoring tools. Feedback most welcome.**
+> *** Author's Request: This post is planned to be published March 2nd, with the official annoucement of our new Github powered authoring tools. We're going to let the new features run for a couple of weeks for feedback. We'd love to hear what you think and we'd also love your help spreading the word on social media first week of March, and please not before then :). Feel free to fork this post and make suggestions via Pull Request too.***
 
 ## 1. `mkdir` cat-brace-pencil-mutant
 
@@ -8,42 +8,52 @@ TODO *Insert funny pic of octocat with airpair brace and pencil*
 
 ### 1.1 `touch` TLDR;annoucement
 
-Today I'm excited to annouce one of the coolest and innovative projects I've ever been involed with. Pretty much anything part git or Octocat is already going to be cool. If you've enjoyed reading the AirPair blog before now, it gives me great pleasure to let you know how much more awesome it's going to be from today onwards with the launch of our new Git Powered Collaborative Publishing workflow.
+Today I'm excited to annouce one of the coolest and innovative projects I've ever been involed with. Pretty much anything part git or Octocat is already going to be cool. But if you've enjoyed the AirPair blog before already, it gives me great pleasure to let you know how much more awesome it's going to get. From today onwards you're invited both as author or reader to contribute to our blog with our new *Github Powered Collaborative Publishing Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-I'll intertwine quite a few reasons why these tools are significant, while covering why we buitd this platform, how we put the it together and what types of things we hope to see. Before going into detail, perhaps much of the value of these tools can be summed up in this screenshot:
+I'll intertwine many reasons why these tools are significant, while covering why we built them, how we put the the flow together and what types of things we hope to see. Before diving into detail, perhaps much of the value can be summed up in this screenshot and a few uses cases:
 
 ![Fork a post on AirPair](/static/img/pages/posts/fork-post-dymo.png)
 
-With the power of forking, we can tackle some age old scenarios with far less friction.
-
-- Annoyed with that typo? *Fixed*. 
-- Code sample has a syntax error? *Fixed*.
-- Sample no longer runs with new framework version? *Fixed*.
-- Better way to do something? *Make it better*
+- Annoyed with that typo? ***Fork and Fix***. 
+- Code sample has a syntax error? ***Fork and Fix***. 
+- Sample no longer runs with new framework version? ***Fork and maintian***. 
+- Better way to do something? ***Fork and suggest enhancement***. 
 
 ### 1.2 `touch` README.md
 
-** Table of contents **
+** In this post (Table of contents) **
 
-If you haven't already read my mind (after all we built this to get one step closer to singularity), I want reaffirm that we believe this idea is significant, so in *Part 2* I will cover why developers need a git powered blogging system like this. In *Part 3* I will explain how the technicalities of how we put it together and what the flow looks like. In *Part 4* I'm going to leave off on the philosophical direction we're seeking, how you can be invovled in coming with us on the journey.
+I'm going to finish of **Section 1** with a few main points in case you want to come back to read the read of the post later. If you haven't already read my mind (after all, we built this to get one step closer to singularity), in **Section 2** I'm going to cover when ideas have sex, why developers need a git powered blogging system and drive home why we think this is a big deal. In *Section 3* I will explain how the technicalities of how we put it together and what the flow looks like. In **Section 4** I'm going to round things off on the philosophical direction we're seeking, cover how you can be invovled in coming with us on the journey. Finally **Section 5** will summarise what's been said in a cohesive conclusion.
 
-### 1.3 What's in it for you?
+### 1.3 `touch` What's in it for you?
 
-
+Here's a list of things we think are bleeding edge wins. Read this whole post to explore how and why. They are merely listed in this section.
 
 #### For Readers
 
+- More comprehensive and up to date content than ever before.
+- The ability to contribute even if only being an expert in on a small nugget of subject matter.
+- Lower bar to entry to interact with thought leaders who author.
+- Clear signals that a post is worth reading by who it has been endorsed by.
+
 #### For Authors
 
-### 1.4 Help us make this work
+- Expontential help from readers taking your work from 9/10 to 10/10 quality.
+- An *MVP* like forum to introduce new ideas and attract peers that can help evolve them before released to the public.
+- Exposure to significantly more readers than publishing on your own blog.
+- Recognition and personal branding for great work, even when no one has heard of your before.
 
-Were going to let the platform run for a couple of weeks for feedback before doing a marketing push in the first weke of March. Please help us at the beginning of march on social media.
+### 1.4 `git commit "Intro to AirPairs new Developer Blogging Tools" -m` :
+
+I hope you're excited as we are and you find time to read the rest of this post now, or another time. You can use AirPair's bookmark feature to collect content on AirPair that you'd like to revisit.
+
+We're excited to make this work, but community is only part technology. That's one of the things we care about at AirPair, all the nodes and connections that make up real thriving community. We hope that this becomes another way the developer world makes not only the evolution of knowledge, but experiences each other on a personal level for plain old simple human connection. Now's the perfect time to become part of this, by help us get things off to a great start by sharing on social media (assuming you're reading this from March 2 onwards!).
 
 ```
 git add .
-git commit -m 'Intro to AirPairs new Developer Blogging Tools'
+git commit -m ''
 ```
 
 ## 2. `mkdir` why-build-a-git-powered-workflow ?

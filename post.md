@@ -77,7 +77,9 @@ As a reader you will get smarter, as you will be exposed to better content impro
 
 As an author you will make better work and be help, plus challenged to improve what you present. If you're so interested in a topic that you are going to spend hours or days sharing it, it's a no brainer to be given people passionate about what you've got to say that you don't have to find by maintaining a consistant blog that already made you famous. Ods are, if you post something on your own blog, many people will spot and think the same improvements, but you never become a aware of many of them because it's too hard for them to get what they see in their head onto your published piece. We hope we can help you engage that percentage of your readers.
  
-### 2.2 `touch` Making our content effort self sustainable
+### 2.2 `touch` Things we needed to solve for ourselves
+
+### 2.3.1 `touch` Making our content effort self sustainable
 
 Not all of this idead around this release formed at once. It is itself an evolution of sexy experiences across our team, experts and previous authors. Some parts are for the glory of Mankind's next step onto the cyber moon. Others are just marketing problems we wanted to solve, which are probably happening all over the internet. You might want to consider hosting your technical content on AirPair if you want to take advantage of our solution, or in the next section we'll tell you how we did it, so feel free to take our technical approach and mutate it. How could would the web be if it was all forkable.
 
@@ -97,31 +99,35 @@ A git powered platform will enable content to morph with external shifts in fram
 
 Who knows, one day we might go as far as implement some sort of tagging and branching so that you can even view releases of a post if you have to go back and do some maintenance. Until then, you could follow all the commit logs and even discussions on pull requests submitted to each post on AirPair to get what communal interaction lead to something being preseted how it was, just like any other opensource software made by collaborating developers.
 
-#### Empowering people to help authors
+### 2.3.1 `touch` Motivating more authors and content
 
-#### Motivating more content
+At the end of the day, if an author shares something with the public, the ultimate goal is having it be read for (a) reconition, (b) interaction, (c) improvement (d) properity. We got off to an awesome start last year, generating significant traffic by seeding out posts section through paid well contributions and excellent covereage. The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post so far has been read more than 200,000 times and 24 hour record is 35,000 vistors.
 
-##### Social Blogging
+We believe the ideas presented here around 'Social Code Blogging' will be a way to make last years success for authors the starter, before mains.
 
-To riff of Github 'Social coding', 'Social Blogging' is a much deeper and social way to collaborate and share knowledge through this medium
+#### Recursively growing audience
 
-##### Making it easier to write
+The more authors publishing, the more readers visiting. So our strategy is to make this the best place for authors to write. We hope these new collaborative social features and our 100k writing competition starting first week of Feb are a good start. Let us know if there is anything else we can do to help make AirPair your go to scratch pad for emerging ideas in your head.
 
-##### Providing more reasons to write
+#### Self improvement
 
-- Audience
-- Learning to be a better writer
-- Having people you respect engage with your work
+##### Improving knowledge on your subject matter
 
-can help you maintain your post as versions change
+Sharing knowledge on AirPair doesn't mean only teacher transfers knowledge to student. Philosphically we are trying to address student to teacher and teacher to teacher and teachers to self. When you write a post, people less knowlegable than you will still help you re-think your first draft sometimes by just letting you know they don't get it. You'll be exposed to others who have strong opinions about your claims and solidify your argument to pass their high standards and of course as soon as you begin putting pencil to paper you are already re-arranging and improving knowledge structures around what you are expressing.
+
+Without too much detail on the how, we'll eventually launch features to help you automatically enagage the right level of reviewers all the way up to industry thought leaders that you wished would comment on your creations as your post becomes positively reinforced by community reviewers.
+
+##### Becoming better at written expression
+
+There's going to be a portion of readers who are more able to help you express yourself better than improve subject knowledge. If you've always wanted to improve at writing, this might be new and powerful tool. I know I'm excited for this.
+
+##### Form new friends and sub-communities around your interests
+
+With your contributors acknowledged and listed on your published work, we hope over time to foster recuring bonds. People you become familiar with for having your back, also happy to help with a tweet or share to let the world know your shared work is ready. Many you might realize that you have their back and enjoy bouncing their ideas back when it's their turn.
+
+This already happens over the internet and twitter for veteran personalities and bloggers. We think, we can lower the bar for the masses.
 
 ### 2.2 `touch` making-our-content-plaform-self-sustainable
-
-With a complete git backed history
-And acknowledgement of contributors
-
-
-####
 
  But to start, let me explain the white space in between the extreme long tail *Stackoverflow* sparked our imaginations, when everyone realized how neccessarily a consolidated resources of extreme long tail knowledge was. On the other end of the spectrum, PluralSight, 
 

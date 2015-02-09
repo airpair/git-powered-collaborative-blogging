@@ -178,11 +178,29 @@ When you create a new post, it stats in ***Draft***. While in draft your post is
 
 When you post meets some very basic critera, like being longer than a certain number of words, tagged with the relevant technolgoies and you've supplied an image to be used as a thumnail on airpair.com and social media you can submit it to the community for review. 
 
+Once you've got those bits in, you can do a full preview of the post to feel what it's going to look like if it were published.
+
 ###### No turning back
 
 As you go to submit your post, you will be prompted to authenticate with GitHub repo privilages. This is because this is the moment when things get real. We take the repo name you provide (which you cannot change later) and spin up a private repository on the github.com/airpair org. Repo permissions allow us to add you to "The Author" team on your repository. Thus, besides god users in the airpair org, you are the only one with write access to accept and merge or reject pull requests coming in for your contributors forks.
 
 As discussed in the next state, the rules of the game change when you hit, so pay attention, it's worth understanding how things work before you push that button!
+
+###### Properties of the *draft* state
+
+```javascript
+var draft = { 
+  visibility: ['just you'],
+  contentStore: {
+    workingCopy: 'airpair db',
+    previewedCopy: 'airpair db'    
+  },
+  authoring: {
+    editWith: ['only by the airpair editor'],
+    restrictions: ['everything is editable, except the mongo id']
+  }
+}
+```
 
 ##### In Community Review
 
@@ -194,21 +212,71 @@ Once your post is submitted, you have to choice to continue editing on AirPair, 
 
 Congrats, your post is now visible to anyone logged in to AirPair. You meant to do that right? Well relax, it's makred as noindex, follow so only hardcore contributors that want to take the time to be invovled in unfinished work will look at it. It also won't get imortalized in google's memeory until it's published. 
 
-#####
+###### Properties of the *review* state
 
-```javascript,linenums=true
-//Code blocks for javascript
-function() {
-  var coolness = true
+```javascript
+var review = { 
+  visibility: ['you', 'logged in users'],
+  contentStore: {
+    workingCopy: 'github HEAD',
+    previewedCopy: 'airpair db',
+    inReviewCopy: 'airpair db',    
+  },
+  authoring: {
+    editWith: ['airpair editor', 'any tool you like is just a clone away']
+    restrictions: [
+        ['the repo name is used as a unique slug makes up part of your posts public url, its locked in so make sure you are happy when you submit',
+        'A minimum number of reviews & minimum rating is required to publish your post']
+    ]
+  }
 }
 ```
 
+##### Published
+
+```javascript
+var review = { 
+  visibility: ['you', 'logged in users', 'anonymous users', 'google', 'other bots'],
+  contentStore: {
+    workingCopy: 'github HEAD',
+    previewedCopy: 'github HEAD',
+    publishedCopy: 'airpair db',     
+  },
+  authoring: {
+    edits: ['airpair editor', 'any tool you like is just a clone away']
+    restrictions: [
+        ['the repo name / slug',
+         'everything other than the content is no longer editable',
+         'Only AirPair users with editor permissions can propagate github HEAD to the published version on airpair.com'
+        ]
+    ]
+  }
+}
+```
+
+#### What we used to put this together
+
+##### Our stack
+
+##### The AirPair Editor Experience
+
+###### marked & ace in tandem
+
+####### Performance & Debouncing
+
+##### github-node npm package and our fork
+
+###### API calls
+
+
+
+
 ## 4. `mkdir` where-to-from-here ?
 
-### Building AirPair's Blogging Community
+### Building a Blogging Community
 
 ### Partnering with Technology and API providers
 
 ## 5. `mkdir` conclusion
 
-We hope this project is as impactful and we think can be and that news of these tools travel through the developer world. At AirPair we wake each day focused on how we can make a thriving company around the core values of enabling knowledge to transfer more easily from one mind to the next. We're looking for amazing, top notch engineers who want to build and market new ideas like this. Drop us a line if you'd like to work on things like this.
+We hope this project is as impactful and we think it can be and that news of these tools travel through the developer world. At AirPair we wake each day focused on how we can make a thriving company around the core values of enabling knowledge to transfer more easily from one mind to the next. We're looking for amazing, top notch engineers who want to build and market new ideas like this. Drop us a line if you'd like to work on things like this.

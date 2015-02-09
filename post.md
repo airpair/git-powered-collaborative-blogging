@@ -35,15 +35,16 @@ In this post, I'll intertwine many reasons why our new features are significant,
 
 ### 1.3 What's in this for you?
 
-Here's a list of things we think you'll love. Each will be explored futher later in this post.  
+Here's a list of things we think you'll love. We'll explore each more later in this post:  
 
----  
+- - -  
 `mkdir readers`  
 
 - More comprehensive and up to date content than ever before.
 - Clear signals via social endorsed that a post is worth reading.
 - The ability to contribute small nuggets of knowlege without needing a comprehensive understanding of the subject matter normally required to author your own post.
----  
+
+- - -  
 `mkdir authors` 
 
 - Help from readers with improving the quality of your work.
@@ -62,33 +63,47 @@ Here's a list of things we think you'll love. Each will be explored futher later
 
 *TODO mention sharing and put share widget here*
 
-## 2. `mkdir` why-build-a-git-powered-publishing ?
+## 2. Why Build Git Powered Publishing?
 
-### 2.1 `touch` When Ideas Have Sex
+This section covers a gammet of different forces that lead us here. I'll start with the philosophical, move through the commerical things we needed to solve, which seem applicable to everyone producing content and then explore practical and a few imaginative benefits we think you'll experience  by emploring the power of git.
 
-#### 2.1.1 Collaboration as evolution
+### 2.1 When Ideas Have Sex
 
-One of the pillars that inspired me to take the plunge and start AirPair, was that it embodied many of the ideas presented in my favorite TED Talk of all time [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). The overarching themes that inspire me are that the idea that the more we interact, the more we converse and share knowledge the more our ideas combine and mutate to form knowlege evolving at an accelerating pace.
+`touch A Sprinkle of TED Cred`
 
-#### 2.1.2 Developer ideas you've already seen having sex 
+#### 2.1.1 Collaboration and conversation as knowledge evolution 
 
-If you use GitHub, you'll see what a company can enable, by reducing the friction for a community to interact between itslef. GitHub has always been my favorite StartUp since I moved to San Francisco, because it empowered people who had never met, or even knew each others name to collaborate and improve work. There's no doubt that there are more programmers, writing better software because of what they built and as a result all the code bases that became visible and mutatations that resulted.
+One pillar that inspired me to start AirPair in 2013, was that it was an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). I recommend finding 15 minutes to watch how Riley summarises his view of evolution. 
 
-#### 2.1.3 Sexy ideas on AirPair
+> I think to answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine to meet and indeed to mate.
 
-You've seen what a great job GitHub did around 'Social Coding'
+A part that really excites me, is the more we interact, converse and share knowledge, the more our ideas combine and mutate to form evolving knowlege and products. This phenomenon is happening at an accelerating pace, and software and area of human conciousnness where this is most pronouced. It's incredible how fast frameworks superscene their predecessors, spread though the worldand before you know it, they're on the way out for something shinier.
 
-We'd like a shot from you, to champion the idea of 'Social Code Blogging'
+#### 2.1.2 GitHub - Social Coding - enabling promiscuous Open Source
 
-In this regard, AirPair's mission is like Github's and though we're known for our primary busines model or connecting people through the medium of one-on-one remote pair programming, it is only one expression of what we're trying to do. Our workshops section which hasn't got much love recently is another which one day we'd like to rekindle. But let's focus on today's events and what we predict will happen if this works.
+`touch Ode to Octocat`
+
+What I'm explaining is now old news to writing software. Thanks to GitHub reducing the friction of setting up and wielding git. But it's still awing to think about. Since realizing GitHub empowered developer who had never met to collaborate and improve work they have been my favorite StartUp.
+
+#### 2.1.3 AirPair - Social Code Blogging - enabling promiscuous knowledge share
+
+`touch Our elevator pitch`
+
+AirPair's is known for our primary busines model or connecting developers through one-on-one pair programming. But this is only one expression of finding better ways to connect developers for knowledge share.
+
+With your support, and leveraging the same GitHub tools and ideas that lead the social coding revolution, we'd like a shot to champion the idea of 'Social Code Blogging'.
+
+### 2.2 Technical blogging can be better
 
 As a reader you will get smarter, as you will be exposed to better content improved through crowdsourced spelling and grammer improvements, pre-vetted ideas and statements, and lower bar to partcipate and contribute with resulting self improvement by engaging and only bits and pieces of a collaboratively created post that belong mostly to an author and also partially to it's contributors. If you don't want anyone to make suggestions on what you write, this might not be for you.
 
 As an author you will make better work and be help, plus challenged to improve what you present. If you're so interested in a topic that you are going to spend hours or days sharing it, it's a no brainer to be given people passionate about what you've got to say that you don't have to find by maintaining a consistant blog that already made you famous. Ods are, if you post something on your own blog, many people will spot and think the same improvements, but you never become a aware of many of them because it's too hard for them to get what they see in their head onto your published piece. We hope we can help you engage that percentage of your readers.
  
-### 2.2 `touch` Things we needed to solve for ourselves
+### 2.3 Things we needed to solve for ourselves
 
-### 2.3.1 `touch` Making our content effort self sustainable
+`touch` 
+
+### 2.3.1 Making our content effort self sustainable
 
 Not all of this idead around this release formed at once. It is itself an evolution of sexy experiences across our team, experts and previous authors. Some parts are for the glory of Mankind's next step onto the cyber moon. Others are just marketing problems we wanted to solve, which are probably happening all over the internet. You might want to consider hosting your technical content on AirPair if you want to take advantage of our solution, or in the next section we'll tell you how we did it, so feel free to take our technical approach and mutate it. How could would the web be if it was all forkable.
 

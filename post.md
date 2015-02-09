@@ -1,10 +1,10 @@
 --
 
-> *** This post is planned to be published March 2nd, with the official annoucement of our new authoring tools. We'd love to hear what you think of the idea and feedback on the implementatoin before then. Please try not to share this on social media before we offically annouce first week of March. In the meantime, feel free to fork this post and make suggestions :)***
+> *** We're planning the official annoucement of our new authoring tools in the first week of March. We'd love to hear what you think and get feedback on the implementation before then. Feel free to fork this post to share thoughts :)***
 
-*TODO add CTA to subscribe to the AirPair new Content Maillist.*
+<!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
-## 1. A GitHub-AirPair baby?
+## 1. If GitHub & AirPair had a baby
 
 `mkdir cat-brace-pencil-mutant`
 
@@ -14,122 +14,118 @@ TODO *Insert funny pic of octocat with airpair brace and pencil*
 
 `touch Git Powered Collaborative Developer Blogging` 
 
-Today I'm excited to annouce one of the coolest and innovative projects I've ever been involed with. Pretty much anything part git or Octocat associated is already going to be cool. But if you've already enjoyed the AirPair blog, it gives me great pleasure to let you know things are going to get way more awesome for here. From today onwards you're invited both as authors and readers to contribute to our blog with our new *Github Powered Collaborative Publishing Workflow*.
+Today I'm excited to annouce one the more innovative projects I've ever been involed with. Pretty much anything part git or Octocat associated is going to be cool. But if you've already enjoyed the AirPair blog, it gives me great pleasure to let you know things are going to get way more awesome for here. From today you're invited both as an author and reader to contribute to our community blog using our new *Github Powered Collaborative Publishing Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-In this post, I'll intertwine many reasons why our new features are significant, while covering why we built them, how we put the the flow together and what types of things we hope to see. Before diving into detail, perhaps much of the value can be summed up in this screenshot and a few uses cases:
+In this post, I'll intertwine many reasons why our new features are significant, while covering why we built them, how we put the the flow together and what types of things we hope to see. Before diving into detail, perhaps much a good chunk of the value can be summed up by this screenshot and a few uses cases:
 
 ![Fork a post on AirPair](/static/img/pages/posts/fork-post-dymo.png)
 
 - Annoyed with that typo? ***Fork and fix***. 
-- Code sample has a syntax error? ***Fork and fix***. 
-- Sample no longer runs with new framework version? ***Fork and maintian***.
-- Know a better way to do something? ***Fork and enhance***. 
+- Spot a syntax error? ***Fork and fix***. 
+- Sample no longer runs with a new framework version? ***Fork and maintain***.
+- Know a better way to do something? ***Fork and improve***. 
 
 ### 1.2 In this post
 
 `touch README.md`
 
-**Section 1** covers the birds eye view. **Section 2** covers philophical and practical discussion on why developers need a git powered blogging system. In *Section 3* I'll describe what it actually looks like and the technicalities of how we put it together. Finally in **Section 4** we'll round thigns off with what we're seeking, and the soft challenges ahead of building a community to make it work. Finally, **Section 5** will end with a summary.
+**Section 1** covers a birds eye view. **Section 2** covers philophical and practical discussion on why developers need a git powered blogging system. In **Section 3** I'll describe what it actually looks like and the technicalities of how we put it together. In **Section 4** we'll round thigns off with the soft challenges ahead of building a community to make it work. Finally, **Section 5** will end with a summary.
 
 ### 1.3 What's in this for you?
 
-Here's a list of things we think you'll love. We'll explore each more later in this post:  
+`touch Why write on AirPair`
 
-- - -  
-`mkdir readers`  
+Here's a list of things we think you'll love. We'll explore each more depth futher down:  
+
+**For readers**
 
 - More comprehensive and up to date content than ever before.
 - Clear signals via social endorsed that a post is worth reading.
 - The ability to contribute small nuggets of knowlege without needing a comprehensive understanding of the subject matter normally required to author your own post.
 
-- - -  
-`mkdir authors` 
+**For authors** 
 
-- Help from readers with improving the quality of your work.
-- An *MVP* like forum to introduce, bounce and evolve new ideas before publicly publishing.
-- Exposure to significantly more readers than publishing on your own blog.
-- Instant recognition and personal branding for great work, without prior fame.
+- Crowdsourced help with improving your materpieces.
+- An forum to introduce, bounce and evolve new ideas they become public.
+- Exposure to significantly more readers than publishing on your own.
+- Instant recognition and personal branding for great work, without aquiring prior fame.
 
 ### 1.4 How to get your hands dirty
 
-`git commit "Developer Blogging Tools Intro" -m`
+`touch Getting started`
 
 - You can use AirPair's bookmark feature for to easily revisit this post any time. 
 - [Starting your own post](/post/new) is a piece of cake. Posts with github repos already created by authors will have the orange fork button in the right rail. 
 - At anytime you can see all [Posts in community review](/posts/in-community-review) that are waiting for feedback before they can be published.  
 
-
 *TODO mention sharing and put share widget here*
+
+`git commit "Developer Blogging Tools Intro" -m`
+
 
 ## 2. Why Build Git Powered Publishing?
 
-This section covers a gammet of different forces that lead us here. I'll start with the philosophical, move through the commerical things we needed to solve, which seem applicable to everyone producing content and then explore practical and a few imaginative benefits we think you'll experience  by emploring the power of git.
+Not all of aspects of this idea formed at once and our incarnation is itself an evolution of sexy experiences across our team and past authors. Some motivations are for the glory of Mankind. Others are marketing problems we needed to solve that seems relevant to every publisher. While writing this, I keep thinking how could would the web be if everything was forkable.
+
+This section covers a gammet of different forces that lead us here. I'll start with the philosophical reasons, move through the commerical challenges we wanted to solve and follow through with practical benefits that inspired us to go down this path.
 
 ### 2.1 When Ideas Have Sex
 
-`touch A Sprinkle of TED Cred`
+`touch A Sprinkle of TED`
 
 #### 2.1.1 Collaboration and conversation as knowledge evolution 
 
-One pillar that inspired me to start AirPair in 2013, was that it was an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). I recommend finding 15 minutes to watch how Riley summarises his view of evolution. 
+One pillar that inspired me to start AirPair, was that it was an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). I recommend finding 15 minutes to watch how Riley summarises his view of evolution. 
 
 > I think to answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine to meet and indeed to mate.
 
-A part that really excites me, is the more we interact, converse and share knowledge, the more our ideas combine and mutate to form evolving knowlege and products. This phenomenon is happening at an accelerating pace, and software and area of human conciousnness where this is most pronouced. It's incredible how fast frameworks superscene their predecessors, spread though the worldand before you know it, they're on the way out for something shinier.
+A part that particuarly excites me, is the more we interact, converse and share knowledge, the more our ideas combine and mutate to form evolving knowlege and products. Ridley explores how this phenomenon is happening at an accelerating pace. As Developers, we experience this effect in software in a very pronouced way. It's incredible how fast frameworks superscede their predecessors, spread worldwide and before you know it, they're no longer the new kid on the block and out of fasion.
 
-#### 2.1.2 GitHub - Social Coding - enabling promiscuous Open Source
+#### 2.1.2 GitHub & *Social Coding* enabling promiscuous Open Source
 
 `touch Ode to Octocat`
 
-What I'm explaining is now old news to writing software. Thanks to GitHub reducing the friction of setting up and wielding git. But it's still awing to think about. Since realizing GitHub empowered developer who had never met to collaborate and improve work they have been my favorite StartUp.
+Yes you get what I'm talking about. Ideas having sex is old news to software knowledge. Thanks to GitHub reducing the friction of setting up and wielding the powers of git. But it's still awing to think about. The moment I realizing GitHub empowered developers who had never met to collaborate and improve work, they have been my favorite StartUp.
 
-#### 2.1.3 AirPair - Social Code Blogging - enabling promiscuous knowledge share
+#### 2.1.3 AirPair & *Social Code Blogging* enabling promiscuous knowledge share
 
-`touch Our elevator pitch`
+`touch The elevator pitch`
 
-AirPair's is known for our primary busines model or connecting developers through one-on-one pair programming. But this is only one expression of finding better ways to connect developers for knowledge share.
+AirPair's is known primarily for connecting developers over video chat for one-on-one pair programming help. But, this is one expression of our mission to find better ways to connect developers for the purpose of knowledge share.
 
-With your support, and leveraging the same GitHub tools and ideas that lead the social coding revolution, we'd like a shot to champion the idea of 'Social Code Blogging'.
+With your support, we'd like a shot at championioning the idea of 'Social Code Blogging'. We think it might revolutionize learning.
 
-### 2.2 Technical blogging can be better
+### 2.2 Improving ROI on our content investment
 
-As a reader you will get smarter, as you will be exposed to better content improved through crowdsourced spelling and grammer improvements, pre-vetted ideas and statements, and lower bar to partcipate and contribute with resulting self improvement by engaging and only bits and pieces of a collaboratively created post that belong mostly to an author and also partially to it's contributors. If you don't want anyone to make suggestions on what you write, this might not be for you.
+`mkdir strategy`
 
-As an author you will make better work and be help, plus challenged to improve what you present. If you're so interested in a topic that you are going to spend hours or days sharing it, it's a no brainer to be given people passionate about what you've got to say that you don't have to find by maintaining a consistant blog that already made you famous. Ods are, if you post something on your own blog, many people will spot and think the same improvements, but you never become a aware of many of them because it's too hard for them to get what they see in their head onto your published piece. We hope we can help you engage that percentage of your readers.
- 
-### 2.3 Things we needed to solve for ourselves
+We had some great success in our first 6 months pushing community produced technical content.
 
-`touch` 
+![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
-### 2.3.1 Making our content effort self sustainable
+But the seeding phase was expensive and unsustainably heavy on internal manpower. Here are some concerns we needed to address to keep up the pace and quality that we attribute to our initial success.
 
-Not all of this idead around this release formed at once. It is itself an evolution of sexy experiences across our team, experts and previous authors. Some parts are for the glory of Mankind's next step onto the cyber moon. Others are just marketing problems we wanted to solve, which are probably happening all over the internet. You might want to consider hosting your technical content on AirPair if you want to take advantage of our solution, or in the next section we'll tell you how we did it, so feel free to take our technical approach and mutate it. How could would the web be if it was all forkable.
+#### 2.2.1 Making content production more self sustaining
 
-#### 2.2.1 Reducing content half life
+-- 
 
-As an author who devotes personal blood sweat and tears, or a party that comissions content, you want to see what you make stay as fresh and relevant as you can.
+#### 2.2.2 Reducing content half life
 
-Software might be the most promiscuous discipline of our time. Ideas converge so quickly that without a special career history, if you you've been out of the game for 18 months, you're possibly not hirable anymore. Ods are the framework that you mastered has a new version that could have been named something totally new, or it's no longer cool to use.
+As an author devoting personal blood, sweat and tears, or a party  comissioning content, you want to see what you create stay fresh and relevant for as long as possible.
 
-Thus, publishing technical content has less return than other subject matter. I wonder if this explains why there is no universal technical blogging platform, when there is a universal technical Q & A platform - StackOverflow - which supplies by far the majority of long tail knowledge for the developer world. Is it the way they captured community and empowered it to socially collaborate? I'm suprised this didn't happen in a big way yet anywhere for the blog post / tutorial format. It seems obvious, so I'm glad we're here having a crack.
+Software moves so quickly that if you've been out of the game for 18 months, you might not have current experience in demand. Similarly, what was published 18 months ago, if not completley irrelevant, most likely will not work or be sub-optimal with newer framework versions and features.
 
-##### Improving maintainbility
+Wouldn't it be nice if there were a scalable way to know when a post needs an update and a way to update it?
 
-When a developer writes an amazing piece, often the specific, syntax, interfaces will be out of date well before the principals become irrelevant.
+#### 2.2.3 Reducing editorical cost per post
 
-A git powered platform will enable content to morph with external shifts in framework releases, vulnerability discoveries and other evolutions of software thought.
+We spent exhaberant amounts of time and money for each post published in 2014. Money that could only come from a venture funded Startup. But our team is small and resources not unlimited. So it's been a huge focus to reduce the time we spend identifying what to write and time editing for it to reach the standards we produced over the last 6 months. 
 
-Who knows, one day we might go as far as implement some sort of tagging and branching so that you can even view releases of a post if you have to go back and do some maintenance. Until then, you could follow all the commit logs and even discussions on pull requests submitted to each post on AirPair to get what communal interaction lead to something being preseted how it was, just like any other opensource software made by collaborating developers.
+With our new tools, we hope to crowdsource quality control before AirPair staff get invovled. Our review system is one piece not powered by github, that goes hand it hand with the github bits that faciliate the work that is discovered during the review process for an article to meet community standards.
 
-#### 2.2.1 Reducing editorical cost per post
-
-We spent an exhaberant amount of time and money for each post we published in 2014. Money that could only come from a venture funded Startup. But our team is small and resources not unlimited. So it's been a huge focus to reduce the time we spend identifying and edit content for it to reach the standard that AirPair has become known to produce over the last 6 months. 
-
-Our solution is crowdsourcing opinion on quality as signaling to the editorial team that a piece isn't ready for our attention. This is one piece that is not powered in anyway by github, but goes hand it hand with the github bits that faciliate the work that is discovered during the review process for an article to meet community standards.
-
-### 2.3.1 `touch` Motivating more authors and content
+### 2.2.4 Motivating more authors and content
 
 At the end of the day, if an author shares something with the public, the ultimate goal is having it be read for (a) reconition, (b) interaction, (c) improvement (d) properity. We got off to an awesome start last year, generating significant traffic by seeding out posts section through paid well contributions and excellent covereage. The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post so far has been read more than 200,000 times and 24 hour record is 35,000 vistors.
 
@@ -157,13 +153,31 @@ With your contributors acknowledged and listed on your published work, we hope o
 
 This already happens over the internet and twitter for veteran personalities and bloggers. We think, we can lower the bar for the masses.
 
-### 2.2 `touch` making-our-content-plaform-self-sustainable
-
  But to start, let me explain the white space in between the extreme long tail *Stackoverflow* sparked our imaginations, when everyone realized how neccessarily a consolidated resources of extreme long tail knowledge was. On the other end of the spectrum, PluralSight, 
+
+### 2.3 Ways Git Makes Technical blogging better
+
+#### 2.3,2 Introducing collaboration to technical long form content
+
+We've seen collaborative content revolutionize and destroy the encyclopedia industry. Thus, publishing technical content has less return than other subject matter. I wonder if this explains why there is no universal technical blogging platform, when there is a universal technical Q & A platform - StackOverflow - which supplies by far the majority of long tail knowledge for the developer world. Is it the way they captured community and empowered it to socially collaborate? I'm suprised this didn't happen in a big way yet anywhere for the blog post / tutorial format. It seems obvious, so I'm glad we're here having a crack.
+
+#### 2.3.2 Improving maintainbility
+
+When a developer writes an amazing piece, often the specific, syntax, interfaces will be out of date well before the principals become irrelevant.
+
+A git powered platform will enable content to morph with external shifts in framework releases, vulnerability discoveries and other evolutions of software thought.
+
+Who knows, one day we might go as far as implement some sort of tagging and branching so that you can even view releases of a post if you have to go back and do some maintenance. Until then, you could follow all the commit logs and even discussions on pull requests submitted to each post on AirPair to get what communal interaction lead to something being preseted how it was, just like any other opensource software made by collaborating developers.
+
+As a reader you will get smarter, as you will be exposed to better content improved through crowdsourced spelling and grammer improvements, pre-vetted ideas and statements, and lower bar to partcipate and contribute with resulting self improvement by engaging and only bits and pieces of a collaboratively created post that belong mostly to an author and also partially to it's contributors. If you don't want anyone to make suggestions on what you write, this might not be for you.
+
+As an author you will make better work and be help, plus challenged to improve what you present. If you're so interested in a topic that you are going to spend hours or days sharing it, it's a no brainer to be given people passionate about what you've got to say that you don't have to find by maintaining a consistant blog that already made you famous. Ods are, if you post something on your own blog, many people will spot and think the same improvements, but you never become a aware of many of them because it's too hard for them to get what they see in their head onto your published piece. We hope we can help you engage that percentage of your readers.
+ 
+
 
 Yes, people have published and translated books on github. Git is almost every developers favorite tool... but it was Github who took the tool and combined beautiful product and execeptional community building to make something, somewhere in-between technology and common conciousness, to bring about the next level of cognitive collaboration. Wow, the day I understood that you could work with someone without having met them, or even know thei name - I knew Github was my favorite startup.
 
-## 3. How and What We Built
+## 3. How and what we built
 
 ### The live editor
 
@@ -307,4 +321,4 @@ We're excited to make this work, but community is only part technology. That's o
 
 ## 5. `mkdir` conclusion
 
-We hope this project is as impactful and we think it can be and that news of these tools travel through the developer world. At AirPair we wake each day focused on how we can make a thriving company around the core values of enabling knowledge to transfer more easily from one mind to the next. We're looking for amazing, top notch engineers who want to build and market new ideas like this. Drop us a line if you'd like to work on things like this.
+We hope this project is as impactful as we think it can be and that news of these tools spread through the developer world. At AirPair we come to work each day focused on how we can make a company thrive around enabling knowledge transfer from developer to another. We hope to see your posts and contributions. Thanks for stopping by.

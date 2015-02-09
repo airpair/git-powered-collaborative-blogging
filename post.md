@@ -91,13 +91,19 @@ Software might be the most promiscuous discipline of our time. Ideas converge so
 
 Thus, publishing technical content has less return than other subject matter. I wonder if this explains why there is no universal technical blogging platform, when there is a universal technical Q & A platform - StackOverflow - which supplies by far the majority of long tail knowledge for the developer world. Is it the way they captured community and empowered it to socially collaborate? I'm suprised this didn't happen in a big way yet anywhere for the blog post / tutorial format. It seems obvious, so I'm glad we're here having a crack.
 
-##### 
+##### Improving maintainbility
 
 When a developer writes an amazing piece, often the specific, syntax, interfaces will be out of date well before the principals become irrelevant.
 
 A git powered platform will enable content to morph with external shifts in framework releases, vulnerability discoveries and other evolutions of software thought.
 
 Who knows, one day we might go as far as implement some sort of tagging and branching so that you can even view releases of a post if you have to go back and do some maintenance. Until then, you could follow all the commit logs and even discussions on pull requests submitted to each post on AirPair to get what communal interaction lead to something being preseted how it was, just like any other opensource software made by collaborating developers.
+
+#### 2.2.1 Reducing editorical cost per post
+
+We spent an exhaberant amount of time and money for each post we published in 2014. Money that could only come from a venture funded Startup. But our team is small and resources not unlimited. So it's been a huge focus to reduce the time we spend identifying and edit content for it to reach the standard that AirPair has become known to produce over the last 6 months. 
+
+Our solution is crowdsourcing opinion on quality as signaling to the editorial team that a piece isn't ready for our attention. This is one piece that is not powered in anyway by github, but goes hand it hand with the github bits that faciliate the work that is discovered during the review process for an article to meet community standards.
 
 ### 2.3.1 `touch` Motivating more authors and content
 
@@ -133,14 +139,46 @@ This already happens over the internet and twitter for veteran personalities and
 
 Yes, people have published and translated books on github. Git is almost every developers favorite tool... but it was Github who took the tool and combined beautiful product and execeptional community building to make something, somewhere in-between technology and common conciousness, to bring about the next level of cognitive collaboration. Wow, the day I understood that you could work with someone without having met them, or even know thei name - I knew Github was my favorite startup.
 
-## How AirPair's Publishing Tools Were Built
+## 3. How and What We Built
+
+### The live editor
+
+TODO screenshots and short explanation of the editor.
 
 ### Our Publishing Flow
 
-This is our first go at gluing the two systems together, so we might not have reached the optimal solution, and we'll probably learn a lot in the coming weeks.
+This is our first go at gluing the GitHub API and AirPair authoring tools together, so there's probably gaps and a way to go for it to become optimal, but here it is.
 
-### Draft => In Review => Published
+### V1 of The workflow
 
+#### Staying as lean as possible
+
+The goal of V1 was to make it work with as little development on AirPair sided features as possible. We wanted to leverage as much of the existing GitHub API and github.com UI and tooling as possible because:
+
+1) Despite what you may perceive, AirPair is a tiny company.
+2) Git and GitHub are already perfect for enabling history, discussions around sugested changes, facilitating submissions and accepting / rejecting changes.
+3) There's no way we could rebuild it as well as GitHub.
+4) We wanted to leverage existing Developer familiarity with github and their own personal toolset that already know and love. As a contributor, once you fork a post you have the option of doing nothing futher on airpair.com if you prefer to work exclusively in your own environment.
+
+At the end of the day, we mainly thought AirPair's contributions would be leveraging its large traffic base and existing community to pose this idea to enough influencers for things to spark. We'll attempt to categorize and present content to readers in a more and sophisticated way as things progress, but ultimately - we'll let you in on a secret.
+
+95% of airpair.com was built by one coder. One additional developer contributed to this particular part of the site and the total time to knock all this out was probably between 6-8 weeks. Not a very defensible technolgoy play, especially that I'm about to tell you everything anyway!
+
+#### The workflow
+
+Posts basically go through 3 states:
+
+> Draft => In Community Review => Published
+
+##### Draft
+
+When you create a new post, it stats in ***Draft***. While in draft your post is only visible to you. It has no git history, so there's no pressure about playing with an expressing ideas that not yet make cohesive sense. We simply save your changes back to our database with no history and if you start and it never goes anywhere, that experience was just for you, so enjoy it and don't worry about taking it seriously until you realize you want to.
+
+When you post meets some very basic critera, like being longer than a certain number of words, tagged with the relevant technolgoies and you've supplied an image to be used as a thumnail on airpair.com and social media you can submit it to the community for review.
+
+##### In Community Review
+
+#####
 
 ```javascript,linenums=true
 //Code blocks for javascript

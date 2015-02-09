@@ -1,57 +1,66 @@
 --
 
-> *** Author's Request: This post is planned to be published March 2nd, with the official annoucement of our new Github powered authoring tools. We're going to let the new features run for a couple of weeks for feedback. We'd love to hear what you think and we'd also love your help spreading the word on social media first week of March, and please not before then :). Feel free to fork this post and make suggestions via Pull Request too.***
+> *** This post is planned to be published March 2nd, with the official annoucement of our new authoring tools. We'd love to hear what you think of the idea and feedback on the implementatoin before then. Please try not to share this on social media before we offically annouce first week of March. In the meantime, feel free to fork this post and make suggestions :)***
 
-## 1. `mkdir` cat-brace-pencil-mutant
+*TODO add CTA to subscribe to the AirPair new Content Maillist.*
+
+## 1. A GitHub-AirPair baby?
+
+`mkdir cat-brace-pencil-mutant`
 
 TODO *Insert funny pic of octocat with airpair brace and pencil*
 
-TODO add CTA to subscribe to the AirPair Content Mailing List
+### 1.1 TLDR; annoucement
 
-### 1.1 `touch` TLDR;annoucement
+`touch Git Powered Collaborative Developer Blogging` 
 
-Today I'm excited to annouce one of the coolest and innovative projects I've ever been involed with. Pretty much anything part git or Octocat is already going to be cool. But if you've enjoyed the AirPair blog before already, it gives me great pleasure to let you know how much more awesome it's going to get. From today onwards you're invited both as author or reader to contribute to our blog with our new *Github Powered Collaborative Publishing Workflow*.
+Today I'm excited to annouce one of the coolest and innovative projects I've ever been involed with. Pretty much anything part git or Octocat associated is already going to be cool. But if you've already enjoyed the AirPair blog, it gives me great pleasure to let you know things are going to get way more awesome for here. From today onwards you're invited both as authors and readers to contribute to our blog with our new *Github Powered Collaborative Publishing Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-I'll intertwine many reasons why these tools are significant, while covering why we built them, how we put the the flow together and what types of things we hope to see. Before diving into detail, perhaps much of the value can be summed up in this screenshot and a few uses cases:
+In this post, I'll intertwine many reasons why our new features are significant, while covering why we built them, how we put the the flow together and what types of things we hope to see. Before diving into detail, perhaps much of the value can be summed up in this screenshot and a few uses cases:
 
 ![Fork a post on AirPair](/static/img/pages/posts/fork-post-dymo.png)
 
-- Annoyed with that typo? ***Fork and Fix***. 
-- Code sample has a syntax error? ***Fork and Fix***. 
-- Sample no longer runs with new framework version? ***Fork and maintian***. 
-- Better way to do something? ***Fork and suggest enhancement***. 
+- Annoyed with that typo? ***Fork and fix***. 
+- Code sample has a syntax error? ***Fork and fix***. 
+- Sample no longer runs with new framework version? ***Fork and maintian***.
+- Know a better way to do something? ***Fork and enhance***. 
 
-### 1.2 `touch` README.md
+### 1.2 In this post
 
-** In this post (Table of contents) **
+`touch README.md`
 
-I'm going to finish of **Section 1** with a few main points in case you want to come back to read the read of the post later. If you haven't already read my mind (after all, we built this to get one step closer to singularity), in **Section 2** I'm going to cover when ideas have sex, why developers need a git powered blogging system and drive home why we think this is a big deal. In *Section 3* I will explain how the technicalities of how we put it together and what the flow looks like. In **Section 4** I'm going to round things off on the philosophical direction we're seeking, cover how you can be invovled in coming with us on the journey. Finally **Section 5** will summarise what's been said in a cohesive conclusion.
+**Section 1** covers the birds eye view. **Section 2** covers philophical and practical discussion on why developers need a git powered blogging system. In *Section 3* I'll describe what it actually looks like and the technicalities of how we put it together. Finally in **Section 4** we'll round thigns off with what we're seeking, and the soft challenges ahead of building a community to make it work. Finally, **Section 5** will end with a summary.
 
-### 1.3 `touch` What's in it for you?
+### 1.3 What's in this for you?
 
-Here's a list of things we think are bleeding edge wins. Read this whole post to explore how and why. They are merely listed in this section.
+Here's a list of things we think you'll love. Each will be explored futher later in this post.  
 
-#### For Readers
+---  
+`mkdir readers`  
 
 - More comprehensive and up to date content than ever before.
-- The ability to contribute even if only being an expert in on a small nugget of subject matter.
-- Lower bar to entry to interact with thought leaders who author.
-- Clear signals that a post is worth reading by who it has been endorsed by.
+- Clear signals via social endorsed that a post is worth reading.
+- The ability to contribute small nuggets of knowlege without needing a comprehensive understanding of the subject matter normally required to author your own post.
+---  
+`mkdir authors` 
 
-#### For Authors
-
-- Expontential help from readers taking your work from 9/10 to 10/10 quality.
-- An *MVP* like forum to introduce new ideas and attract peers that can help evolve them before released to the public.
+- Help from readers with improving the quality of your work.
+- An *MVP* like forum to introduce, bounce and evolve new ideas before publicly publishing.
 - Exposure to significantly more readers than publishing on your own blog.
-- Recognition and personal branding for great work, even when no one has heard of your before.
+- Instant recognition and personal branding for great work, without prior fame.
 
-### 1.4 `git commit "Intro to AirPairs new Developer Blogging Tools" -m` :
+### 1.4 How to get your hands dirty
 
-I hope you're excited as we are and you find time to read the rest of this post now, or another time. You can use AirPair's bookmark feature to collect content on AirPair that you'd like to revisit.
+`git commit "Developer Blogging Tools Intro" -m`
 
-We're excited to make this work, but community is only part technology. That's one of the things we care about at AirPair, all the nodes and connections that make up real thriving community. We hope that this becomes another way the developer world makes not only the evolution of knowledge, but experiences each other on a personal level for plain old simple human connection. Now's the perfect time to become part of this, by help us get things off to a great start by sharing on social media (assuming you're reading this from March 2 onwards!).
+- You can use AirPair's bookmark feature for to easily revisit this post any time. 
+- [Starting your own post](/post/new) is a piece of cake. Posts with github repos already created by authors will have the orange fork button in the right rail. 
+- At anytime you can see all [Posts in community review](/posts/in-community-review) that are waiting for feedback before they can be published.  
+
+
+*TODO mention sharing and put share widget here*
 
 ## 2. `mkdir` why-build-a-git-powered-publishing ?
 
@@ -273,7 +282,11 @@ var review = {
 
 ## 4. `mkdir` where-to-from-here ?
 
+We're excited to make this work, but community is only part technology. That's one of the things we care about at AirPair, all the nodes and connections that make up real thriving community. We hope that this becomes another way the developer world makes not only the evolution of knowledge, but experiences each other on a personal level for plain old simple human connection.
+
 ### Building a Blogging Community
+
+
 
 ### Partnering with Technology and API providers
 

@@ -172,11 +172,27 @@ Posts basically go through 3 states:
 
 ##### Draft
 
+###### Fun and games
+
 When you create a new post, it stats in ***Draft***. While in draft your post is only visible to you. It has no git history, so there's no pressure about playing with an expressing ideas that not yet make cohesive sense. We simply save your changes back to our database with no history and if you start and it never goes anywhere, that experience was just for you, so enjoy it and don't worry about taking it seriously until you realize you want to.
 
-When you post meets some very basic critera, like being longer than a certain number of words, tagged with the relevant technolgoies and you've supplied an image to be used as a thumnail on airpair.com and social media you can submit it to the community for review.
+When you post meets some very basic critera, like being longer than a certain number of words, tagged with the relevant technolgoies and you've supplied an image to be used as a thumnail on airpair.com and social media you can submit it to the community for review. 
+
+###### No turning back
+
+As you go to submit your post, you will be prompted to authenticate with GitHub repo privilages. This is because this is the moment when things get real. We take the repo name you provide (which you cannot change later) and spin up a private repository on the github.com/airpair org. Repo permissions allow us to add you to "The Author" team on your repository. Thus, besides god users in the airpair org, you are the only one with write access to accept and merge or reject pull requests coming in for your contributors forks.
+
+As discussed in the next state, the rules of the game change when you hit, so pay attention, it's worth understanding how things work before you push that button!
 
 ##### In Community Review
+
+###### Where your content lives and gets saved
+
+Once your post is submitted, you have to choice to continue editing on AirPair, or clone your repo and use your normal tools. Either way each time you save your post including from the editor it gets committed to master on github. The markdown appearing in the edidot actually comes from HEAD on github and will not appear on airpair.com until you hit ***Propagate HEAD***. 
+
+###### Visibility
+
+Congrats, your post is now visible to anyone logged in to AirPair. You meant to do that right? Well relax, it's makred as noindex, follow so only hardcore contributors that want to take the time to be invovled in unfinished work will look at it. It also won't get imortalized in google's memeory until it's published. 
 
 #####
 

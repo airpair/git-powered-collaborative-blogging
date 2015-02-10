@@ -1,6 +1,6 @@
 --
 
-> *** Our new authoring tools will be officially annouced first week of March. We'd love to hear what your feedback before then. Feel free to fork this post to share thoughts. ***
+> *** Our new authoring tools will be officially annouced first week of March. We'd love to your feedback before then. Feel free to fork this post too. ***
 
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
@@ -27,7 +27,8 @@ Before diving into detail, perhaps a good chunk of the value can be summed up by
 - Annoyed with that typo? ***Fork and fix***. 
 - Spot a syntax error? ***Fork and fix***. 
 - Sample no longer runs with a new framework version? ***Fork and maintain***.
-- Know a better way to do something? ***Fork and improve***. 
+- Know a better way to do something? ***Fork and improve***.
+- Disagree? ***Fork and discuss***.
 
 ### 1.2 In this post
 
@@ -73,47 +74,53 @@ Summing up before we deep dive, we look forward to enabling wikipedia-style deve
 
 ## 2. Why Build Git Powered Publishing?
 
-`git commit "Developer Blogging Tools Intro" -m`
+`mkdir inspiration`
 
-Not all of aspects of this idea formed at once and our incarnation is itself an evolution of sexy experiences across our team and past authors. Some motivations are for the glory of Mankind. Others are marketing problems we needed to solve that seems relevant to every publisher. While writing this, I keep thinking how could would the web be if everything was forkable.
+While writing this post, I keep thinking:
 
-This section covers a gammet of different forces that lead us here. I'll start with the philosophical reasons, move through the commerical challenges we wanted to solve and follow through with practical benefits that inspired us to go down this path.
+> *How cool would it be if everything on the web were forkable? Imagine a digital world extinct of typos!*
+
+This section covers a gammet of different forces that lead us here. Some of our motivations came from a sense that this could be groundbreaking and for the glory of evolution! Others were marketing problems we needed to solve, probably relevant to every publisher. Mostly, through the experieces of working with our past authors, we just to make their success greater and experience better.
 
 ### 2.1 When Ideas Have Sex
 
-`touch A Sprinkle of TED`
+`touch A Sprinkle of TED Magic`
 
-#### 2.1.1 Collaboration and conversation as knowledge evolution 
+#### 2.1.1 Evolution as accelerating combinations of ideas
 
-One pillar that inspired me to start AirPair, was that it was an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). I recommend finding 15 minutes to watch how Riley summarises his view of evolution. 
+One reason I started AirPair, was because it was an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). Riley states his explanation for the human ability to improve our living conditions and wealth as history progresses: 
 
-> I think to answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine to meet and indeed to mate.
+> To answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine, to meet and indeed to mate.
 
-A part that particuarly excites me, is the more we interact, converse and share knowledge, the more our ideas combine and mutate to form evolving knowlege and products. Ridley explores how this phenomenon is happening at an accelerating pace. As Developers, we experience this effect in software in a very pronouced way. It's incredible how fast frameworks superscede their predecessors, spread worldwide and before you know it, they're no longer the new kid on the block and out of fasion.
+A part of this phenomenon that is particuarly relevant to software, is the notion of acceleration. The more we interact, converse and share knowledge, the more our ideas combine and mutate forming knowlege and products composed of ideas originaing for thousands or millions of indivduals. But as ideas become more evolved, they are even more quickly supersceded.
 
 #### 2.1.2 GitHub & *Social Coding* enabling promiscuous Open Source
 
 `touch Ode to Octocat`
 
-Yes you get what I'm talking about. Ideas having sex is old news to software knowledge. Thanks to GitHub reducing the friction of setting up and wielding the powers of git. But it's still awing to think about. The moment I realizing GitHub empowered developers who had never met to collaborate and improve work, they have been my favorite StartUp.
+You're a developer, so yes you get what I'm talking about. We see every year the cycle of new frameworks appearing, spreading world-wide and before you know it, being superscended by new kid on the block. 
+
+Ideas having sex is old news in software creation largely thanks to GitHub for reducing the friction for the comment developer to setup and wield the powers of git. Even though it's been a while, it's still awing to think about how GitHub empowers developers, who have never met, to collaborate and improve work.
+
+It seems though, if we're going make better software faster and faster, we could use more powerful tools to speed up the job of expressing and sharing the ideas embedded in our software?
 
 #### 2.1.3 AirPair & *Social Code Blogging* enabling promiscuous knowledge share
 
-`touch The elevator pitch`
+`touch The git powered publishing elevator pitch`
 
-AirPair's is known primarily for connecting developers over video chat for one-on-one pair programming help. But, this is one expression of our mission to find better ways to connect developers for the purpose of knowledge share.
+AirPair's is known primarily for connecting developers over video chat for one-on-one pair programming help. But, this is one expression of our mission to find new ways to connect developers for the purpose of knowledge share.
 
-With your support, we'd like a shot at championioning the idea of 'Social Code Blogging'. We think it might revolutionize learning.
+With your support, we'd like a shot at championioning the idea of ***'Social Code Blogging'***. We think the developer world could use a wikipedia like collection of quickstarts, tutorials and thought pieces across all technologies and framework versions.
 
 ### 2.2 Improving ROI on our content investment
 
-`mkdir strategy`
+`touch Content strategy`
 
-We had some great success in our first 6 months pushing community produced technical content.
+We had great success in our first 6 months pushing community produced technical content.
 
 ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
-But the seeding phase was expensive and unsustainably heavy on internal manpower. Here are some concerns we needed to address to keep up the pace and quality that we attribute to our initial success.
+But the seeding phase was expensive and unsustainably heavy on internal manpower. The following are some concerns we needed to address to keep up the pace and quality encombent of our initial success.
 
 #### 2.2.1 Making content production more self sustaining
 

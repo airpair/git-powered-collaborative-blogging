@@ -116,7 +116,7 @@ AirPair's is known primarily for connecting developers over video chat for one-o
 
 We think the developer world could use a Wikipedia like collection of quickstarts, tutorials and thought pieces and this ideas fundamentally expresses our mission. If these ideas are important to you too, I'd encourage you to reach about joining our team.
 
-### 2.2 Improving ROI on our content investment
+### 2.2 Improving ROI on content investment
 
 `touch content-strategy.config`
 
@@ -124,55 +124,81 @@ We had great success in our first 6 months pushing community written technical c
 
 ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
-But the seeding phase was expensive and unsustainably heavy on internal manpower. The following are some concerns we needed to address to keep up the pace and quality encombent of our initial success.
+The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the pace and quality encombent of our initial success, we needed to addres the following are some concerns.
 
-#### 2.2.1 Making content production more self sustaining
+**2.2.1 Outsource more of the content production process**
 
--- 
+Until now, we internally spent almost 10 hours on each post
 
-#### 2.2.2 Reducing content half life
+- Sourcing an author
+- Took submissions for topics
+- Often guided the author to refined or better researched topic
+- Edited and formatted from an author first draft
+- QA / Publishing
+- Marketing
+- Finally incorporated fixes requested via email.
 
-As an author devoting personal blood, sweat and tears, or a party  comissioning content, you want to see what you create stay fresh and relevant for as long as possible.
+Sure, a lot of these sound like straight forward missing features, but not solving these problems the way they've been solved before allowed us to think from a different angle. We realized git could do a way better job than anything we would custom build. With a layer of a AirPair community driven quality control (covered in Section 3), now:
 
-Software moves so quickly that if you've been out of the game for 18 months, you might not have current experience in demand. Similarly, what was published 18 months ago, if not completley irrelevant, most likely will not work or be sub-optimal with newer framework versions and features.
+- Anyone can submit a post, but to be published the community has to approve
+- We have a much tighter in-browser editing experience, so no more internal formatting / editing.
+- Anyone can fork and help an author fix things or make a posts better
+- Post can be self published by an Author, once the community says it's good to go
+- We can easily track high post quality, so know when we should market already popular work
+- Forking will allow readers and authors to undergo post published revision work without internal support.
 
-Wouldn't it be nice if there were a scalable way to know when a post needs an update and a way to update it?
+Damn... I'm excited to get back to coding airpair.com! 
 
-#### 2.2.3 Reducing editorical cost per post
+**2.2.2 Reducing content half life**
 
-We spent exhaberant amounts of time and money for each post published in 2014. Money that could only come from a venture funded Startup. But our team is small and resources not unlimited. So it's been a huge focus to reduce the time we spend identifying what to write and time editing for it to reach the standards we produced over the last 6 months. 
+As an author devoting personal enegery, or a publisher comissioning content, you want what you create to stay fresh and relevant for as long as possible. We've covered how software moves exceptionally quick. This has an unfortunate ramification on software publishing. Software content decays exeptional fast too. This may explain why there is a universal *long tai* content network - StackOverflow, and lots of independed *short tail* content providers, open-source contributors and companies that product their own technology, but no universal medium-tail wiki of how to pieces for software.
 
-With our new tools, we hope to crowdsource quality control before AirPair staff get invovled. Our review system is one piece not powered by github, that goes hand in hand with the github bits that faciliate the work that is discovered during the review process for an article to meet community standards.
+An additional frustrating for both Author and Reader, is when the principals and structures of a piece remain relevant, but a new framework versions emerges, making a piece harder to extract immediately value from, or even though well respected, unclear to the reader if still relevant. I'll never forget starting BackboneJS and wondering if the tutorials google suggested were written for the same framework I wanted to use.
 
-### 2.2.4 Motivating more authors and content
+Wouldn't it be nice if there were a scalable way to know (1) when a post needs an update, (2) an easy way to mainain it, (3) even a way to tag it relevant to specific framewor versions?
 
-At the end of the day, if an author shares something with the public, the ultimate goal is having it be read for (a) reconition, (b) interaction, (c) improvement (d) prosperity. We got off to an awesome start last year, generating significant traffic by seeding out posts section through well paid contributions and excellent covereage. The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post so far has been read more than 200,000 times and 24 hour record is 35,000 vistors.
+Git solves all of these challenges so nicely. Soliciting the community to fork helps us know when we need to update things. Forking & merging reduces friction to recieve and incorporate fixes. At some point in the future, we hope to look at tagging as a way to know and browse different versions of a post relevant to the framework versions you are using.
 
-We believe the ideas presented here around 'Social Code Blogging' will be a way to make last years success for authors the appetizer, before the main course. (*for Americans :)
+If you are a company maintaining your own API docs and how to guides. I'd invite you to reach out and experiment with us. AirPair could be an incredible place to improve your content quality, reduce production and maintenance cost and win new community. We'd love not only how to guides, but also cover feature releases and in the wild success stories from which others can learn.
 
-#### Recursively growing audience
+** 2.2.3 Motivating more authors and content **
 
-The more authors publishing, the more readers visiting. So our strategy is to make this the best place for authors to write. We hope these new collaborative social features and our 100k writing competition starting first week of Feb are a good start. Let us know if there is anything else we can do to help make AirPair your go to scratch pad for emerging ideas in your head.
+Our goal, for each author on AirPair is to maximise:
 
-#### Self improvement
+- a. Reconition
+- b. Interaction
+- c. Self-improvement
+- d. (monetary) Prosperity 
 
-##### Improving knowledge on your subject matter
+We got off to an awesome start in 2014. We birthed a few new stars, generated significant traffic, taught our experts how to write succesful posts and paid them well :).
 
-Sharing knowledge on AirPair doesn't mean only teacher transfers knowledge to student. Philosphically we are trying to address student to teacher and teacher to teacher and teachers to self. When you write a post, people less knowlegable than you will still help you re-think your first draft sometimes by just letting you know they don't get it. You'll be exposed to others who have strong opinions about your claims and solidify your argument to pass their high standards and of course as soon as you begin putting pencil to paper you are already re-arranging and improving knowledge structures around what you are expressing.
+The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post has been read more than 200,000 times and our 24 hour record is 35,000 vistors to a single post.
 
-Without too much detail on the how, we'll eventually launch features to help you automatically enagage the right level of reviewers all the way up to industry thought leaders that you wished would comment on your creations as your post becomes positively reinforced by community reviewers.
+We think 'Social Authoring' is a path to making these successes of our authors so far, the appetizer, before the main course.
 
-##### Becoming better at written expression
+*** Recursively growing audience ***
 
-There's going to be a portion of readers who are more able to help you express yourself better than improve subject knowledge. If you've always wanted to improve at writing, this might be new and powerful tool. I know I'm excited for this.
+More authors leads to more readers which in turn attracts more readers. We're better Social Authoring will be a more interactive and enjoyable process leading to better work, worthy of more recognition from greater number of eye balls. If you have more ideas on how we can make AirPair your go-to scratch pad, let us know!
 
-##### Form new friends and sub-communities around your interests
+<!--*** Forming sub-communities by connecting you on interests ***
 
 With your contributors acknowledged and listed on your published work, we hope over time to foster recuring bonds. People you become familiar with for having your back, also happy to help with a tweet or share to let the world know your shared work is ready. Many you might realize that you have their back and enjoy bouncing their ideas back when it's their turn.
 
 This already happens over the internet and twitter for veteran personalities and bloggers. We think, we can lower the bar for the masses.
 
- But to start, let me explain the white space in between the extreme long tail *Stackoverflow* sparked our imaginations, when everyone realized how neccessarily a consolidated resources of extreme long tail knowledge was. On the other end of the spectrum, PluralSight, 
+ But to start, let me explain the white space in between the extreme long tail *Stackoverflow* sparked our imaginations, when everyone realized how neccessarily a consolidated resources of extreme long tail knowledge was. On the other end of the spectrum, PluralSight, -->
+
+*** Self improvement on subject matter & style ***
+
+Teaching itself is a form of learning. When you write a post you are already re-arranging and improving knowledge structures around what you are expressing. But when you let your ideas have sex, even with people less advanced than you, they still force you re-think how to present it, so that it becomes easier to consume. You'll also be exposed to other teacher level peers who will challenge and help re-inforce your arguments.
+
+If you've always wanted to improve your writing, a portion of readers will help you express better grammar and style. I'm personally excited for this.
+
+*** Overnight exposure and demand ***
+
+"It was great to get some exposure. The process was very straightforward. I learned a lot by having to write and present on the topic and I received many inquiries following the article" - [Mark Meyer (150k readers)](https://www.airpair.com/angularjs/posts/top-10-mistakes-angularjs-developers-make)
+
+![Mark Mayer](https://0.gravatar.com/avatar/6c2f0695e0ca4445a223ce325c7fb970?s=80)
 
 ### 2.3 Ways Git Makes Technical blogging better
 

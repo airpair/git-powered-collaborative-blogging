@@ -1,6 +1,6 @@
 --
 
-> *** Our new authoring tools will be officially annouced first week of March. We'd love to your feedback before then. Feel free to fork this post too. ***
+> *** Our new authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post too. ***
 
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
@@ -34,7 +34,7 @@ Before diving into detail, perhaps a good chunk of the value can be summed up by
 
 `touch README.md`
 
-**Section 1** covers a birds eye view of our what we're doing and things in this post. **Section 2** covers philophical and practical discussion on why developers need a git powered blogging system. In **Section 3** I'll describe what our first interpretation actually looks like and the technicalities of how we put it together. In **Section 4** we'll get all fuzzy with the soft community building challenges ahead to make it work. Finally, **Section 5** will end with a summary and lead into our *$100,000 Writing Competition*.
+**Section 1** covers a birds eye view of our what we're doing. **Section 2** covers philophical and practical discussion on why developers need a git powered blogging system. In **Section 3** I'll describe what our first interpretation actually looks like and the technicalities of how we put it together. In **Section 4** we'll get all fuzzy with the soft community building challenges ahead to make it work. Finally, **Section 5** will end with a summary and lead into our *$100,000 Writing Competition*.
 
 ### 1.3 What's in this for you?
 
@@ -61,7 +61,7 @@ Here's a list of pros we think you're going to love. We'll explore each more dep
 
 - [Starting your own post](/post/new) is a piece of cake. 
 - Posts with GitHub repos will already have the orange fork button in the right rail. 
-- Visit [Posts in community review](/posts/in-community-review) anytime you to see post waiting for feedback.  
+- Visit [Posts in community review](/posts/in-community-review) anytime you to see posts waiting for feedback.  
 
 <!-- *TODO mention sharing and put share widget here* -->
 
@@ -69,7 +69,7 @@ Here's a list of pros we think you're going to love. We'll explore each more dep
 
 `git commit "Developer Blogging Tools Intro" -m`
 
-Summing up before we deep dive, we look forward to enabling wikipedia-style developer collaboration for the purpose of creating more refined, perfected and clearly expressed long form technical content. We think Git and the GitHub API provide the perfect, powerful and familiar opportunity tools to make it so. To find out why, ready on.
+Summing up before we deep dive, we look forward to enabling wikipedia-style developer collaboration for the purpose of creating more refined, perfected and clearly expressed long form technical content. We think Git and the GitHub API provide the perfect, powerful and familiar opportunity tools to make it so. To find out why, read on.
 
 
 ## 2. Why Build Git Powered Publishing?
@@ -80,7 +80,7 @@ While writing this post, I keep thinking:
 
 > *How cool would it be if everything on the web were forkable? Imagine a digital world extinct of typos!*
 
-This section covers a gammet of different forces that lead us here. Some of our motivations came from a sense that this could be groundbreaking and for the glory of evolution! Others were marketing problems we needed to solve, probably relevant to every publisher. Mostly, through the experieces of working with our past authors, we just to make their success greater and experience better.
+This section covers a gamut of different forces that led us here. Some of our motivations came from a sense that this could be groundbreaking and for the glory of evolution! Others were marketing problems we needed to solve, probably relevant to every publisher. Mostly, through the experieces of working with our past authors, we just had to make their success greater and experience better.
 
 ### 2.1 When Ideas Have Sex
 
@@ -92,15 +92,15 @@ One reason I started AirPair, was because it was an expression of many ideas pre
 
 > To answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine, to meet and indeed to mate.
 
-A part of this phenomenon that is particuarly relevant to software, is the notion of acceleration. The more we interact, converse and share knowledge, the more our ideas combine and mutate forming knowlege and products composed of ideas originaing for thousands or millions of indivduals. But as ideas become more evolved, they are even more quickly supersceded.
+A part of this phenomenon that is particuarly relevant to software, is the notion of acceleration. The more we interact, converse and share knowledge, the more our ideas combine and mutate forming knowlege and products composed of ideas originating from thousands or millions of indivduals. But as ideas become more evolved, they are even more quickly supersceded.
 
 #### 2.1.2 GitHub & *Social Coding* enabling promiscuous Open Source
 
 `touch Ode to Octocat`
 
-You're a developer, so yes you get what I'm talking about. We see every year the cycle of new frameworks appearing, spreading world-wide and before you know it, being superscended by new kid on the block. 
+You're a developer, so yes you get what I'm talking about. We see every year the cycle of new frameworks appearing, spreading world-wide and before you know it, being supersceded by new kid on the block. 
 
-Ideas having sex is old news in software creation largely thanks to GitHub for reducing the friction for the comment developer to setup and wield the powers of git. Even though it's been a while, it's still awing to think about how GitHub empowers developers, who have never met, to collaborate and improve work.
+Ideas having sex is old news in software creation largely thanks to GitHub for reducing the friction for the common developer to setup and wield the powers of git. Even though it's been a while, it's still awing to think about how GitHub empowers developers, who have never met, to collaborate and improve work.
 
 It seems though, if we're going make better software faster and faster, we could use more powerful tools to speed up the job of expressing and sharing the ideas embedded in our software?
 
@@ -138,13 +138,13 @@ Wouldn't it be nice if there were a scalable way to know when a post needs an up
 
 We spent exhaberant amounts of time and money for each post published in 2014. Money that could only come from a venture funded Startup. But our team is small and resources not unlimited. So it's been a huge focus to reduce the time we spend identifying what to write and time editing for it to reach the standards we produced over the last 6 months. 
 
-With our new tools, we hope to crowdsource quality control before AirPair staff get invovled. Our review system is one piece not powered by github, that goes hand it hand with the github bits that faciliate the work that is discovered during the review process for an article to meet community standards.
+With our new tools, we hope to crowdsource quality control before AirPair staff get invovled. Our review system is one piece not powered by github, that goes hand in hand with the github bits that faciliate the work that is discovered during the review process for an article to meet community standards.
 
 ### 2.2.4 Motivating more authors and content
 
-At the end of the day, if an author shares something with the public, the ultimate goal is having it be read for (a) reconition, (b) interaction, (c) improvement (d) properity. We got off to an awesome start last year, generating significant traffic by seeding out posts section through paid well contributions and excellent covereage. The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post so far has been read more than 200,000 times and 24 hour record is 35,000 vistors.
+At the end of the day, if an author shares something with the public, the ultimate goal is having it be read for (a) reconition, (b) interaction, (c) improvement (d) prosperity. We got off to an awesome start last year, generating significant traffic by seeding out posts section through well paid contributions and excellent covereage. The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post so far has been read more than 200,000 times and 24 hour record is 35,000 vistors.
 
-We believe the ideas presented here around 'Social Code Blogging' will be a way to make last years success for authors the starter, before mains.
+We believe the ideas presented here around 'Social Code Blogging' will be a way to make last years success for authors the appetizer, before the main course. (*for Americans :)
 
 #### Recursively growing audience
 
@@ -182,7 +182,7 @@ When a developer writes an amazing piece, often the specific, syntax, interfaces
 
 A git powered platform will enable content to morph with external shifts in framework releases, vulnerability discoveries and other evolutions of software thought.
 
-Who knows, one day we might go as far as implement some sort of tagging and branching so that you can even view releases of a post if you have to go back and do some maintenance. Until then, you could follow all the commit logs and even discussions on pull requests submitted to each post on AirPair to get what communal interaction lead to something being preseted how it was, just like any other opensource software made by collaborating developers.
+Who knows, one day we might go as far as implement some sort of tagging and branching so that you can even view releases of a post if you have to go back and do some maintenance. Until then, you could follow all the commit logs and even discussions on pull requests submitted to each post on AirPair to get what communal interaction led to something being preseted how it was, just like any other opensource software made by collaborating developers.
 
 As a reader you will get smarter, as you will be exposed to better content improved through crowdsourced spelling and grammer improvements, pre-vetted ideas and statements, and lower bar to partcipate and contribute with resulting self improvement by engaging and only bits and pieces of a collaboratively created post that belong mostly to an author and also partially to it's contributors. If you don't want anyone to make suggestions on what you write, this might not be for you.
 

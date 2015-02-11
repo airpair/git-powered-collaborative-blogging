@@ -65,11 +65,13 @@ Here's some pros we think you'll love. Each we'll explore in more depth, later i
 
 <!-- *TODO mention sharing and put share widget here* -->
 
-### 1.5 Intro Summary
+### 1.5 From *Social Coding* to *'Social Authoring'*
 
 `git commit "Developer Authoring Tools Intro" -m`
 
-With our new Git powered authoring tools, we hope to enable wikipedia-like developer collaboration resulting in more consolidated, refined and clearly expressed long form technical content than ever before. Not only do we think Git provides the perfect power-up to improve the quality of written work, but merging the GitHub API with the AirPair experience will enable a new 'Social Authoring' experience. To find out more, read on. Otherwise, you might consider using AirPair's bookmark feature if you'd like to return to this post later.
+On behalf of the AirPair team, we hope you like what you've seen so far. You might consider using AirPair's bookmark feature if you'd like to return to this post later - it is a lengthy read. 
+
+Our new Git powered authoring tools are aimed to enable wikipedia-like  collaboration for the purpose of working towards more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us through by ushering in the era of Social Coding. Now we'd like to take advantages of what they built to experiment with a new 'Social Authoring' community passionate about sharing developer knowledge and learning from one another.
 
 ## 2 Why Build Git Powered Publishing?
 

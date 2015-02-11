@@ -8,6 +8,8 @@
 
 `mkdir cat-brace-pencil-mutant`
 
+No, this post nor its title are intended to provocative or taboo. If you haven't, I'd strongly recommend finding 15 minutes to watch *When Ideas Have Sex*. Besides being a phenomenal TED talk, it is to explain AirPair's new Posts section powered by the GitHub API.
+
 TODO *Insert funny pic of octocat-airpair illustration*
 
 ### 1.1 TLDR; annoucement
@@ -126,7 +128,7 @@ We had great success in our first 6 months pushing community written technical c
 
 The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the pace and quality encombent of our initial success, we needed to addres the following are some concerns.
 
-**2.2.1 Outsource more of the content production process**
+**2.2.1 Outsource more parts the content production workflow**
 
 Until now, we internally spent almost 10 hours on each post
 
@@ -150,6 +152,10 @@ Sure, a lot of these sound like straight forward missing features, but not solvi
 Damn... I'm excited to get back to coding airpair.com! 
 
 **2.2.2 Reducing content half life**
+
+<!--When a developer writes an amazing piece, often the specific, syntax, interfaces will be out of date well before the principals become irrelevant.
+
+A git powered platform will enable content to morph with external shifts in framework releases, vulnerability discoveries and other evolutions of software thought.-->
 
 As an author devoting personal enegery, or a publisher comissioning content, you want what you create to stay fresh and relevant for as long as possible. We've covered how software moves exceptionally quick. This has an unfortunate ramification on software publishing. Software content decays exeptional fast too. This may explain why there is a universal *long tai* content network - StackOverflow, and lots of independed *short tail* content providers, open-source contributors and companies that product their own technology, but no universal medium-tail wiki of how to pieces for software.
 
@@ -200,41 +206,34 @@ If you've always wanted to improve your writing, a portion of readers will help 
 
 ![Mark Mayer](https://0.gravatar.com/avatar/6c2f0695e0ca4445a223ce325c7fb970?s=80)
 
-### 2.3 Ways Git Makes Technical blogging better
+### 2.3 Ways Git Makes The Author's Experience Better
 
-#### 2.3,2 Introducing collaboration to technical long form content
+** 2.3.1 Adding collaboration to technical long form **
 
-We've seen collaborative content revolutionize and destroy the encyclopedia industry. Thus, publishing technical content has less return than other subject matter. I wonder if this explains why there is no universal technical blogging platform, when there is a universal technical Q & A platform - StackOverflow - which supplies by far the majority of long tail knowledge for the developer world. Is it the way they captured community and empowered it to socially collaborate? I'm suprised this didn't happen in a big way yet anywhere for the blog post / tutorial format. It seems obvious, so I'm glad we're here having a crack.
+We've covered bits of this already. But collaborating means fresh eyes to double check content and form. Editing is one of the most time and energy intensive procecesses neccessarily to reach professional standards. The last 10% of changes, usually require a disproportional amount of time and are the often the least fun. We'd like to execute a flow where you barely have to exhert yourself in this part of the process and instead rely on the community - so you can focus on the content itself.
 
-#### 2.3.2 Improving maintainbility
+** 2.3.3 Reducing author maintenace responsibility **
 
-When a developer writes an amazing piece, often the specific, syntax, interfaces will be out of date well before the principals become irrelevant.
 
-A git powered platform will enable content to morph with external shifts in framework releases, vulnerability discoveries and other evolutions of software thought.
+** 2.3.4 Helping you take more credit **
 
-Who knows, one day we might go as far as implement some sort of tagging and branching so that you can even view releases of a post if you have to go back and do some maintenance. Until then, you could follow all the commit logs and even discussions on pull requests submitted to each post on AirPair to get what communal interaction led to something being preseted how it was, just like any other opensource software made by collaborating developers.
-
-As a reader you will get smarter, as you will be exposed to better content improved through crowdsourced spelling and grammer improvements, pre-vetted ideas and statements, and lower bar to partcipate and contribute with resulting self improvement by engaging and only bits and pieces of a collaboratively created post that belong mostly to an author and also partially to it's contributors. If you don't want anyone to make suggestions on what you write, this might not be for you.
+<!-- As a reader you will get smarter, as you will be exposed to better content improved through crowdsourced spelling and grammer improvements, pre-vetted ideas and statements, and lower bar to partcipate and contribute with resulting self improvement by engaging and only bits and pieces of a collaboratively created post that belong mostly to an author and also partially to it's contributors. If you don't want anyone to make suggestions on what you write, this might not be for you.
 
 As an author you will make better work and be help, plus challenged to improve what you present. If you're so interested in a topic that you are going to spend hours or days sharing it, it's a no brainer to be given people passionate about what you've got to say that you don't have to find by maintaining a consistant blog that already made you famous. Ods are, if you post something on your own blog, many people will spot and think the same improvements, but you never become a aware of many of them because it's too hard for them to get what they see in their head onto your published piece. We hope we can help you engage that percentage of your readers.
  
-
-
-Yes, people have published and translated books on github. Git is almost every developers favorite tool... but it was Github who took the tool and combined beautiful product and execeptional community building to make something, somewhere in-between technology and common conciousness, to bring about the next level of cognitive collaboration. Wow, the day I understood that you could work with someone without having met them, or even know thei name - I knew Github was my favorite startup.
+Yes, people have published and translated books on github. Git is almost every developers favorite tool... but it was Github who took the tool and combined beautiful product and execeptional community building to make something, somewhere in-between technology and common conciousness, to bring about the next level of cognitive collaboration. Wow, the day I understood that you could work with someone without having met them, or even know thei name - I knew Github was my favorite startup. -->
 
 ## 3 How and what we built
 
-### The live editor
+### 3.1 AirPair's live editor
 
 TODO screenshots and short explanation of the editor.
 
-### Our Publishing Flow
+### 3.2 Our 3 Step Publishing Flow
 
 This is our first go at gluing the GitHub API and AirPair authoring tools together, so there's probably gaps and a way to go for it to become optimal, but here it is.
 
-### V1 of The workflow
-
-#### Staying as lean as possible
+** V1 of The workflow **
 
 The goal of V1 was to make it work with as little development on AirPair sided features as possible. We wanted to leverage as much of the existing GitHub API and github.com UI and tooling as possible because:
 
@@ -247,15 +246,15 @@ At the end of the day, we mainly thought AirPair's contributions would be levera
 
 95% of airpair.com was built by one coder. One additional developer contributed to this particular part of the site and the total time to knock all this out was probably between 6-8 weeks. Not a very defensible technolgoy play, especially that I'm about to tell you everything anyway!
 
-#### The workflow
+*** The workflow ***
 
 Posts basically go through 3 states:
 
 > Draft => In Community Review => Published
 
-##### Draft
+#### Draft
 
-###### Fun and games
+`touch Fun-and-games.md`
 
 When you create a new post, it stats in ***Draft***. While in draft your post is only visible to you. It has no git history, so there's no pressure about playing with an expressing ideas that not yet make cohesive sense. We simply save your changes back to our database with no history and if you start and it never goes anywhere, that experience was just for you, so enjoy it and don't worry about taking it seriously until you realize you want to.
 
@@ -263,13 +262,13 @@ When you post meets some very basic critera, like being longer than a certain nu
 
 Once you've got those bits in, you can do a full preview of the post to feel what it's going to look like if it were published.
 
-###### No turning back
+*** No turning back ***
 
 As you go to submit your post, you will be prompted to authenticate with GitHub repo privilages. This is because this is the moment when things get real. We take the repo name you provide (which you cannot change later) and spin up a private repository on the github.com/airpair org. Repo permissions allow us to add you to "The Author" team on your repository. Thus, besides god users in the airpair org, you are the only one with write access to accept and merge or reject pull requests coming in for your contributors forks.
 
 As discussed in the next state, the rules of the game change when you hit, so pay attention, it's worth understanding how things work before you push that button!
 
-###### Properties of the *draft* state
+*** Properties of the *draft* state ***
 
 ```javascript
 var draft = { 
@@ -285,17 +284,17 @@ var draft = {
 }
 ```
 
-##### In Community Review
+#### In Review
 
-###### Where your content lives and gets saved
+*** Where your content lives and gets saved *** 
 
 Once your post is submitted, you have to choice to continue editing on AirPair, or clone your repo and use your normal tools. Either way each time you save your post including from the editor it gets committed to master on github. The markdown appearing in the edidot actually comes from HEAD on github and will not appear on airpair.com until you hit ***Propagate HEAD***. 
 
-###### Visibility
+***Visibility***
 
 Congrats, your post is now visible to anyone logged in to AirPair. You meant to do that right? Well relax, it's makred as noindex, follow so only hardcore contributors that want to take the time to be invovled in unfinished work will look at it. It also won't get imortalized in google's memeory until it's published. 
 
-###### Properties of the *review* state
+***Properties of the *review* state***
 
 ```javascript
 var review = { 
@@ -315,7 +314,7 @@ var review = {
 }
 ```
 
-##### Published
+#### Published
 
 ```javascript
 var review = { 
@@ -337,32 +336,30 @@ var review = {
 }
 ```
 
-#### What we used to put this together
+### 3.3 What we used to put this together
 
-##### Our stack
+#### Our stack
 
-##### The AirPair Editor Experience
+#### The AirPair Editor Experience
 
-###### marked & ace in tandem
+** marked & ace in tandem **
 
-####### Performance & Debouncing
+Performance & Debouncing
 
-##### github-node npm package and our fork
+** github-node npm package and our fork ** 
 
-###### API calls
-
-
+API calls
 
 
 ## 4. `mkdir` where-to-from-here ?
 
 We're excited to make this work, but community is only part technology. That's one of the things we care about at AirPair, all the nodes and connections that make up real thriving community. We hope that this becomes another way the developer world makes not only the evolution of knowledge, but experiences each other on a personal level for plain old simple human connection.
 
-### Building a Blogging Community
+### 4.1 Building Community from Grass Roots
 
 
 
-### Partnering with Technology and API providers
+### 4.2 Partnering with Technology and API providers
 
 ## 5. `mkdir` conclusion
 

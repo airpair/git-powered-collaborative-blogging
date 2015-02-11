@@ -8,7 +8,7 @@
 
 `mkdir cat-brace-pencil-mutant`
 
-No, this post nor its title are intended to provocative or taboo. If you haven't, I'd strongly recommend finding 15 minutes to watch *When Ideas Have Sex*. Besides being a phenomenal TED talk, it is to explain AirPair's new Posts section powered by the GitHub API.
+No... neither this post or its title are intended to be provocative or taboo. If you haven't yet, I'd strongly recommend finding 15 minutes to watch *When Ideas Have Sex*. Besides being my favorite TED talk of all time, it's a great device to explain an idea we'd like to coin 'Social Authoring' as the mutantation of AirPair's Posts Section coming together with the GitHub API to provide a new collaborative paradigm for writing technical posts.
 
 TODO *Insert funny pic of octocat-airpair illustration*
 

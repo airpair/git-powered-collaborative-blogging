@@ -71,7 +71,7 @@ Here's some pros we think you'll love. Each we'll explore in more depth, later i
 
 With our new Git powered authoring tools, we hope to enable wikipedia-like developer collaboration resulting in more consolidated, refined and clearly expressed long form technical content than ever before. Not only do we think Git provides the perfect power-up to improve the quality of written work, but merging the GitHub API with the AirPair experience will enable a new 'Social Authoring' experience. To find out more, read on. Otherwise, you might consider using AirPair's bookmark feature if you'd like to return to this post later.
 
-## 2. Why Build Git Powered Publishing?
+## 2 Why Build Git Powered Publishing?
 
 `mkdir inspiration`
 
@@ -83,7 +83,7 @@ This section covers a gamut of different forces that led us here. Some of our mo
 
 ### 2.1 When Ideas Have Sex
 
-`touch A Sprinkle of TED Magic`
+`touch A-Sprinkle-of-TED-Magic.mov`
 
 #### 2.1.1 Evolution as accelerating combinations of ideas
 
@@ -95,7 +95,7 @@ A part of this phenomenon that is particuarly relevant to software, is the notio
 
 #### 2.1.2 GitHub & *Social Coding* enabling promiscuous Open Source
 
-`touch Ode to Octocat`
+`touch Ode-to-Octocat.git`
 
 You're a developer, so yes you get what I'm talking about. We see every year the cycle of new frameworks appearing, spreading world-wide and before you know it, being supersceded by new kid on the block. 
 
@@ -105,7 +105,7 @@ It seems though, if we're going make better software faster and faster, we could
 
 #### 2.1.3 AirPair & *Social Code Blogging* enabling promiscuous knowledge share
 
-`touch The git powered publishing elevator pitch`
+`touch The-git-powered-publishing-elevator-pitch.wav`
 
 AirPair's is known primarily for connecting developers over video chat for one-on-one pair programming help. But, this is one expression of our mission to find new ways to connect developers for the purpose of knowledge share.
 
@@ -113,7 +113,7 @@ With your support, we'd like a shot at championioning the idea of ***'Social Cod
 
 ### 2.2 Improving ROI on our content investment
 
-`touch Content strategy`
+`touch content-strategy.config`
 
 We had great success in our first 6 months pushing community produced technical content.
 
@@ -191,7 +191,7 @@ As an author you will make better work and be help, plus challenged to improve w
 
 Yes, people have published and translated books on github. Git is almost every developers favorite tool... but it was Github who took the tool and combined beautiful product and execeptional community building to make something, somewhere in-between technology and common conciousness, to bring about the next level of cognitive collaboration. Wow, the day I understood that you could work with someone without having met them, or even know thei name - I knew Github was my favorite startup.
 
-## 3. How and what we built
+## 3 How and what we built
 
 ### The live editor
 

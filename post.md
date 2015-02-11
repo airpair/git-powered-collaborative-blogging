@@ -1,26 +1,26 @@
 --
 
-> *** Our new authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post too. ***
+> *** Our new GitHub powered authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post too. ***
 
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
-## 1. If GitHub & AirPair had a baby
+## 1 If GitHub & AirPair had a baby
 
 `mkdir cat-brace-pencil-mutant`
 
-TODO *Insert funny pic of octocat with airpair brace and pencil*
+TODO *Insert funny pic of octocat-airpair illustration*
 
 ### 1.1 TLDR; annoucement
 
-`touch Git Powered Collaborative Developer Blogging` 
+`touch Git-Powered-Collaborative-Developer-Writing.html` 
 
-Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed the AirPair blog, it gives me great pleasure to let you know things are going to get way more interesting for here. From today, you are invited both as an author and reader to become a contributor to our community blog using our new *Github Powered Collaborative Workflow*.
+Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed the AirPair posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and reader contributing to posts by others, using our new *GitHub Powered Collaborative Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-In this post, I'll intertwine many reasons why our new setup is significant, while covering why we built them, how we put the the publishing flow together and what types of things we hope to see. 
+In this post, I'll intertwine many reasons why our new author setup is significant, while covering why we built it, how we put the the publishing flow together and what types of things we hope to see. 
 
-Before diving into detail, perhaps a good chunk of the value can be summed up by this screenshot and a few uses cases:
+Before deep diving into details, here's a screenshot and some use cases to get you thinking:
 
 > ![Fork a post on AirPair](/static/img/pages/posts/fork-post-dymo.png)
 
@@ -34,19 +34,19 @@ Before diving into detail, perhaps a good chunk of the value can be summed up by
 
 `touch README.md`
 
-**Section 1** covers a birds eye view of our what we're doing. **Section 2** covers philophical and practical discussion on why developers need a git powered blogging system. In **Section 3** I'll describe what our first interpretation actually looks like and the technicalities of how we put it together. In **Section 4** we'll get all fuzzy with the soft community building challenges ahead to make it work. Finally, **Section 5** will end with a summary and lead into our *$100,000 Writing Competition*.
+**Section 1** covers a birds eye view of what we're doing. **Section 2** covers philophical and practical discussion on why developers need a git powered community blogging system. In **Section 3** I'll describe what our first implementation actually looks like, including the technicalities of how we put it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will end with a summary leading into our [*$100,000 Writing Competition*](/100k-writing-competition).
 
 ### 1.3 What's in this for you?
 
-`touch Why write on AirPair`
+`touch Why-write-on-AirPair.editorconfig`
 
-Here's a list of pros we think you're going to love. We'll explore each more depth in later parts of this post:  
+Here's some pros we think you'll love. Each we'll explore in more depth, later in this post:  
 
 **For readers**
 
 - More comprehensive and up to date technical content than ever before.
-- Clear signals from our review system that a post is worth reading.
-- Ability to **contribute** small nuggets of knowlege without the comprehensive understanding of a subject matter required to author your own post.
+- Clear quality signals from our review system that a post is worth reading.
+- Ability to **contribute** small nuggets without the normal comprehensive understanding required to author a whole post.
 
 **For authors** 
 
@@ -57,20 +57,19 @@ Here's a list of pros we think you're going to love. We'll explore each more dep
 
 ### 1.4 How to get your hands dirty
 
-`touch Getting started`
+`touch getting-started.man`
 
-- [Starting your own post](/post/new) is a piece of cake. 
-- Posts with GitHub repos will already have the orange fork button in the right rail. 
-- Visit [Posts in community review](/posts/in-community-review) anytime you to see posts waiting for feedback.  
+- [Starting a post](/post/new) is a piece of cake. 
+- Forkable Posts have an orange 'Fork this post' button in the right rail. 
+- The [Posts in community review](/posts/in-community-review) page shows posts waiting for feedback at any point in time.  
 
 <!-- *TODO mention sharing and put share widget here* -->
 
 ### 1.5 Intro Summary
 
-`git commit "Developer Blogging Tools Intro" -m`
+`git commit "Developer Authoring Tools Intro" -m`
 
-Summing up before we deep dive, we look forward to enabling wikipedia-style developer collaboration for the purpose of creating more refined, perfected and clearly expressed long form technical content. We think Git and the GitHub API provide the perfect, powerful and familiar opportunity tools to make it so. To find out why, read on.
-
+With our new Git powered authoring tools, we hope to enable wikipedia-like developer collaboration resulting in more consolidated, refined and clearly expressed long form technical content than ever before. Not only do we think Git provides the perfect power-up to improve the quality of written work, but merging the GitHub API with the AirPair experience will enable a new 'Social Authoring' experience. To find out more, read on. Otherwise, you might consider using AirPair's bookmark feature if you'd like to return to this post later.
 
 ## 2. Why Build Git Powered Publishing?
 

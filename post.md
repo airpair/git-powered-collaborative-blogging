@@ -336,11 +336,11 @@ var review = {
 }
 ```
 
-### 3.3 What we used to put this together
+### 3.3 How we peiced it together
 
 #### Our stack
 
-#### The AirPair Editor Experience
+#### The AirPair Editor
 
 ** marked & ace in tandem **
 
@@ -351,16 +351,18 @@ Performance & Debouncing
 API calls
 
 
-## 4. `mkdir` where-to-from-here ?
+## 4. The people side
+
+`mkdir where-to-from-here`
 
 We're excited to make this work, but community is only part technology. That's one of the things we care about at AirPair, all the nodes and connections that make up real thriving community. We hope that this becomes another way the developer world makes not only the evolution of knowledge, but experiences each other on a personal level for plain old simple human connection.
 
-### 4.1 Building Community from Grass Roots
+### 4.1 Community Building from Grass Roots
 
 
 
 ### 4.2 Partnering with Technology and API providers
 
-## 5. `mkdir` conclusion
+## 5. Conclusion
 
 We hope this project is as impactful as we think it can be and that news of these tools spread through the developer world. At AirPair we come to work each day focused on how we can make a company thrive around enabling knowledge transfer from developer to another. We hope to see your posts and contributions. Thanks for stopping by.

@@ -128,23 +128,24 @@ We had great success in our first 6 months pushing community written technical c
 
 ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
-The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the pace and quality encombent of our initial success, we needed to addres the following are some concerns.
+The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the pace and quality encombent of our initial success, we needed to addres the following concerns.
 
-**2.2.1 Outsource more parts the content production workflow**
+**2.2.1 Crowdsource more of our content production workflow**
 
-Until now, we internally spent almost 10 hours on each post
+Before now, we internally spent almost 10 hours for each post:
 
 - Sourcing an author
-- Took submissions for topics
-- Often guided the author to refined or better researched topic
-- Edited and formatted from an author first draft
+- Considering topic proposals
+- Guided authors to refined or better researched topics
+- Editing and formating from an authors first draft
 - QA / Publishing
 - Marketing
-- Finally incorporated fixes requested via email.
+- Incorporated fixes requested via email.
 
-Sure, a lot of these sound like straight forward missing features, but not solving these problems the way they've been solved before allowed us to think from a different angle. We realized git could do a way better job than anything we would custom build. With a layer of a AirPair community driven quality control (covered in Section 3), now:
+Sure, a lot of this pain sound like straight forward missing features, but not solving these gaps straight away allowed us to think from a different angle. We realized git could do a way better job than anything we would custom build. The GitHub API, combined with a layer of a AirPair community driven quality control, now allows:
 
-- Anyone can submit a post, but to be published the community has to approve
+- Anyone to opts into being an author, by submitting a post.
+- , but to be published the community has to approve
 - We have a much tighter in-browser editing experience, so no more internal formatting / editing.
 - Anyone can fork and help an author fix things or make a posts better
 - Post can be self published by an Author, once the community says it's good to go

@@ -83,7 +83,7 @@ While writing this post, I keep thinking:
 
 > *How cool would it be if everything on the web were forkable?* Imagine a digital world extinct of typos!
 
-This section covers a gamut of different forces that led us to integrate the GitHub API with our existing author tools. Some of our motivations came from a sense that this could be groundbreaking and indeed evolutionary... Others guiding influences were simply marketing problems we needed to solve, probably challenges relevant to every publisher. Mostly though we've had a great time working with our authors. We thank you guys deeply for inpiring more than a million readers to come to AirPair in the last few months. We've been wating to make ways enhance your success and make it easier to find. To quote a friend who's tweet I came by in perfect timing writing this post:
+This section covers a gamut of different forces that led us to integrate the GitHub API with our existing author tools. Some of our motivations came from a sense that this could be groundbreaking and indeed evolutionary... Other guiding influences were simply marketing problems we needed to solve, probably challenges relevant to every publisher. Mostly though we've had a great time working with our authors. We thank you guys deeply for inpiring more than a million readers to come to AirPair in the last few months. Most of our motivation to make something like this is an effort to enhance your success and make it easier share your work. To quote a friend who's tweet I came by in perfect timing writing this post:
 
 ![Make things easier](//airpair.github.io/img/2015/01/making-things-easier.png)
 

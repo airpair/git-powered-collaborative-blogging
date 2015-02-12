@@ -1,14 +1,14 @@
 --
 
-> *** Our new GitHub powered authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post too. ***
+> *** Our new GitHub powered authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post to give it run :). Jonathon ***
 
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
-## 1 If GitHub & AirPair had a baby
+## 1 A GitHub-AirPair baby
 
 `mkdir cat-brace-pencil-mutant`
 
-No... neither this post or its title are intended to be provocative or taboo. If you haven't yet, I'd strongly recommend finding 15 minutes to watch *When Ideas Have Sex*. Besides being my favorite TED talk of all time, it's a great device to explain an idea we'd like to coin 'Social Authoring' as the mutantation of AirPair's Posts Section coming together with the GitHub API.
+Neither this post or its title are intended to be provocative or taboo. I'd strongly recommend watching the TED Talk *When Ideas Have Sex*. It's the perfect lead in to a mutant idea we call 'Social Authoring' inspired by putting the GitHub API and AirPair's posts section together.
 
 TODO *Insert funny pic of octocat-airpair illustration*
 
@@ -16,11 +16,11 @@ TODO *Insert funny pic of octocat-airpair illustration*
 
 `touch Git-Powered-Collaborative-Developer-Writing.html` 
 
-Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed the AirPair posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and readers contributing to posts by others, to become part of our Social Authoring community using our new *GitHub Powered Collaborative Publishing Workflow*.
+Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and readers contributing to posts by others, to join our Social Authoring movement, enabled by our new *GitHub Powered Publishing Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-In this post, I'll intertwine many reasons why our new author setup is significant, while covering why we built it, how we put the the publishing flow together and what types of things we hope to see. 
+In this post, I'll intertwine many reasons why our new authoring setup is significant, while covering why we built it, how we put the the publishing flow together and what types of things we hope to see. 
 
 Before deep diving into details, here's a screenshot and some use cases to get you thinking:
 

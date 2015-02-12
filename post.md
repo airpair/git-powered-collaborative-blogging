@@ -16,7 +16,7 @@ TODO *Insert funny pic of octocat-airpair illustration*
 
 `touch Git-Powered-Collaborative-Developer-Writing.html` 
 
-Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed the AirPair posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and reader contributing to posts by others, using our new *GitHub Powered Collaborative Workflow*.
+Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed the AirPair posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and reader contributing to posts by others, to become apart of our Social Authoring community using our new *GitHub Powered Collaborative Publishing Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 

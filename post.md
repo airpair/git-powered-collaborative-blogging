@@ -16,7 +16,7 @@ TODO *Insert funny pic of octocat-airpair illustration*
 
 `touch Git-Powered-Collaborative-Developer-Writing.html` 
 
-Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed the AirPair posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and reader contributing to posts by others, to become apart of our Social Authoring community using our new *GitHub Powered Collaborative Publishing Workflow*.
+Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed the AirPair posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and readers contributing to posts by others, to become part of our Social Authoring community using our new *GitHub Powered Collaborative Publishing Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
@@ -36,7 +36,7 @@ Before deep diving into details, here's a screenshot and some use cases to get y
 
 `touch README.md`
 
-**Section 1** covers a birds eye view of what we're doing. **Section 2** covers philophical and practical discussion on why developers need a git powered community blogging system. In **Section 3** I'll describe what our first implementation actually looks like, including the technicalities of how we put it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will end with a summary leading into our [*$100,000 Writing Competition*](/100k-writing-competition).
+**Section 1** covers a birds eye view of what we're doing. **Section 2** covers philophical and practical discussion on why developers need a git powered community blogging system. In **Section 3** I'll describe what our first implementation actually looks like, including the technicalities of how we put it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will end with a summary leading into our [*$100,000 Writing Competition*](https://www.airpair.com/100k-writing-competition).
 
 ### 1.3 What's in this for you?
 
@@ -61,7 +61,7 @@ Here's some pros we think you'll love. Each we'll explore in more depth, later i
 
 `touch getting-started.man`
 
-- [Starting a post](/post/new) is a piece of cake. 
+- [Starting a post](/posts/new) is a piece of cake. 
 - Forkable Posts have an orange 'Fork this post' button in the right rail. 
 - The [Posts in community review](/posts/in-community-review) page shows posts waiting for feedback at any point in time.  
 

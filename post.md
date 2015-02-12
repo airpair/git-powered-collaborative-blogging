@@ -85,7 +85,7 @@ While writing this post, I keep thinking:
 
 > *How cool would it be if everything on the web were forkable?* Imagine a digital world extinct of typos!
 
-This section covers a gamut of different forces that led us to integrate the GitHub API with our existing author tools. Some of our motivations came from a sense that this could be groundbreaking and indeed evolutionary... Other guiding influences were simply marketing problems we needed to solve, probably challenges relevant to every publisher. Mostly though we've had a great time working with our authors. We thank you guys deeply for inpiring more than a million readers to come to AirPair in the last few months. Most of our motivation to make something like this is an effort to enhance your success and make it easier share your work. To quote a friend who's tweet I came by in perfect timing writing this post:
+This section covers a gamut of different forces that led us to integrate the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking and indeed evolutionary... Other guiding influences were simply marketing problems we needed to solve, challenges probably relevant to every publisher on the web. Mostly though, we've had a great time working with our authors. We thank you guys deeply for inpiring more than a million readers to come to AirPair in the last few months. The majority of our motivation to make something easier to use and more impactful is to enhance your success and experience writing with us. To quote a friend who's tweet came to me mid way through writing this post:
 
 ![Make things easier](//airpair.github.io/img/2015/01/making-things-easier.png)
 
@@ -95,30 +95,30 @@ This section covers a gamut of different forces that led us to integrate the Git
 
 **2.1.1 Evolution as accelerating combinations of ideas**
 
-One reason I started AirPair, was because it's an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). Riley states his explanation for history progression in terms of the human ability to improve our living conditions and wealth: 
+One reason I started AirPair, was because it's an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). The main theme is Ridleys explanation for humanity's history progression in terms of our ability to consistently improve our living conditions and wealth: 
 
 ![Matt Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)
-> To answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine, to meet and indeed to mate.
+> ***"To answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine, to meet and indeed to mate."***
 
-A part Ridely explores that is particuarly relevant to software, is the notion of acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming products embodying of ideas originating from thousands or millions of indivduals. Interestingly, as ideas become more evolved, they are even more quickly supersceded. The Stone Axe was used for thousands of years, yet the mouse stayed relevant for only a few.
+One part Ridely explores that is particuarly relevant to software, is the notion of intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or millions of indivduals. Interestingly, as ideas become more evolved, they are even more quickly supersceded. The Stone Axe was used for thousands of years, yet the mouse stayed relevant for only a few.
 
 **2.1.2 GitHub => Social Coding**
 
 `touch Ode-to-Octocat.git`
 
-You're a developer, so you've see hands down what Rideley is talking about. Every year  the cycle of new frameworks appearing, spreading world-wide and before you know it, being supersceded becomes shorter. 
+You're a developer, so you've see hands down what Ridley is talking about. Every year  the cycle of new frameworks appearing, spreading world-wide and becoming second best, gets shorter. 
 
-Software ideas having sex is old news, largely thanks to GitHub. By abstracting git, building great UI that removed friction for the common developer to setup and wield git and slapping an incrediible community on top, they are majorily reponsible for making open source mainstream and programmers more intellectually promiscous. Even though it's been a while, I'm still awed and thankful to those GitHubbers that first empowered developers, who had never met, to collaborate, contribute, discuss and form bonds while improving work.
+Software ideas having sex is old news, largely thanks to GitHub. By abstracting git, building great UI that removed friction for the common developer to wield git and converging an incrediible community, they made open source mainstream. We programmers are a particular intellectually promiscous bunch. Even though programmer one night stands are all to common there's days, I'm still awed and thankful to those GitHubbers who first empowered developers, that had never met, more often than not in different places around the world, to collaborate, contribute, discuss and form bonds while improving code which represented a common interest.
 
-*By deduction, it seems though we may have a challenge to solve. If we're going to make better software faster and faster, we'll need more efficient and powerful tools to express and share the ideas embedded in our software...*
+*By deduction, it seems though, we may have an upcoming challenge to solve. If we're going to make better software faster and faster, we'll need more efficient and powerful tools to express and share the ideas embedded in our software.*
 
 ** 2.1.3 AirPair => Social Authoring**
 
 `touch git-powered-publishing-elevator-pitch.wav`
 
-AirPair's is known primarily for connecting developers over video chat for one-on-one pair programming help. This is one expression of our broader mission - to find new ways to connect developers for the purpose of knowledge sharing and relationship building.
+AirPair's is known primarily for connecting developers over video chat for one-on-one pair programming help. This is one expression of our broader mission - to find new ways to connect developers for the purpose of knowledge sharing and relationship creation.
 
-We think the developer world could use a Wikipedia like collection of quickstarts, tutorials and thought pieces and this ideas fundamentally expresses our mission. If these ideas are important to you too, I'd encourage you to reach about joining our team.
+We think the developer world could use a Wikipedia like collection of quickstarts, tutorials and thought pieces. This idea fundamentally attacks our mission. If these values are important to you too, we'd love to have you apart of it. I'd encourage you to reach out to team@airpair.com and say hi.
 
 ### 2.2 Improving ROI on content investment
 

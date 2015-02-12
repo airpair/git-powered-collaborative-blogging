@@ -1,14 +1,14 @@
 --
 
-> *** Our new GitHub powered authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post to give it run :). Jonathon ***
+> *** Our new GitHub powered authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post to give it run. Jonathon =) ***
 
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
 ## 1 A GitHub-AirPair baby
 
-`mkdir cat-brace-pencil-mutant`
+`mkdir cat-braces-pencil-mutant`
 
-Neither this post or its title are intended to be provocative or taboo. I'd strongly recommend watching the TED Talk *When Ideas Have Sex*. It's the perfect lead in to a mutant idea we call 'Social Authoring' inspired by putting the GitHub API and AirPair's posts section together.
+Neither this post or its title are intended to be provocative or taboo. The title is actually a mutation of the name of my all-time favorite TED Talk - *When Ideas Have Sex* - which explores the concept of ideas coming together and combining to form new evolved ideas. Everything following steams from the simple notion of what we came up with integrating the GitHub API and AirPair's Community Posts section.
 
 TODO *Insert funny pic of octocat-airpair illustration*
 
@@ -16,7 +16,7 @@ TODO *Insert funny pic of octocat-airpair illustration*
 
 `touch Git-Powered-Collaborative-Developer-Writing.html` 
 
-Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part git or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure to let you know things are going to get way more interesting. From today, you are invited both as authors starting your own posts and readers contributing to posts by others, to join our Social Authoring movement, enabled by our new *GitHub Powered Publishing Workflow*.
+Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part Git or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure to let you know things are going to get way more interesting. If you're new here, I hope we've raised the bar enough to capture your imagination. From today, you are invited both as an author interested in starting your own posts and reader intriguided by the idea of contributing to posts by others, to join our ***Social Authoring*** experiment, made possible by our new *GitHub Powered Publishing Workflow*.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
@@ -28,7 +28,7 @@ Before deep diving into details, here's a screenshot and some use cases to get y
 
 - Annoyed with that typo? ***Fork and fix***. 
 - Spot a syntax error? ***Fork and fix***. 
-- Sample no longer runs with a new framework version? ***Fork and maintain***.
+- Code sample no longer runs with a new framework version? ***Fork and maintain***.
 - Know a better way to do something? ***Fork and improve***.
 - Disagree? ***Fork and discuss***.
 
@@ -36,44 +36,46 @@ Before deep diving into details, here's a screenshot and some use cases to get y
 
 `touch README.md`
 
-**Section 1** covers a birds eye view of what we're doing. **Section 2** covers philophical and practical discussion on why developers need a git powered community blogging system. In **Section 3** I'll describe what our first implementation actually looks like, including the technicalities of how we put it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will end with a summary leading into our [*$100,000 Writing Competition*](https://www.airpair.com/100k-writing-competition).
+**Section 1** covers a birds eye view of what we're doing. **Section 2** explores philophical and practical discussion on why we and developers in general need a git powered community blogging system. In **Section 3** I'll describe what our first implementation actually looks like, including the technicalities of how we put it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will end with a summary leading into our *$100,000 Writing Competition*.
 
-### 1.3 What's in this for you?
+### 1.3 Social Authoring. What's in it for you?
 
 `touch Why-write-on-AirPair.editorconfig`
 
-Here's some pros we think you'll love. Each we'll explore in more depth, later in this post:  
+Here's some pros we think you'll love. Each we'll explore in more depth, further down:  
 
 **For readers**
 
-- More comprehensive and up to date technical content than ever before.
+- More proofed, comprehensive and up to date technical content than ever before.
 - Clear quality signals from our review system that a post is worth reading.
-- Ability to **contribute** small nuggets without the normal comprehensive understanding required to author a whole post.
+- Ability to **contribute** in small nuggets without a comprehensive understanding required to author a whole post.
 
 **For authors** 
 
 - Crowdsourced help improving your materpieces.
 - Exposure to significantly more readers than publishing on your own.
+- Higher percentage of readers giving you feedback.
 - A forum to introduce, bounce and evolve new ideas before they become public.
-- Instant recognition for great work, without aquiring prior developer fame.
+- Instant recognition for great work, without aquiring any prior social following.
 
-### 1.4 How to get your hands dirty
+### 1.4 Getting your hands dirty
 
 `touch getting-started.man`
 
 - [Starting a post](/posts/new) is a piece of cake. 
-- Forkable Posts have an orange 'Fork this post' button in the right rail. 
-- The [Posts in community review](/posts/in-community-review) page shows posts waiting for feedback at any point in time.  
+- Forking is as easy as hitting the orange 'Fork this post' button in the right rail. 
+- All new posts are forkable, previous authors need to enable the fork button to appear. 
+- The [Posts in community review](/posts/in-community-review) page shows posts waiting for feedback before publishing.  
 
 <!-- *TODO mention sharing and put share widget here* -->
 
-### 1.5 From *Social Coding* to *'Social Authoring'*
+### 1.5 WhenIdeasHaveSex('AirPair', 'GitHub');
 
 `git commit "Developer Authoring Tools Intro" -m`
 
-On behalf of the AirPair team, we hope you like what you've seen so far. You might consider using AirPair's bookmark feature if you'd like to return to this post later - it is a lengthy read. 
+Our new Git powered Posts section is aimed to enable wikipedia-like  collaboration on more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us on by ushering in the era of Social Coding. Now we'd like to reuse what they built mixed with a little AirPair spice to for community based around passion for sharing developer knowledge and learning from one another.
 
-Our new Git powered authoring tools are aimed to enable wikipedia-like  collaboration for the purpose of working towards more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us through by ushering in the era of Social Coding. Now we'd like to take advantages of what they built to experiment with a new 'Social Authoring' community passionate about sharing developer knowledge and learning from one another.
+On behalf of the AirPair team, we hope you like what you've seen so far and are wanting to read on. You might consider using AirPair's bookmark feature if you'd like to return to this post later - it is a lengthy read! 
 
 ## 2 Why Build Git Powered Publishing?
 
@@ -217,10 +219,7 @@ We've covered bits of this already. But collaborating means fresh eyes to double
 
 ** 2.3.4 Helping you take more credit **
 
-<!-- As a reader you will get smarter, as you will be exposed to better content improved through crowdsourced spelling and grammer improvements, pre-vetted ideas and statements, and lower bar to partcipate and contribute with resulting self improvement by engaging and only bits and pieces of a collaboratively created post that belong mostly to an author and also partially to it's contributors. If you don't want anyone to make suggestions on what you write, this might not be for you.
-
-As an author you will make better work and be help, plus challenged to improve what you present. If you're so interested in a topic that you are going to spend hours or days sharing it, it's a no brainer to be given people passionate about what you've got to say that you don't have to find by maintaining a consistant blog that already made you famous. Ods are, if you post something on your own blog, many people will spot and think the same improvements, but you never become a aware of many of them because it's too hard for them to get what they see in their head onto your published piece. We hope we can help you engage that percentage of your readers.
- 
+<!-- 
 Yes, people have published and translated books on github. Git is almost every developers favorite tool... but it was Github who took the tool and combined beautiful product and execeptional community building to make something, somewhere in-between technology and common conciousness, to bring about the next level of cognitive collaboration. Wow, the day I understood that you could work with someone without having met them, or even know thei name - I knew Github was my favorite startup. -->
 
 ## 3 How and what we built

@@ -1,6 +1,5 @@
---
 
-> *** Our new GitHub powered authoring tools will be officially annouced first week of March. We'd love to have your feedback before then. Feel free to fork this post to give it run. Jonathon =) ***
+> *** Our new GitHub powered authoring tools will be  annouced first week of March. We'd love to your feedback before then. Fork this post to give it run. Jonathon =) ***
 
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
@@ -8,15 +7,13 @@
 
 `mkdir cat-braces-pencil-mutant`
 
-Neither this post or its title are intended to be provocative or taboo. The title is actually a mutation of the name of my all-time favorite TED Talk - *When Ideas Have Sex* - which explores the concept of ideas coming together and combining to form new evolved ideas. Everything following steams from the simple notion of what we came up with integrating the GitHub API and AirPair's Community Posts section.
-
 TODO *Insert funny pic of octocat-airpair illustration*
 
 ### 1.1 TLDR; annoucement
 
 `touch Git-Powered-Collaborative-Developer-Writing.html` 
 
-Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part Git or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure to let you know things are going to get way more interesting. If you're new here, I hope we've raised the bar enough to capture your imagination. From today, you are invited both as an author interested in starting your own posts and reader intriguided by the idea of contributing to posts by others, to join our ***Social Authoring*** experiment, made possible by our new *GitHub Powered Publishing Workflow*.
+Today I'm excited to annouce one of the more innovative projects I've been involed with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair posts, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author attracted to starting your own post or reader interested in contributing to posts by others. Using our new *GitHub Powered Publishing Workflow*, authors and readers can work together using Forks and Pull Requests with the ultimate end goal of collboratively producing better technical content than ever before.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
@@ -36,19 +33,19 @@ Before deep diving into details, here's a screenshot and some use cases to get y
 
 `touch README.md`
 
-**Section 1** covers a birds eye view of what we're doing. **Section 2** explores philophical and practical discussion on why we and developers in general need a git powered community blogging system. In **Section 3** I'll describe what our first implementation actually looks like, including the technicalities of how we put it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will end with a summary leading into our *$100,000 Writing Competition*.
+**Section 1** covers a birds eye view of what we're doing. **Section 2** explores philophical and practical discussion on why we and developers at large needed a Git powered community blogging system. In **Section 3** I'll describe what our first implementation looks like, including the technicalities of how we pieced it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will summarise and lead into our *$100,000 Writing Competition*.
 
 ### 1.3 Social Authoring. What's in it for you?
 
 `touch Why-write-on-AirPair.editorconfig`
 
-Here's some pros we think you'll love. Each we'll explore in more depth, further down:  
+Here's some pros we think you'll love. We'll explore each in more depth, further down:  
 
 **For readers**
 
 - More proofed, comprehensive and up to date technical content than ever before.
 - Clear quality signals from our review system that a post is worth reading.
-- Ability to **contribute** in small nuggets without a comprehensive understanding required to author a whole post.
+- Ability to **contribute** in small nuggets, without a comprehensive understanding required to author a whole post.
 
 **For authors** 
 
@@ -63,7 +60,7 @@ Here's some pros we think you'll love. Each we'll explore in more depth, further
 `touch getting-started.man`
 
 - [Starting a post](/posts/new) is a piece of cake. 
-- Forking is as easy as hitting the orange 'Fork this post' button in the right rail. 
+- Forking is as easy as hitting the orange 'Fork this post' button in the right rail. Try it :)
 - All new posts are forkable, previous authors need to enable the fork button to appear. 
 - The [Posts in community review](/posts/in-community-review) page shows posts waiting for feedback before publishing.  
 
@@ -73,7 +70,7 @@ Here's some pros we think you'll love. Each we'll explore in more depth, further
 
 `git commit "Developer Authoring Tools Intro" -m`
 
-Our new Git powered Posts section is aimed to enable wikipedia-like  collaboration on more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us on by ushering in the era of Social Coding. Now we'd like to reuse what they built mixed with a little AirPair spice to for community based around passion for sharing developer knowledge and learning from one another.
+Our new Git powered Posts section is aimed to enable wikipedia-like  collaboration on more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us on by ushering in the era of Social Coding. Now we'd like to reuse what they built mixed with a little AirPair spice and build out community based around passion for sharing developer knowledge and learning from one another.
 
 On behalf of the AirPair team, we hope you like what you've seen so far and are wanting to read on. You might consider using AirPair's bookmark feature if you'd like to return to this post later - it is a lengthy read! 
 

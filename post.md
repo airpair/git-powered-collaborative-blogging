@@ -159,22 +159,15 @@ Git provides a scalable way to know crowdsource maintenace updats and even the a
 
 ** 2.2.3 Motivating more authors and content **
 
-Our goal, for each author on AirPair is to maximise:
-
-- a. Reconition
-- b. Interaction
-- c. Self-improvement
-- d. (monetary) Prosperity 
-
-We got off to an awesome start in 2014. We birthed a few new stars, generated significant traffic, taught our experts how to write succesful posts and paid them well :).
-
 The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post has been read more than 200,000 times and our 24 hour record is 35,000 vistors to a single post.
 
-We think 'Social Authoring' is a path to making these successes of our authors so far, the appetizer, before the main course.
+We think *Social Authoring* is a path to making the successes of our authors so far look like the appetizer, before the main course.
 
-*** Recursively growing audience ***
+*** Interaction as a vehical for self improvement ***
 
-More authors leads to more readers which in turn attracts more readers. We're better Social Authoring will be a more interactive and enjoyable process leading to better work, worthy of more recognition from greater number of eye balls. If you have more ideas on how we can make AirPair your go-to scratch pad, let us know!
+When you write things down already re-arranging and improving knowledge structures around what you are expressing. But when you let your ideas have sex, even with people less advanced than you, they still force you re-think how to present it, so that it becomes easier to consume. You'll also be exposed to other teacher level peers who will challenge and help re-inforce your arguments.
+
+If you've always wanted to improve your writing, a portion of readers will help you express better grammar and style. I'm personally excited for this.
 
 <!--*** Forming sub-communities by connecting you on interests ***
 
@@ -184,11 +177,7 @@ This already happens over the internet and twitter for veteran personalities and
 
  But to start, let me explain the white space in between the extreme long tail *Stackoverflow* sparked our imaginations, when everyone realized how neccessarily a consolidated resources of extreme long tail knowledge was. On the other end of the spectrum, PluralSight, -->
 
-*** Self improvement on subject matter & style ***
 
-Teaching itself is a form of learning. When you write a post you are already re-arranging and improving knowledge structures around what you are expressing. But when you let your ideas have sex, even with people less advanced than you, they still force you re-think how to present it, so that it becomes easier to consume. You'll also be exposed to other teacher level peers who will challenge and help re-inforce your arguments.
-
-If you've always wanted to improve your writing, a portion of readers will help you express better grammar and style. I'm personally excited for this.
 
 *** Overnight exposure and demand ***
 

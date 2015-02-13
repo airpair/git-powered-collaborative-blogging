@@ -123,7 +123,7 @@ We think it doesn't exist, because un-like StackOverflow with the long tail, no 
 
 `touch content-strategy.config`
 
-We had great success in our first 6 months pushing community written technical content.
+We had great success in our first 6 months pushing community posts.
 
 ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
@@ -131,39 +131,31 @@ The seeding phase was however, expensive and unsustainably heavy on internal man
 
 **2.2.1 Crowdsource more of our content production workflow**
 
-Before now, we internally spent almost 10 hours for each post:
+Every publisher dreams for ***user generated content*** to magically appear on their site. Let me tell you, great content takes investment. Before now, we internally spent almost 10 hours on each post:
 
 - Sourcing an author
 - Considering topic proposals
 - Guided authors to refined or better researched topics
-- Editing and formating from an authors first draft
+- Editing and formating the author's first draft
 - QA / Publishing
-- Marketing
-- Incorporated fixes requested via email.
+- Marketing & promotion
+- Incorporated fixes requested via email
 
-Sure, a lot of this pain sound like straight forward missing features, but not solving these gaps straight away allowed us to think from a different angle. We realized git could do a way better job than anything we would custom build. The GitHub API, combined with a layer of a AirPair community driven quality control, now allows:
+Sure, a lot of this sounds like straight forward missing features, but not filling these gaps straight away allowed us to think from a different angle. We realized git would do a way better job than anything we would custom build. The GitHub API, combined with a layer of a AirPair community driven quality control, now:
 
-- Anyone to opts into being an author, by submitting a post.
-- , but to be published the community has to approve
-- We have a much tighter in-browser editing experience, so no more internal formatting / editing.
-- Anyone can fork and help an author fix things or make a posts better
-- Post can be self published by an Author, once the community says it's good to go
-- We can easily track high post quality, so know when we should market already popular work
-- Forking will allow readers and authors to undergo post published revision work without internal support.
-
-Damn... I'm excited to get back to coding airpair.com! 
+- Allows to be an author, by submitting a post.
+- The community reviews and vets submitted topics and content.
+- Our new enhanced live editor offloadds all formatting / editing off our team.
+- Readers help author's proof and develop their posts to publishable quality.
+- We use the review system to known which posts to market.
 
 **2.2.2 Reducing content half life**
 
-<!--When a developer writes an amazing piece, often the specific, syntax, interfaces will be out of date well before the principals become irrelevant.
+As an author devoting personal enegery, or publisher comissioning content, the main goal is for the content you produce to stay fresh and relevant for as long as possible. We've covered how software moves exceptionally quick. This has an unfortunate ramification on software publishing. Software content decays exeptional fast too.
 
-A git powered platform will enable content to morph with external shifts in framework releases, vulnerability discoveries and other evolutions of software thought.-->
+Often the principals and structures of a piece remain relevant, but when new framework versions emerge, it becomes unclear to the reader if content is still relevant. Google also sends you to the most read piece which often is the one that's been around longer.
 
-As an author devoting personal enegery, or a publisher comissioning content, you want what you create to stay fresh and relevant for as long as possible. We've covered how software moves exceptionally quick. This has an unfortunate ramification on software publishing. Software content decays exeptional fast too.
-
-An additional frustrating for both Author and Reader, is when the principals and structures of a piece remain relevant, but a new framework versions emerges, making a piece harder to extract immediately value from, or even though well respected, unclear to the reader if still relevant. I'll never forget starting BackboneJS and wondering if the tutorials google suggested were written for the same framework I wanted to use.
-
-Wouldn't it be nice if there were a scalable way to know (1) when a post needs an update, (2) an easy way to mainain it, (3) even a way to tag it relevant to specific framewor versions?
+Git provides a scalable way to know (1) when a post needs an update, (2) an easy way to mainain it, (3) even a way to tag it relevant to specific framewor versions?
 
 Git solves all of these challenges so nicely. Soliciting the community to fork helps us know when we need to update things. Forking & merging reduces friction to recieve and incorporate fixes. At some point in the future, we hope to look at tagging as a way to know and browse different versions of a post relevant to the framework versions you are using.
 

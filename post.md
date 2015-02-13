@@ -80,7 +80,7 @@ On behalf of the AirPair team, we hope you like what you've seen so far and are 
 
 While writing this post, I keep thinking:
 
-> *How cool would it be if everything on the web were forkable?* Imagine a digital world extinct of typos!
+> *How cool would it be if everything on the web were forkable?*
 
 This section covers a gamut of different forces that led us to integrate the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking and indeed evolutionary... Other guiding influences were simply marketing problems we needed to solve, challenges that are probably relevant to every publisher on the web. Mostly though, we've had a great time working with our authors. We thank you guys deeply for inpiring more than a million readers to come to AirPair in the last few months. The majority of our motivation came from the disire to make it easier and more impactful for authors publishing with us. To quote a friend who's tweet came to me mid way through writing this post:
 
@@ -123,7 +123,7 @@ We think it doesn't exist, because un-like StackOverflow with the long tail, no 
 
 `touch content-strategy.config`
 
-We had great success in our first 6 months pushing community posts.
+We had great success in our first 6 months pushing community posts. The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post has been read more than 200,000 times and our 24 hour record is 35,000 vistors to a single post.
 
 ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
@@ -131,73 +131,39 @@ The seeding phase was however, expensive and unsustainably heavy on internal man
 
 **2.2.1 Crowdsource more of our content production workflow**
 
-Every publisher dreams for ***user generated content*** to magically appear on their site. Let me tell you, great content takes investment. Before now, we internally spent almost 10 hours on each post:
+Every publisher dreams of ***user generated content***  magically appearing on their site. From experience, we can tell you, great content takes time and energy. Before this iteration, each post consumed almost 10 hours:
 
-- Sourcing an author
-- Considering topic proposals
-- Guided authors to refined or better researched topics
-- Editing and formating the author's first draft
-- QA / Publishing
+- Sourcing authors
+- Considering proposals
+- Editing, formating & QA
 - Marketing & promotion
-- Incorporated fixes requested via email
 
-Sure, a lot of this sounds like straight forward missing features, but not filling these gaps straight away allowed us to think from a different angle. We realized git would do a way better job than anything we would custom build. The GitHub API, combined with a layer of a AirPair community driven quality control, now:
-
-- Allows to be an author, by submitting a post.
-- The community reviews and vets submitted topics and content.
-- Our new enhanced live editor offloadds all formatting / editing off our team.
-- Readers help author's proof and develop their posts to publishable quality.
-- We use the review system to known which posts to market.
+There is no shortcut, that time investment must come from somewhere. So we're hoping GitHub combined withour community review system will allow anyone to submit a post, the community to share the load and organically bubble the most popular posts to our attention.
 
 **2.2.2 Reducing content half life**
 
-As an author devoting personal enegery, or publisher comissioning content, the main goal is for the content you produce to stay fresh and relevant for as long as possible. We've covered how software moves exceptionally quick. This has an unfortunate ramification on software publishing. Software content decays exeptional fast too.
+As an author devoting personal energy, or publisher comissioning content, the main goal is for what you produce to stay relevant for as long as possible. We've covered how software moves exceptionally quick. The unfortunate ramification is Software content decays exeptional fast too.
 
-Often the principals and structures of a piece remain relevant, but when new framework versions emerge, it becomes unclear to the reader if content is still relevant. Google also sends you to the most read piece which often is the one that's been around longer.
+Often the principals of a piece remain relevant, but as new framework versions emerge, it becomes unclear if the content is still useful.
 
-Git provides a scalable way to know crowdsource maintenace updats and even the ablity to tag iterations of a post as relevant to specific framewore versions.
+Git provides a scalable way to accept maintenace updates. It even has the ablity to tag iterations of a post as relevant to specific framework versions.
 
-** 2.2.3 Motivating more authors and content **
+### 2.3 Ways Git Enhances The Author's Experience
 
-The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post has been read more than 200,000 times and our 24 hour record is 35,000 vistors to a single post.
+*** Sharing the load ***
 
-We think *Social Authoring* is a path to making the successes of our authors so far look like the appetizer, before the main course.
+Collaborating means fresh eyes to double-check your content and form. Editing a particuarly time and energy intensive procecess. The last 10% of changes usually require a disproportional amount of time and are the least fun. With an active reviewing community authors will save time editing and be able to focus more energy on the substance of their pieces.
 
-*** Interaction as a vehical for self improvement ***
+*** Interaction as self improvement ***
 
-When you write things down already re-arranging and improving knowledge structures around what you are expressing. But when you let your ideas have sex, even with people less advanced than you, they still force you re-think how to present it, so that it becomes easier to consume. You'll also be exposed to other teacher level peers who will challenge and help re-inforce your arguments.
+The GitHub discussions and comments model around Pull Requests provide an amazing opportunity re-thinking and evolving subject matter thought, before reaching a publishable iteration. Even less advanced readers will force you to re-think how present concepts in clearer ways.
 
-If you've always wanted to improve your writing, a portion of readers will help you express better grammar and style. I'm personally excited for this.
-
-<!--*** Forming sub-communities by connecting you on interests ***
-
-With your contributors acknowledged and listed on your published work, we hope over time to foster recuring bonds. People you become familiar with for having your back, also happy to help with a tweet or share to let the world know your shared work is ready. Many you might realize that you have their back and enjoy bouncing their ideas back when it's their turn.
-
-This already happens over the internet and twitter for veteran personalities and bloggers. We think, we can lower the bar for the masses.
-
- But to start, let me explain the white space in between the extreme long tail *Stackoverflow* sparked our imaginations, when everyone realized how neccessarily a consolidated resources of extreme long tail knowledge was. On the other end of the spectrum, PluralSight, -->
-
-
-
-*** Overnight exposure and demand ***
-
-"It was great to get some exposure. The process was very straightforward. I learned a lot by having to write and present on the topic and I received many inquiries following the article" - [Mark Meyer (150k readers)](https://www.airpair.com/angularjs/posts/top-10-mistakes-angularjs-developers-make)
-
-![Mark Mayer](https://0.gravatar.com/avatar/6c2f0695e0ca4445a223ce325c7fb970?s=80)
-
-### 2.3 Ways Git Makes The Author's Experience Better
+If you've always wanted to improve your writing, a portion of reiewers will be happy to help you express better grammar and style.
 
 ** 2.3.1 Adding collaboration to technical long form **
 
-We've covered bits of this already. But collaborating means fresh eyes to double check content and form. Editing is one of the most time and energy intensive procecesses neccessarily to reach professional standards. The last 10% of changes, usually require a disproportional amount of time and are the often the least fun. We'd like to execute a flow where you barely have to exhert yourself in this part of the process and instead rely on the community - so you can focus on the content itself.
+We've covered bits of this already. But
 
-** 2.3.3 Reducing author maintenace responsibility **
-
-
-** 2.3.4 Helping you take more credit **
-
-<!-- 
-Yes, people have published and translated books on github. Git is almost every developers favorite tool... but it was Github who took the tool and combined beautiful product and execeptional community building to make something, somewhere in-between technology and common conciousness, to bring about the next level of cognitive collaboration. Wow, the day I understood that you could work with someone without having met them, or even know thei name - I knew Github was my favorite startup. -->
 
 ## 3 How and what we built
 

@@ -164,45 +164,39 @@ If you've always wanted to improve your writing, a portion of reiewers will be h
 
 We've covered bits of this already. But
 
-
-## 3 How and what we built
+## 3 What we built
 
 ### 3.1 AirPair's live editor
 
 TODO screenshots and short explanation of the editor.
 
-### 3.2 Our 3 Step Publishing Flow
+Authors start their posts in our live editor. Posts are written in markdown via the ace web editor and refreshed as you type using the marked library.
 
-This is our first go at gluing the GitHub API and AirPair authoring tools together, so there's probably gaps and a way to go for it to become optimal, but here it is.
+### 3.2 How we store posts on GitHub
 
-** V1 of The workflow **
+When an author decides their posts is ready for community review, we create a private repository on the airpair organization. The repos need to be private so not to destroy our SEO. Once the repo is created all saves by the author from the AirPair editor go through the master repo.
 
-The goal of V1 was to make it work with as little development on AirPair sided features as possible. We wanted to leverage as much of the existing GitHub API and github.com UI and tooling as possible because:
+When an reader decides they want to contribute, the make a private fork that sits on their own github account. Private forks do not count towards your private repo limits.
 
-1) Despite what you may perceive, AirPair is a tiny company.
-2) Git and GitHub are already perfect for enabling history, discussions around sugested changes, facilitating submissions and accepting / rejecting changes.
-3) There's no way we could rebuild it as well as GitHub.
-4) We wanted to leverage existing Developer familiarity with github and their own personal toolset that already know and love. As a contributor, once you fork a post you have the option of doing nothing futher on airpair.com if you prefer to work exclusively in your own environment.
+To faciliate the necessary permissions we ask you to authenticate your github account with repo privilages. This allows us to add the author to our organization, and then to unique team created just for the purpose of having write permissions to the main repo on our organization. For the contributors, we use the repo permissions to create your fork.
 
-At the end of the day, we mainly thought AirPair's contributions would be leveraging its large traffic base and existing community to pose this idea to enough influencers for things to spark. We'll attempt to categorize and present content to readers in a more and sophisticated way as things progress, but ultimately - we'll let you in on a secret.
+### 3.3 Our 3-Step V1 Workflow
 
-95% of airpair.com was built by one coder. One additional developer contributed to this particular part of the site and the total time to knock all this out was probably between 6-8 weeks. Not a very defensible technolgoy play, especially that I'm about to tell you everything anyway!
+Our goal was leverage as much of the existing GitHub API and github.com UI as possible because. GitHub already rock solid discussion UI, merge tools and such. Plus Developers are already familiar. Once you fork a post you have the option of doing nothing futher on airpair.com if you prefer to work exclusively in your own environment.
 
-*** The workflow ***
+All posts basically go through 3 sequential states:
 
-Posts basically go through 3 states:
+> **1**. Draft
 
-> Draft => In Community Review => Published
+> **2**. Community Review
+
+> **3**. Published
 
 #### Draft
 
 `touch Fun-and-games.md`
 
-When you create a new post, it stats in ***Draft***. While in draft your post is only visible to you. It has no git history, so there's no pressure about playing with an expressing ideas that not yet make cohesive sense. We simply save your changes back to our database with no history and if you start and it never goes anywhere, that experience was just for you, so enjoy it and don't worry about taking it seriously until you realize you want to.
-
-When you post meets some very basic critera, like being longer than a certain number of words, tagged with the relevant technolgoies and you've supplied an image to be used as a thumnail on airpair.com and social media you can submit it to the community for review. 
-
-Once you've got those bits in, you can do a full preview of the post to feel what it's going to look like if it were published.
+When you create a new post, it starts in ***Draft***. While in draft your post is only visible to you. It has no git history and we simply save your changes back to our mongo. If you start something and your idea never goes anywhere, that experience was just for you, so enjoy not taking things too seriously until you realize you want to.
 
 *** No turning back ***
 
@@ -277,21 +271,6 @@ var review = {
   }
 }
 ```
-
-### 3.3 How we peiced it together
-
-#### Our stack
-
-#### The AirPair Editor
-
-** marked & ace in tandem **
-
-Performance & Debouncing
-
-** github-node npm package and our fork ** 
-
-API calls
-
 
 ## 4 Conclusion
 

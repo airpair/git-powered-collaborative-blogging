@@ -33,7 +33,7 @@ Before deep diving into details, here's a screenshot and some use cases to get y
 
 `touch README.md`
 
-**Section 1** covers a birds eye view of what we're doing. **Section 2** explores philophical and practical discussion on why we and developers at large needed a Git powered community blogging system. In **Section 3** I'll describe what our first implementation looks like, including the technicalities of how we pieced it together. In **Section 4** we'll get warm, soft and fuzzy with the  community building challenges ahead. Finally, **Section 5** will summarise and lead into our *$100,000 Writing Competition*.
+**Section 1** covers a birds eye view of what we're doing. **Section 2** explores philophical and practical discussion on why we and developers at large needed a Git powered community blogging system. In **Section 3** I'll describe what our first implementation looks like, including the technicalities of how we pieced it together. Finally, **Section 4** will summarise and lead into our *$100,000 Writing Competition*.
 
 ### 1.3 Social Authoring. What's in it for you?
 
@@ -155,11 +155,7 @@ As an author devoting personal enegery, or publisher comissioning content, the m
 
 Often the principals and structures of a piece remain relevant, but when new framework versions emerge, it becomes unclear to the reader if content is still relevant. Google also sends you to the most read piece which often is the one that's been around longer.
 
-Git provides a scalable way to know (1) when a post needs an update, (2) an easy way to mainain it, (3) even a way to tag it relevant to specific framewor versions?
-
-Git solves all of these challenges so nicely. Soliciting the community to fork helps us know when we need to update things. Forking & merging reduces friction to recieve and incorporate fixes. At some point in the future, we hope to look at tagging as a way to know and browse different versions of a post relevant to the framework versions you are using.
-
-If you are a company maintaining your own API docs and how to guides. I'd invite you to reach out and experiment with us. AirPair could be an incredible place to improve your content quality, reduce production and maintenance cost and win new community. We'd love not only how to guides, but also cover feature releases and in the wild success stories from which others can learn.
+Git provides a scalable way to know crowdsource maintenace updats and even the ablity to tag iterations of a post as relevant to specific framewore versions.
 
 ** 2.2.3 Motivating more authors and content **
 
@@ -342,18 +338,6 @@ Performance & Debouncing
 API calls
 
 
-## 4. The people side
-
-`mkdir where-to-from-here`
-
-We're excited to make this work, but community is only part technology. That's one of the things we care about at AirPair, all the nodes and connections that make up real thriving community. We hope that this becomes another way the developer world makes not only the evolution of knowledge, but experiences each other on a personal level for plain old simple human connection.
-
-### 4.1 Community Building from Grass Roots
-
-
-
-### 4.2 Partnering with Technology and API providers
-
-## 5. Conclusion
+## 4 Conclusion
 
 We hope this project is as impactful as we think it can be and that news of these tools spread through the developer world. At AirPair we come to work each day focused on how we can make a company thrive around enabling knowledge transfer from developer to another. We hope to see your posts and contributions. Thanks for stopping by.

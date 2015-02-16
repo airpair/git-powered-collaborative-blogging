@@ -49,60 +49,58 @@ Here's some pros we'll explore in more depth, further down:
 
 <!-- *TODO mention sharing and put share widget here* -->
 
-#### 1.5 Bookmark this post
+** 1.5 Bookmark this post **
 
 We hope you like what you've seen so far and are wanting to read on. You might consider using AirPair's bookmark feature for an easy way to return to this post later - *it is a lengthy read!* 
 
 ## 2 Why Build Git Powered Publishing?
 
 
-While writing this post, I keep thinking:
+While writing this post, I kept thinking:
 
-> *How cool would it be if everything on the web were forkable?*
+> "*How cool would it be if every page on the web were forkable?"*
 
-This section covers a gamut of different forces that led us to integrate the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking and indeed evolutionary... Other guiding influences were simply marketing problems we needed to solve, challenges that are probably relevant to every publisher on the web. Mostly though, we've had a great time working with our authors. We thank you guys deeply for inpiring more than a million readers to come to AirPair in the last few months. The majority of our motivation came from the disire to make it easier and more impactful for authors publishing with us. To quote a friend who's tweet came to me mid way through writing this post:
+This section covers a gamut of different forces that led us to integrate the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking and maybe even evolutionary... Other guiding influences were simply marketing problems we needed to solve. Challenges that are probably relevant to everyone publishing on the web. Mostly though, we've had a great time working with our authors who inpired more than a million readers to come to AirPair in the last few months. Our main impetus was to make the experience Authoring on AirPair easier and more impactful for the creativity you invest. We're thankful for you to have had great experiences so far from which to iterate from. To quote a friend who's tweet flew by mid-way through writing this post:
 
 ![Make things easier](//airpair.github.io/img/2015/01/making-things-easier.png)
 
 ### 2.1 When (Developer) Ideas Have Sex
 
-`touch A-Sprinkle-of-TED-Magic.mov`
-
 **2.1.1 Evolution as accelerating combinations of ideas**
 
-One reason I started AirPair, was because it's an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). The main theme is Ridleys explanation for humanity's consisten historical progression in terms of living condition and wealth: 
+One reason I started AirPair, was because it's an expression of many ideas presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en): 
 
 ![Matt Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)
-> ***"To answer that question, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine, to meet and indeed to mate."***
+> ***"To answer our continual ability to attain wealth and improve our own living standards, you need to understand how human beings bring together their brains, and enable their ideas to combine and re-combine, to meet and indeed to mate."***
 
-One part Ridely explores that is particuarly relevant to software, is the notion of intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or millions of indivduals. Interestingly, as ideas become more evolved, they are even more quickly supersceded. The Stone Axe was used for thousands of years, yet the computer mouse stayed relevant for only a few.
+One part Ridely explores that is particuarly relevant to software, is the notion of intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of indivduals. 
+
+![Stone Axe](http://iceagenow.info/wp-content/uploads/2011/11/Matt-Ridley-Stone-Axe.jpg)
+
+Interestingly, as ideas become more evolved, they are even more quickly supersceded. The Stone Axe was used for thousands of years, yet the computer mouse stayed relevant for only a few. Even iPhones are out of fasion after a few months these days.
+
+![Mouse](http://iceagenow.info/wp-content/uploads/2011/11/Matt-Ridley-Computer-Mouse.jpg)
 
 **2.1.2 GitHub => Social Coding**
 
-`touch Ode-to-Octocat.git`
+As developers, we've see hands down what Ridley is talking about. Every year the cycle of new frameworks appearing, spreading world-wide and becoming second best, gets shorter. 
 
-You're a developer, so you've see hands down what Ridley is talking about. Every year  the cycle of new frameworks appearing, spreading world-wide and becoming second best, gets shorter. 
-
-Developer ideas having sex is old news, largely thanks to GitHub. By building great UI that removed friction for the common developer to wield git, they made open source mainstream. Now we programmers are a particular intellectually promiscous bunch. I'm still awed and thankful to those GitHubbers who first empowered developers, that had never met, to collaborate, contribute, discuss and form bonds while improving code which represented a common interest.
-
-*By deduction though, it seems, we may have an upcoming challenge to solve. If we're going to make better software faster and faster, we'll need more efficient and powerful tools to express and share the ideas embedded in our software.*
+Developer ideas having sex is old news, largely thanks to GitHub. By removing friction for the common developer to wield Git, they made Open Source mainstream. These days, we programmers are a particular intellectually promiscous breed. But I'm still awed and thankful to those GitHubbers who first empowered developers, that had never met, to collaborate, contribute, discuss and form bonds while improving common code.
 
 ** 2.1.3 AirPair => Social Authoring**
 
-`touch git-powered-publishing-elevator-pitch.wav`
+By deduction, and indeed AirPair's whole thesis for existing, is an observation around the acceleration of software ideas. As we make better software faster and faster, we'll need more efficient and powerful ways to express, share and consume the knowledge emedded in our code.
 
-AirPair's is known primarily for connecting developers over video chat for one-on-one help. This is one expression of our broader mission - to find new ways to connect developers, create relationships and enable knowledge sharing.
+AirPair's is known primarily for connecting developers over video chat for one-on-one help. But our broader mission is to find new ways to create new relationships that enable hyper efficient knowledge share. 
 
-We think there's a gap, and the software world needs a Wikipedia like collection of quickstarts, tutorials and thought pieces. We already have a universal *long tail* content platform - StackOverflow.com. There's also plentry of independent *short tail* content providers, encompasing open-source contributors and companies that product their own technology and documentation to go with. But where's the universal **medium-tail** wiki of 'how to' knowledge for clumping software together in ad-hoc ways.
+We think there's a gap. Developers already have a universal ***long tail*** Q/A platform - StackOverflow.com - and there are many independent ***short tail*** content providers, publishing official documentation on their own Open Source frameworks and proprietray APIs. But where is the Wikipedia-like collection of quickstarts, tutorials and using by example in the trenches? We think it doesn't exist, no one has executed a collabortive model. 
 
-We think it doesn't exist, because un-like StackOverflow with the long tail, no one has done a good job at making long form content social. This idea attacks AirPair's core mission head on. We'd love to have you apart of it too. So reach out to team@airpair.com and say hi!
+We'd like your help trying to reproduce for long form technical content what stackoverflow did for Q/A.
 
 <!--Our new Git powered Posts section is aimed to enable  collaboration on more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us on by ushering in the era of Social Coding. Now we'd like to reuse what they built mixed with a little AirPair spice and build out community based around passion for sharing developer knowledge and learning from one another.-->
 
 
 ### 2.2 Improving ROI on content investment
-
-`touch content-strategy.config`
 
 We had great success in our first 6 months pushing community posts. The average post published on AirPair in January 2015 received more than 15,000 views. Our most trafficed post has been read more than 200,000 times and our 24 hour record is 35,000 vistors to a single post.
 

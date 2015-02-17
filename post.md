@@ -4,7 +4,7 @@
 
 *TODO: insert fun cat writing illustration*
 
-### 1.1 TLDR; announcement
+### 1.1 TLDR; Social Authoring announcement
 
 Today I'm excited to announce one of the more innovative projects I've been involved with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author wanting to publish your own posts or reader interested in contributing to posts by others. Using our new *GitHub Powered Publishing Workflow*, authors and readers can work together using **Forks and Pull Requests** to produce better technical writing than ever before.
 
@@ -42,12 +42,9 @@ We hope you like what you've seen so far and are eager to read on. You might con
 
 ## 2 Why Build Git Powered Publishing?
 
-
-While writing this post, I kept thinking:
-
 > "*How cool would it be if every page on the web were forkable?"*
 
-This section covers a gamut of different forces that led us to combine the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking. Maybe even evolutionary... Other guiding influences were simply marketing problems we needed to solve. Challenges that are probably relevant to everyone publishing on the web. Mostly though, we've had a great time working with our authors who inspired more than a million readers to come to AirPair in the last few months. Our main impetus was to make the experience of Authoring on AirPair easier and more impactful. We're thankful to have had great experiences so far from which to iterate on. To quote a friend who's tweet flew by mid-way through writing this post:
+This section covers a gamut of different forces that led us to combine the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking. Indeed even evolutionary... Other guiding influences were simply marketing problems we needed to solve. Challenges that are probably relevant to everyone publishing on the web. Mostly though, we've had a great time working with our authors who inspired more than a million readers to come to AirPair in the last few months. Our main impetus was to make the experience of Authoring on AirPair easier and more impactful. To quote a friend who's tweet flew by mid-way through writing this post:
 
 ![Make things easier](//airpair.github.io/img/2015/01/making-things-easier.png)
 
@@ -55,10 +52,10 @@ This section covers a gamut of different forces that led us to combine the GitHu
 
 **2.1.1 Evolution as accelerating combinations of ideas**
 
-One reason I started AirPair, was because it's an expression of many ideas around learning from one another, presented in my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en): 
+If you have 15 minutes, check out my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). It's views on evolution as the byproduct of sharing ideas have inspired me to dedicate my career to projects that enable people to interact: 
 
 [![Matt Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en)
-> ***"To answer our continual ability to attain wealth and improve our own living standards, you need to understand how human beings bring together their brains, and enable their ideas to combine and recombine, to meet and indeed to mate."***
+> ***"To answer our continual ability to attain more wealth and improve our own living standards, you need to understand how human beings bring together their brains, and enable their ideas to combine and recombine, to meet and indeed to mate."***
 
 Totally recommend finding 15 minutes to absorb Ridley's talk. It is a framework for thinking around how this idea came about as well as the millions of ideas we hope to spawn. One part Ridely explores that is particularly relevant to software, is the notion of our intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of individuals. 
 

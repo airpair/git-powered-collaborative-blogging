@@ -145,7 +145,7 @@ To facilitate the desired read/write permissions for different users, all users 
 
 ** Authors and readers unfortunately need to authenticate with repo privileges to facilitate this workflow.
 
-### 3.3 Leverage GitHub as much as possible
+### 3.3 Leveraging GitHub as much as possible
 
 Especially for this first iteration, our aim was to leverage as much of the existing GitHub API and github.com UI as we could. GitHub already has rock solid discussion capabilities, merge tools and such. Leveraging as much as we could meant that we didn't have to reinvent the wheel and that we could take advantage of the fact that Developers are already familiar with the tooling. 
 

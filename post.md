@@ -256,6 +256,17 @@ var published = {
 }
 ```
 
+Published posts can take advantage of all the same forking and merging goodness as the review phase, with the exception the author needs an editor with permissions to update the live copy on AirPair. 
+
+***Visibility***
+
+Posts will appear at the top of our posts section and Rss feeds and will be fully index by google. Distiguished works will be promoted by AirPair's marketing team for additional exposure.
+
 ## 4 Conclusion
 
-We hope this project is as impactful as we think it can be and that news of these tools spread through the developer world. At AirPair we come to work each day focused on how we can make a company thrive around enabling knowledge transfer from developer to another. We hope to see your posts and contributions. Thanks for stopping by.
+We hope this project is as impactful as we think it can. At AirPair we come to work each day focused on how we enable knowledge transfer from developer to another. We hope to see your posts and contributions.
+
+If you haven't yet, now is a great time to check out our $100k Writing Competition.
+
+[![$100k Developer Writing Competition](//www.airpair.com/static/img/pages/postscomp/og.png)](http://airpair.com/100k-writing-competition)
+

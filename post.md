@@ -52,16 +52,16 @@ This section covers a gamut of different forces that led us to combine the GitHu
 
 **2.1.1 Evolution as accelerating combinations of ideas**
 
-If you have 15 minutes, check out my all-time favorite TED Talk [When ideas have sex by Matt Ridley](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en). It's views on evolution as the byproduct of sharing ideas have inspired me to dedicate my career to projects that enable people to interact: 
+My all-time favorite TED Talk [When ideas have sex](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en)  by Matt Ridley presents evolution as the byproduct of sharing ideas: 
 
 [![Matt Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en)
 > ***"To answer our continual ability to attain more wealth and improve our own living standards, you need to understand how human beings bring together their brains, and enable their ideas to combine and recombine, to meet and indeed to mate."***
 
-Totally recommend finding 15 minutes to absorb Ridley's talk. It is a framework for thinking around how this idea came about as well as the millions of ideas we hope to spawn. One part Ridely explores that is particularly relevant to software, is the notion of our intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of individuals. 
+I totally recommend finding 15 minutes to absorb Ridley's talk. It is a framework for thinking around how this idea came about (AirPair + GitHub) as well as the millions of ideas we hope to spawn. One part Ridely explores that is particularly relevant to software, is the notion of our intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of individuals. 
 
 ![Stone Axe](http://iceagenow.info/wp-content/uploads/2011/11/Matt-Ridley-Stone-Axe.jpg)
 
-Interestingly, as ideas become more evolved, they are even more quickly superseded. The Stone Axe was used for thousands of years, yet iPhones are out of fashion after a few months.
+Interestingly, as ideas become more evolved, they are even more quickly superseded. The Stone Axe was used for thousands of years, yet iPhones are now out of fashion within a few months.
 
 ![Mouse](http://iceagenow.info/wp-content/uploads/2011/11/Matt-Ridley-Computer-Mouse.jpg)
 

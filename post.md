@@ -10,36 +10,35 @@ Today I'm excited to announce one of the more innovative projects I've been invo
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-I'll intertwine many cool opportunities that make our new authoring setup significant, while covering why we integrated GitHub into our posts section and how we put the the workflow together. We'll end leading into our ***$100,000 Writing Competition***, but before deep diving into details, here's a screenshot and some use cases to get you thinking:
+In this post, I'll intertwine many cool opportunities that make our new authoring setup significant, while covering why we integrated GitHub into our posts section and how we put the the workflow together. We'll end leading into our ***$100,000 Writing Competition***, but before deep diving into details, here's a screenshot and some use cases to get you thinking:
 
 ![Fork a post on AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 
-Here's some more pros we think you'll love:  
-
-**For readers**
+Here are some outcomes we think readers will love:  
 
 - More proofed, comprehensive and up to date content than ever before
 - Clear quality signals from our review system that a post is worth reading
-- Ability to **contribute** small nuggets, without a comprehensive understanding required to author a whole post
+- **Ability to contribute** small nuggets, without a comprehensive understanding required to author a whole post
 
-**For authors** 
+Here are some pros we think authors will love:  
 
-- Exposure to more readers and getting more feedback than publishing elsewhere
+- Exposure to more readers and feedback than publishing elsewhere
 - Crowdsourced help improving your posts
 - A forum to bounce and evolve whacky ideas before they become public
-- Instant exposure for great work, without previously building traffic and following
+- Instant exposure for great work, without previously building traffic or a following
 
 ### 1.2 Getting your hands dirty
 
 - **[Starting a post](/posts/new)** is a piece of cake. 
-- Forking is as easy as hitting the orange Fork button in the right rail.
-- Review posts waiting for feedback anytime from the   [Posts in review](/posts/in-community-review) page.
+- Forking is as easy as hitting the orange *Fork* button in the right rail.
+- Review posts with the review widget at the bottom of each post
+- Browse [Posts in review](/posts/in-community-review) to give feedback and help QA before publishing.
 
 <!-- *TODO mention sharing and put share widget here* -->
 
-** Bookmarking this post **
+** Bookmark this post **
 
-We hope you like what you've seen so. You might consider using AirPair's bookmark feature for an easier way to return here later. 
+We hope you like what you've seen so far and are eager to read on. You might consider using AirPair's bookmark feature for an easier way to return here later. 
 
 ## 2 Why Build Git Powered Publishing?
 

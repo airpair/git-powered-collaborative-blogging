@@ -2,29 +2,19 @@
 
 ## 1 An AirPair GitHub Baby
 
+*TODO: insert fun cat writing illustration*
+
 ### 1.1 TLDR; announcement
 
-Today I'm excited to announce one of the more innovative projects I've been involved with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair posts, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author wanting to publish your own posts or reader interested in contributing to posts by others. Using our new *GitHub Powered Publishing Workflow*, authors and readers can work together using **Forks and Pull Requests** to produce better technical writing than ever before.
+Today I'm excited to announce one of the more innovative projects I've been involved with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author wanting to publish your own posts or reader interested in contributing to posts by others. Using our new *GitHub Powered Publishing Workflow*, authors and readers can work together using **Forks and Pull Requests** to produce better technical writing than ever before.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-I'll intertwine many cool opportunities that make our new authoring setup significant, while covering why we integrated GitHub into our posts section and how we put the the workflow together. But before deep diving into details, here's a screenshot and some use cases to get you thinking:
+I'll intertwine many cool opportunities that make our new authoring setup significant, while covering why we integrated GitHub into our posts section and how we put the the workflow together. We'll end leading into our ***$100,000 Writing Competition***, but before deep diving into details, here's a screenshot and some use cases to get you thinking:
 
-> ![Fork a post on AirPair](/static/img/pages/posts/fork-post-dymo.png)
+![Fork a post on AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 
-- Annoyed with that typo? ***Fork and fix***. 
-- Spot a syntax error? ***Fork and fix***. 
-- Code sample no longer runs with a new framework version? ***Fork and maintain***.
-- Know a better way to do something? ***Fork and improve***.
-- Disagree? ***Fork and discuss***.
-
-### 1.2 In this post
-
-**Section 1** covers a birds why care and how to start. **Section 2** explores philosophical and practical discussion on why we and developers at large needed a Git powered collaborative blogging system. In **Section 3** I'll describe our implementation and how we pieced it together. Finally, **Section 4** will summarise what we hope to achieve and lead into our ***$100,000 Writing Competition***.
-
-### 1.3 Social Authoring. What's in it for you?
-
-Here's some pros we'll explore in more depth further down:  
+Here's some more pros we think you'll love:  
 
 **For readers**
 
@@ -39,7 +29,7 @@ Here's some pros we'll explore in more depth further down:
 - A forum to bounce and evolve whacky ideas before they become public
 - Instant exposure for great work, without previously building traffic and following
 
-### 1.4 Getting your hands dirty
+### 1.2 Getting your hands dirty
 
 - **[Starting a post](/posts/new)** is a piece of cake. 
 - Forking is as easy as hitting the orange Fork button in the right rail.
@@ -47,7 +37,7 @@ Here's some pros we'll explore in more depth further down:
 
 <!-- *TODO mention sharing and put share widget here* -->
 
-** 1.5 Bookmark this post **
+** Bookmarking this post **
 
 We hope you like what you've seen so. You might consider using AirPair's bookmark feature for an easier way to return here later. 
 

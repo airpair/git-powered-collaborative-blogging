@@ -270,3 +270,4 @@ If you haven't yet, now is a great time to check out our $100k Writing Competiti
 
 [![$100k Developer Writing Competition](//www.airpair.com/static/img/pages/postscomp/og.png)](http://airpair.com/100k-writing-competition)
 
+Drop us a line if you're excited about this or have some ideas about how to help us get this off the ground.

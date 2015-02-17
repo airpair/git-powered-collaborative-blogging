@@ -139,25 +139,35 @@ GitHub issues, discussions and comment provide an amazing opportunity to get fee
 
 ## 3 What we built
 
-### 3.1 AirPair's live editor
+### 3.1 The AirPair live editor
 
 TODO screenshots and short explanation of the editor.
 
-Authors start their posts in our live editor. Posts are written in markdown via the ace web editor and refreshed as you type using the marked library.
+Authors start posts in our live editor. Posts are written in markdown via the [ace web IDE](http://ace.c9.io/) by Cloud 9 and are refreshed in the browser as you type using the [marked library](https://github.com/chjj/marked"). While in draft, posts only exist in our database and do not have any git history. Once submitted to the community a git repo is created and HEAD represents the most up to date working copy of a post. Updates at this point go through git, so the editor requires a commit message each time you save. The actual displayed post still comes from our databse. This enables us to let you "preview" before propagating changes to production.
 
 ### 3.2 How we store posts on GitHub
 
-When an author decides their posts is ready for community review, we create a private repository on the airpair organization. The repos need to be private so not to destroy our SEO. Once the repo is created all saves by the author from the AirPair editor go through the master repo.
+#### Private repos and private forks
 
-When an reader decides they want to contribute, the make a private fork that sits on their own github account. Private forks do not count towards your private repo limits.
+When an author submits a post for community review, we create **a private repository on the [airpair organization](//github.com/airpair)** in which only the author has write permissions.
 
-To faciliate the necessary permissions we ask you to authenticate your github account with repo privilages. This allows us to add the author to our organization, and then to unique team created just for the purpose of having write permissions to the main repo on our organization. For the contributors, we use the repo permissions to create your fork.
+When an reader wants to contribute, they make **a private fork on their own github account**. ** Private forks do not count towards your private repo limits.
 
-### 3.3 Our 3-Step V1 Workflow
+#### Adding users to the airpair organization and repo read/write teams
 
-Our goal was leverage as much of the existing GitHub API and github.com UI as possible because. GitHub already rock solid discussion UI, merge tools and such. Plus Developers are already familiar. Once you fork a post you have the option of doing nothing futher on airpair.com if you prefer to work exclusively in your own environment.
+To faciliate the desired read/write permissions for different users, all users are aded to the airpair github org and then to unique teams are created for each repo. Each repo has one team with write permissions for the author so that they may edit the post and pull request. The second team is created with read only permissions that allows contributors to fork and submit PRs without the ability to self merge. 
 
-All posts basically go through 3 sequential states:
+** Authors and readers unfortunately need to authenticate with repo privilages to facilitate this workflow.
+
+### 3.3 Leverage GitHub as much as possible
+
+Especially for this first iteration, our aim was to leverage as much of the existing GitHub API and github.com UI as we could. GitHub already has rock solid discussion capabilities, merge tools and such. Leveraging as much as we could meant that we didn't have to re-invent the wheel and that we could take advantage of the fact that Developers are already familiar with the tooling. 
+
+Althought there are advantaged to the AirPair live editor, once you fork a post as a contributor you have the option of doing nothing else on airpair.com and can work exclusively with your own environment and tool set.
+
+### 3.4 Our 3-Step Publishing Workflow
+
+All posts go through 3 sequential states:
 
 > **1**. Draft
 
@@ -167,78 +177,79 @@ All posts basically go through 3 sequential states:
 
 #### Draft
 
-`touch Fun-and-games.md`
-
-When you create a new post, it starts in ***Draft***. While in draft your post is only visible to you. It has no git history and we simply save your changes back to our mongo. If you start something and your idea never goes anywhere, that experience was just for you, so enjoy not taking things too seriously until you realize you want to.
-
-*** No turning back ***
-
-As you go to submit your post, you will be prompted to authenticate with GitHub repo privilages. This is because this is the moment when things get real. We take the repo name you provide (which you cannot change later) and spin up a private repository on the github.com/airpair org. Repo permissions allow us to add you to "The Author" team on your repository. Thus, besides god users in the airpair org, you are the only one with write access to accept and merge or reject pull requests coming in for your contributors forks.
-
-As discussed in the next state, the rules of the game change when you hit, so pay attention, it's worth understanding how things work before you push that button!
-
-*** Properties of the *draft* state ***
-
 ```javascript
+// Properties of a post in draft
 var draft = { 
-  visibility: ['just you'],
+  visibility: ['you'],
   contentStore: {
-    workingCopy: 'airpair db',
-    previewedCopy: 'airpair db'    
+    workingCopy: 'airpair mongo instance',
+    previewedCopy: 'is the working copy'    
   },
   authoring: {
-    editWith: ['only by the airpair editor'],
-    restrictions: ['everything is editable, except the mongo id']
+    editWith: ['the airpair editor'],
+    editRestrictions: ['the mongo id']
   }
 }
 ```
 
+New posts starts in ***Draft*** and are completely private. They have no git repo or history log. If you start something and your idea never goes anywhere, that experience was just for you. You can change everything as much as you like, so enjoy not taking things too seriously until you realize you want to.  
+
+
 #### In Review
 
-*** Where your content lives and gets saved *** 
-
-Once your post is submitted, you have to choice to continue editing on AirPair, or clone your repo and use your normal tools. Either way each time you save your post including from the editor it gets committed to master on github. The markdown appearing in the edidot actually comes from HEAD on github and will not appear on airpair.com until you hit ***Propagate HEAD***. 
-
-***Visibility***
-
-Congrats, your post is now visible to anyone logged in to AirPair. You meant to do that right? Well relax, it's makred as noindex, follow so only hardcore contributors that want to take the time to be invovled in unfinished work will look at it. It also won't get imortalized in google's memeory until it's published. 
-
-***Properties of the *review* state***
-
 ```javascript
+// Properties of a post in review
 var review = { 
-  visibility: ['you', 'logged in users'],
+  visibility: ['you', 'reviewers (logged in to airpair.com)'],
   contentStore: {
     workingCopy: 'github HEAD',
-    previewedCopy: 'airpair db',
-    inReviewCopy: 'airpair db',    
+    previewedCopy: 'github HEAD',
+    inReviewCopy: 'airpair mongo instance'    
   },
   authoring: {
-    editWith: ['airpair editor', 'any tool you like is just a clone away']
-    restrictions: [
-        ['the repo name is used as a unique slug makes up part of your posts public url, its locked in so make sure you are happy when you submit',
-        'A minimum number of reviews & minimum rating is required to publish your post']
+    editWith: ['airpair editor', 'github.com', 'any tool you code with']
+    editRestrictions: [
+        'mongo id',
+        'the repo name'],
+    publishRestrictions: [
+        '3 positivce reviews are required to publish'
     ]
   }
 }
 ```
 
+*** No turning back ***
+
+When you submit your post we create a GitHub repo to begin tracking all changes via Git. Repo names across our org are unique and are locked once you submit,so make sure you are 100% happy when you submit.
+
+***Visibility***
+
+Congrats, your post is now visible to reviewers logged in to AirPair. It is still hidden from open traffic and makred as noindex just in case.
+
+*** Where your posts lives and gets saved *** 
+
+Once your post is submitted, you have to choice to continue editing on AirPair, or clone your repo and use any editor of your choosing. Either way each time you save your post including from the editor it gets committed to master on github. The markdown appearing in the edidor comes from HEAD and ***it will not appear on airpair.com until you publish changes from head back to AirPair. This allows us to give you a preview feature without having to change your live copy. Author not quite semantically correct, you can think of HEAD as your working branch, and the copy stored in AirPair's mongo instance as your prod branch. 
+
 #### Published
 
 ```javascript
-var review = { 
-  visibility: ['you', 'logged in users', 'anonymous users', 'google', 'other bots'],
+// Properties of a post already published
+var published = { 
+  visibility: ['you', 'all logged in users', 'anonymous users', 'google', 'other bots'],
   contentStore: {
     workingCopy: 'github HEAD',
     previewedCopy: 'github HEAD',
-    publishedCopy: 'airpair db',     
+    publishedCopy: 'airpair mongo instance'    
   },
   authoring: {
-    edits: ['airpair editor', 'any tool you like is just a clone away']
-    restrictions: [
-        ['the repo name / slug',
-         'everything other than the content is no longer editable',
-         'Only AirPair users with editor permissions can propagate github HEAD to the published version on airpair.com'
+    editWith: ['airpair editor', 'github.com', 'any tool you code with']
+    editRestrictions: [
+        'mongo id',
+        'tags',
+        'title',        
+        'repo name'],
+    publishRestrictions: [        
+        'A users with editor permissions must re-publish the post from HEAD if updates are ready'
         ]
     ]
   }

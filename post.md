@@ -214,7 +214,7 @@ Congrats, your post is now visible to reviewers logged in to AirPair. It is stil
 
 *** Where your posts lives and gets saved *** 
 
-Once your post is submitted, you have to choice to continue editing on AirPair, or clone your repo and use any editor of your choosing. Either way each time you save your post including from the editor it gets committed to master on github. The markdown appearing in the edidor comes from HEAD and ***it will not appear on airpair.com until you publish changes from head back to AirPair. This allows us to give you a preview feature without having to change your live copy. Author not quite semantically correct, you can think of HEAD as your working branch, and the copy stored in AirPair's mongo instance as your prod branch. 
+Once your post is submitted, you have to choice to continue editing on AirPair, or clone your repo and use any editor of your choosing. Either way, each time you save your post, including from the editor, it gets committed to master on github. The markdown appearing in the editor comes from HEAD and ***it will not appear on airpair.com until you publish changes from head back to AirPair**. This allows us to give you a preview feature without having to change your live copy. Although not quite semantically correct, you can think of HEAD as your working branch, and the copy stored in AirPair's mongo instance as your prod branch. 
 
 #### Published
 

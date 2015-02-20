@@ -44,7 +44,7 @@ We hope you like what you've seen so far and are eager to read on. You might con
 
 > "*How cool would it be if every page on the web were forkable?"*
 
-This section covers a gamut of different forces that led us to combine the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking. Indeed even evolutionary... Other guiding influences were simply marketing problems we needed to solve. Challenges that are probably relevant to everyone publishing on the web. Mostly though, we've had a great time working with our authors who inspired more than a million readers to come to AirPair in the last few months. Our main impetus was to make the experience of Authoring on AirPair easier and more impactful. To quote a friend who's tweet flew by mid-way through writing this post:
+This section covers a gamut of different forces that led us to combine the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking. Indeed even evolutionary... Other guiding influences were simply marketing problems we needed to solve. Challenges that are probably relevant to everyone publishing on the web. Mostly though, we've had a great time working with our authors who inspired more than a million readers to come to AirPair in the last few months. Our main impetus was to make the experience of Authoring on AirPair easier and more impactful. To quote a friend whose tweet flew by mid-way through writing this post:
 
 ![Make things easier](//airpair.github.io/img/2015/01/making-things-easier.png)
 
@@ -57,7 +57,7 @@ My all-time favorite TED Talk [When ideas have sex](http://www.ted.com/talks/mat
 [![Matt Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en)
 > ***"To answer our continual ability to attain more wealth and improve our own living standards, you need to understand how human beings bring together their brains, and enable their ideas to combine and recombine, to meet and indeed to mate."***
 
-I totally recommend finding 15 minutes to absorb Ridley's talk. It is a framework for thinking around how this idea came about (AirPair + GitHub) as well as the millions of ideas we hope to spawn. One part Ridely explores that is particularly relevant to software, is the notion of our intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of individuals. 
+I totally recommend finding 15 minutes to absorb Ridley's talk. It is a framework for thinking around how this idea came about (AirPair + GitHub) as well as the millions of ideas we hope to spawn. One part Ridley explores that is particularly relevant to software, is the notion of our intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of individuals. 
 
 ![Stone Axe](http://iceagenow.info/wp-content/uploads/2011/11/Matt-Ridley-Stone-Axe.jpg)
 
@@ -79,7 +79,7 @@ We're primarily known for connecting developers over video chat for live one-on-
 
 We think we've identified a gap that fits perfectly under why we wake up and come to work. Developers already have a universal ***long tail*** Q/A platform - *StackOverflow.com*. We have plenty of independent ***short tail*** content providers, who publish official go-to documentation on pure and vanilla use cases with their own Open Source frameworks and proprietary APIs. But where is the Wikipedia-like collection of quickstarts, tutorials and usage by example in the trenches? We think it doesn't exist yet, because no one has executed a collaborative model.
 
-We'd like your playing out an experiment to reproduce for long form technical content what Stackoverflow did for Q/A and Wikipedia did for encyclopedia knowledge.
+We'd like your help playing out an experiment to reproduce for long form technical content what Stackoverflow did for Q/A and Wikipedia did for encyclopedic knowledge.
 
 <!--Our new Git powered Posts section is aimed to enable  collaboration on more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us on by ushering in the era of Social Coding. Now we'd like to reuse what they built mixed with a little AirPair spice and build out community based around passion for sharing developer knowledge and learning from one another.-->
 
@@ -90,7 +90,7 @@ We had great success in our first 6 months pushing community posts. The average 
 
 ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
-The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the quality and pace encombent of our initial success, we needed to address the following concerns.
+The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the quality and pace incumbent of our initial success, we needed to address the following concerns.
 
 **2.2.1 Crowdsourcing more of our content production workflow**
 
@@ -101,7 +101,7 @@ Every publisher dreams of ***user generated content***  magically appearing on t
 - Editing, formatting & QA
 - Marketing & promotion
 
-We know there's no shortcut, so we're attempting to use GitHub and our review system distribute those hours across contributors. The community can now review, rate and help with QA. The best posts will organically bubble to top, which we will give extra internal marketing and promotional effort.
+We know there's no shortcut, so we're attempting to use GitHub and our review system to distribute those hours across contributors. The community can now review, rate and help with QA. The best posts will organically bubble to the top, so we can give them extra internal marketing and promotional effort.
 
 **2.2.2 Reducing content half life**
 
@@ -121,7 +121,7 @@ If you've always wanted to improve your writing, a portion of reviewers will be 
 
 *** Discussing evolving ideas ***
 
-GitHub issues, discussions and comment provide an amazing opportunity to get feedback that will force you to re-think the subject matter. Other influencers will help you reinforce arguments and even less advanced readers can help you simplify how you present concepts in clearer ways.
+GitHub issues, discussions and comments provide an amazing opportunity to get feedback that will force you to re-think the subject matter. Other influencers will help you reinforce arguments and even less advanced readers can help you simplify how you present concepts in clearer ways.
 
 ## 3 What we built
 
@@ -129,7 +129,7 @@ GitHub issues, discussions and comment provide an amazing opportunity to get fee
 
 TODO screenshots and short explanation of the editor.
 
-Authors start posts in our live editor. Posts are written in markdown via the [ace web IDE](http://ace.c9.io/) by Cloud 9 and are refreshed in the browser as you type using the [marked library](https://github.com/chjj/marked"). While in draft, posts only exist in our database and do not have any git history. Once submitted to the community a git repo is created and HEAD represents the most up to date working copy of a post. Updates at this point go through git, so the editor requires a commit message each time you save. The actual displayed post still comes from our database. This enables us to let you "preview" before propagating changes to production.
+Authors start posts in our live editor. Posts are written in markdown via the [ace web IDE](http://ace.c9.io/) by Cloud 9 and are refreshed in the browser as you type using the [marked library](https://github.com/chjj/marked"). While in draft, posts only exist in our database and do not have any git history. Once submitted to the community, a git repo is created and HEAD represents the most up to date working copy of a post. Updates at this point go through git, so the editor requires a commit message each time you save. The actual displayed post still comes from our database. This enables us to let you "preview" before propagating changes to production.
 
 ### 3.2 How we store posts on GitHub
 
@@ -147,9 +147,9 @@ To facilitate the desired read/write permissions for different users, all users 
 
 ### 3.3 Leveraging GitHub as much as possible
 
-Especially for this first iteration, our aim was to leverage as much of the existing GitHub API and github.com UI as we could. GitHub already has rock solid discussion capabilities, merge tools and such. Leveraging as much as we could meant that we didn't have to reinvent the wheel and that we could take advantage of the fact that Developers are already familiar with the tooling. 
+Especially for this first iteration, our aim was to leverage as much of the existing GitHub API and github.com UI as we could. GitHub already has rock solid discussion capabilities, merge tools and such. Leveraging as much as we could meant that we didn't have to reinvent the wheel and we could take advantage of the fact that Developers are already familiar with the tooling. 
 
-Althought there are advantaged to the AirPair live editor, once you fork a post as a contributor you have the option of doing nothing else on airpair.com and can work exclusively with your own environment and tool set.
+Althought there are advantages to the AirPair live editor, once you fork a post as a contributor you have the option of doing nothing else on airpair.com and can work exclusively with your own environment and tool set.
 
 ### 3.4 Our 3-Step Publishing Workflow
 
@@ -210,7 +210,7 @@ When you submit your post we create a GitHub repo to begin tracking all changes 
 
 ***Visibility***
 
-Congrats, your post is now visible to reviewers logged in to AirPair. It is still hidden from open traffic and makred as noindex just in case.
+Congrats, your post is now visible to reviewers logged in to AirPair. It is still hidden from open traffic and marked as noindex just in case.
 
 *** Where your posts lives and gets saved *** 
 
@@ -250,7 +250,7 @@ Posts will appear at the top of our posts section and Rss feeds and will be full
 
 ## 4 Conclusion
 
-We hope this project is as impactful as we think it can. At AirPair we come to work each day focused on how we enable knowledge transfer from developer to another. We hope to see your posts and contributions.
+We hope this project is as impactful as we think it can be. At AirPair we come to work each day focused on how we enable knowledge transfer from developer to another. We hope to see your posts and contributions.
 
 If you haven't yet, now is a great time to check out our $100k Writing Competition.
 

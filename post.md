@@ -2,33 +2,36 @@
 
 ## 1 Filling a gap with Social Authoring
 
-Hmmm
+Developers already have a universal go-to ***long tail*** knowledge source, thanks to StackOverflow's successful social Q/A platform. We also have a plethora of high quality independent ***short tail*** knowledge repositories, thanks to investments in official documentation by Open Source framework contributors and proprietary API providers. 
 
-Developers already have a universal go-to ***long tail*** knowledge source thanks to StackOverflow's successful social Q/A platform. We also have a plethora of high quality independent ***short tail*** knowledge thanks to the investment in official documentation created by Open Source framework contributors and proprietary API creators. But where is the Wikipedia-like collection of **medium tail** content for Software? Quickstarts, tutorials and real world examples from the trenches? At AirPair, we think it doesn't exist yet, because no one has executed a collaborative model.
+<!-- TODO Tinsert screenshots of stackoverflow, AngularJS docs & keen.io here -->
 
-### 1.1 Announcing our Social Authoring Experiement
+But what about ***medium tail*** Software knowledge? Independently produced quickstarts, tutorials and tales of production horros and success already exist scattered on blogs across the web. But we think there's room and would argue a growing necessity, for a consolidated Wikipedia-like resource of superior quality medium tail software content. 
 
+Sounds obvious... So why doesn't it exist already? We think it's because no one has successfully executed a social, collaborative model.
 
-Today I'm excited to about one of the more innovative projects I've been involved with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author wanting to publish your own posts, or reader interested in contributing to posts by others using **Forks and Pull Requests**.
+### 1.1 Announcing Social Authoring on AirPair
+
+Today I'm excited to share one of the more innovative projects I've been involved with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author wanting to publish your own posts, or reader interested in contributing to posts by others using **Forks and Pull Requests**.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-With our new *GitHub Powered Publishing Workflow*, we hope to leverage collaboration to produce more accurate and refined technical writing than ever before. In this post, I'll cover how we integrated GitHub into our posts section and intertwine many cool opportunities that make our new authoring setup significant. We'll end leading into our ***$100,000 Developer Writing Competition***, but before diving into details, here's a screenshot to get you thinking:
+With our new *GitHub Powered Publishing Workflow*, we hope to enable collaboration that will produce more accurate and refined technical writing than ever before. In this post, I'll cover how we integrated GitHub into our posts section and intertwine many cool opportunities that make our new authoring setup significant. We'll end leading into our ***$100,000 Developer Writing Competition***, but before diving into details, here's a screenshot to get you thinking:
 
 ![Fork a post on AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 
 We think readers are going to love:  
 
 - More proofed, comprehensive and up to date technical content than ever before
-- Clear quality signals from our review system
-- The **ability to contribute**, without a comprehensive understanding required to author a whole post
+- Clear quality signals from our rating system
+- The **ability to contribute** without the time or understanding required to author a whole post
 
 We think authors are going love:  
 
-- Exposure to more feedback and interaction than publishing elsewhere
+- Exposure to more feedback than publishing elsewhere
 - Crowdsourced help improving post quality
 - A forum to bounce whacky ideas before they become public
-- Instant exposure for great work, without previously building a following
+- Instant exposure for great posts, without peviously amassing a personal following
 
 ### 1.2 How to get involved
 
@@ -38,13 +41,9 @@ We think authors are going love:
 - Help Q/A and shape [Posts in review](/posts/in-community-review) before they get published
 - Bookmark this post if you want to come back to it later
 
-## 2 Why Build Git Powered Publishing?
+## 2 Why we built Git Powered Publishing
 
-> "*How cool would it be if every page on the web were forkable?"*
-
-This section covers a gamut of different forces that led us to combine the GitHub API with our existing authoring tools. Some of our motivations came from a sense that this could be groundbreaking. Indeed even evolutionary... Other guiding influences were simply marketing problems we needed to solve. Challenges that are probably relevant to everyone publishing on the web. Mostly though, we've had a great time working with our authors who inspired more than a million readers to come to AirPair in the last few months. Our main impetus was to make the experience of Authoring on AirPair easier and more impactful. To quote a friend whose tweet flew by mid-way through writing this post:
-
-![Make things easier](//airpair.github.io/img/2015/01/making-things-easier.png)
+There are a gamut of different forces that led us to combine the GitHub API with our existing authoring tools. (2.1) Some motivations came from a sense that this could be groundbreaking. Indeed even evolutionary... (2.2) Other guiding influences were driven by marketing problems we needed to solve. Mostly though, we've had a great time working with our authors who inspired more than a million readers to visit AirPair in the last few months. (2.3) Our main impetus was to make their authoring experience easier and more impactful than publishing developer content anywhere else.
 
 ### 2.1 When (Developer) Ideas Have Sex
 
@@ -55,7 +54,9 @@ My all-time favorite TED Talk [When ideas have sex](http://www.ted.com/talks/mat
 [![Matt Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en)
 > ***"To answer our continual ability to attain more wealth and improve our own living standards, you need to understand how human beings bring together their brains, and enable their ideas to combine and recombine, to meet and indeed to mate."***
 
-I totally recommend finding 15 minutes to absorb Ridley's talk. It is a framework for thinking around how this idea came about (AirPair + GitHub) as well as the millions of ideas we hope to spawn. One part Ridley explores that is particularly relevant to software, is the notion of our intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of individuals. 
+I can't recommend enough, to set aside 15 minutes to absorb Ridley's talk. It's both a framework for thinking of how this idea came about (AirPair + GitHub) as well as the millions of ideas we hope to spawn. 
+
+One part Ridley explores that is particularly relevant to software, is the notion of our intellectual acceleration. The more we interact, converse and exchange knowledge, the more our ideas combine and mutate forming new ideas and products embodying previous ideas originating from thousands or even millions of individuals. 
 
 ![Stone Axe](http://iceagenow.info/wp-content/uploads/2011/11/Matt-Ridley-Stone-Axe.jpg)
 
@@ -71,11 +72,11 @@ Largely thanks to GitHub, Developer ideas having sex is old news. By removing fr
 
 ** 2.1.3 AirPair => Social Authoring**
 
-AirPair's whole thesis for existing, is observing a need around the acceleration of software ideas. As we make better software faster and faster, we'll need more efficient and powerful ways to express, share and consume the knowledge embedded in our code.
+AirPair's thesis for existing, is an observation around the acceleration of software ideas. *As we make better software faster and faster, we'll need more efficient and powerful ways to express, share and consume the knowledge embedded in our code.*
 
-We're primarily known for connecting developers over video chat for live one-on-one help. Our broader mission is to find new ways to create relationships between developers that enable more efficient knowledge share. 
+We're primarily known for connecting developers over video chat for live one-on-one help. But our broader mission is to find new ways to create relationships between developers that enable more efficient knowledge share. 
 
-We'd like your help playing out an experiment to reproduce for long form technical content what Stackoverflow did for Q/A and Wikipedia did for encyclopedic knowledge.
+We've decided to run an experiment and see if we can reproduce for long form technical content, what Stackoverflow did for Q/A and Wikipedia did for encyclopedic knowledge.
 
 <!--Our new Git powered Posts section is aimed to enable  collaboration on more consolidated, refined and clearly expressed long form technical content than ever before. We all experienced the transformation journey GitHub took us on by ushering in the era of Social Coding. Now we'd like to reuse what they built mixed with a little AirPair spice and build out community based around passion for sharing developer knowledge and learning from one another.-->
 
@@ -86,36 +87,31 @@ We had great success in our first 6 months pushing community posts. The average 
 
 ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
-The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the quality and pace incumbent of our initial success, we needed to address the following concerns.
+The seeding phase was however, expensive and unsustainably heavy on internal manpower. To keep up the quality and pace incumbent of our initial success, we needed to solve the following challenges.
 
-**2.2.1 Crowdsourcing more of our content production workflow**
+**2.2.1 Reduce internal time per post**
 
-Every publisher dreams of ***user generated content***  magically appearing on their site. From experience, we can tell you, great content takes time and energy. Before now, each post consumed almost 10 internal hours:
+Every publisher dreams of ***user generated content*** magically appearing. From experience, we can tell you, great content takes time and energy. During our seed phase, each post consumed around 10 hours from our team.
 
-- Sourcing authors
-- Considering proposals
-- Editing, formatting & QA
-- Marketing & promotion
+There's no shortcut, so we're attempting to use GitHub and new our review system to crowdsource many of those hours across contributors.
 
-We know there's no shortcut, so we're attempting to use GitHub and our review system to distribute those hours across contributors. The community can now review, rate and help with QA. The best posts will organically bubble to the top, so we can give them extra internal marketing and promotional effort.
+**2.2.2 Reduce content half life**
 
-**2.2.2 Reducing content half life**
+We've covered how software moves exceptionally quick. The unfortunate byproduct is, software content decays exceptionally fast too.
 
-As an author devoting personal energy, or publisher commissioning content, ROI improves if what you publish stays relevant longer. We've covered how software moves exceptionally quick. The unfortunate byproduct is, software content decays exceptionally fast too.
+Often the principals of a piece remain relevant, but as new framework versions emerge, it becomes unclear if the content is still useful. Maintaining content against moving code bases is an unwiedly endevour.
 
-Often the principals of a piece remain relevant, but as new framework versions emerge, it becomes unclear if the content is still useful.
+Git provides a way to collaboratively maintain posts through forks and pull requests. It can even be used to tag and retrieve iterations relevant to a specific framework versions.
 
-Git provides a scalable way to maintain posts through forks and pull requests. It could even be used to tag and retrieve iterations of a post as relevant a specific framework version.
+### 2.3 Gaining an edge The Authoring Experience
 
-### 2.3 Ways GitHub Enhances The Author's Experience
-
-*** Sharing editorial load ***
+** 2.3.1 Sharing editorial load with Pull Requests **
 
 Editing is a particularly time and energy intensive process. The last 10% of changes usually require a disproportionate amount of time and are the least fun... The same git flow you know and love for code review can also empower fresh eyes to double-check your content and form so you can  focus more energy on the substance of your piece.
 
 If you've always wanted to improve your writing, a portion of reviewers will be happy to help you express better grammar and style.
 
-*** Discussing evolving ideas ***
+** 2.3.2 Discussing evolving ideas with Github Comments **
 
 GitHub issues, discussions and comments provide an amazing opportunity to get feedback that will force you to re-think the subject matter. Other influencers will help you reinforce arguments and even less advanced readers can help you simplify how you present concepts in clearer ways.
 

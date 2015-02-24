@@ -1,44 +1,39 @@
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
-## 1 An AirPair GitHub Baby
+## 1 Filling a gap with Social Authoring
 
-*TODO: insert fun cat writing illustration*
+Developers already have a universal go-to ***long tail*** knowledge source thanks to StackOverflow's successful social Q/A platform. We also have a plethora of high quality independent ***short tail*** knowledge thanks to the investment in official documentation created by Open Source framework contributors and proprietary API creators. But where is the Wikipedia-like collection of **medium tail** content for Software? Quickstarts, tutorials and real world examples from the trenches? At AirPair, we think it doesn't exist yet, because no one has executed a collaborative model.
 
-### 1.1 TLDR; Social Authoring announcement
+### 1.1 Announcing our Social Authoring Experiement
 
-Today I'm excited to announce one of the more innovative projects I've been involved with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author wanting to publish your own posts or reader interested in contributing to posts by others. Using our new *GitHub Powered Publishing Workflow*, authors and readers can work together using **Forks and Pull Requests** to produce better technical writing than ever before.
+Today I'm excited to about one of the more innovative projects I've been involved with. Pretty much anything part Git, or Octocat related is going to be cool. If you've already enjoyed AirPair's posts section, it gives me great pleasure knowing that our community content is about to get way more awesome. From today, you are invited to join our ***Social Authoring*** experiment as an author wanting to publish your own posts, or reader interested in contributing to posts by others using **Forks and Pull Requests**.
 
 ![Collaborate on post using Git](/static/img/pages/posts/post-authoring-flow.png)
 
-In this post, I'll intertwine many cool opportunities that make our new authoring setup significant, while covering why we integrated GitHub into our posts section and how we put the the workflow together. We'll end leading into our ***$100,000 Writing Competition***, but before deep diving into details, here's a screenshot and some use cases to get you thinking:
+With our new *GitHub Powered Publishing Workflow*, we hope to leverage collaboration to produce more accurate and refined technical writing than ever before. In this post, I'll cover how we integrated GitHub into our posts section and intertwine many cool opportunities that make our new authoring setup significant. We'll end leading into our ***$100,000 Developer Writing Competition***, but before diving into details, here's a screenshot to get you thinking:
 
 ![Fork a post on AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 
-Here are some outcomes we think readers will love:  
+We think readers are going to love:  
 
-- More proofed, comprehensive and up to date content than ever before
-- Clear quality signals from our review system that a post is worth reading
-- **Ability to contribute** small nuggets, without a comprehensive understanding required to author a whole post
+- More proofed, comprehensive and up to date technical content than ever before
+- Clear quality signals from our review system
+- The **ability to contribute**, without a comprehensive understanding required to author a whole post
 
-Here are some pros we think authors will love:  
+We think authors are going love:  
 
-- Exposure to more readers and feedback than publishing elsewhere
-- Crowdsourced help improving your posts
-- A forum to bounce and evolve whacky ideas before they become public
-- Instant exposure for great work, without previously building traffic or a following
+- Exposure to more feedback and interaction than publishing elsewhere
+- Crowdsourced help improving post quality
+- A forum to bounce whacky ideas before they become public
+- Instant exposure for great work, without previously building a following
 
-### 1.2 Getting your hands dirty
+### 1.2 How to get involved
 
-- **[Starting a post](/posts/new)** is a piece of cake. 
-- Forking is as easy as hitting the orange *Fork* button in the right rail.
-- Review posts with the review widget at the bottom of each post
-- Browse [Posts in review](/posts/in-community-review) to give feedback and help QA before publishing.
-
-<!-- *TODO mention sharing and put share widget here* -->
-
-** Bookmark this post **
-
-We hope you like what you've seen so far and are eager to read on. You might consider using AirPair's bookmark feature for an easier way to return here later. 
+- **[Staring a post](/posts/new)** is a piece of cake
+- To Fork just hit the orange *Fork* button in the right rail
+- Give feedback with the review widget at the bottom of each post
+- Help Q/A and shape [Posts in review](/posts/in-community-review) before they get published
+- Bookmark this post if you want to come back to it later
 
 ## 2 Why Build Git Powered Publishing?
 
@@ -76,8 +71,6 @@ Largely thanks to GitHub, Developer ideas having sex is old news. By removing fr
 AirPair's whole thesis for existing, is observing a need around the acceleration of software ideas. As we make better software faster and faster, we'll need more efficient and powerful ways to express, share and consume the knowledge embedded in our code.
 
 We're primarily known for connecting developers over video chat for live one-on-one help. Our broader mission is to find new ways to create relationships between developers that enable more efficient knowledge share. 
-
-We think we've identified a gap that fits perfectly under why we wake up and come to work. Developers already have a universal ***long tail*** Q/A platform - *StackOverflow.com*. We have plenty of independent ***short tail*** content providers, who publish official go-to documentation on pure and vanilla use cases with their own Open Source frameworks and proprietary APIs. But where is the Wikipedia-like collection of quickstarts, tutorials and usage by example in the trenches? We think it doesn't exist yet, because no one has executed a collaborative model.
 
 We'd like your help playing out an experiment to reproduce for long form technical content what Stackoverflow did for Q/A and Wikipedia did for encyclopedic knowledge.
 

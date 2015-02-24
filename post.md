@@ -2,7 +2,13 @@
 
 ## 1 Filling a gap with Social Authoring
 
-Developers already have a universal go-to ***long tail*** knowledge source thanks to StackOverflow's successful social Q/A platform. We also have a plethora of high quality independent ***short tail*** knowledge thanks to the investment in official documentation created by Open Source framework contributors and proprietary API creators. But where is the Wikipedia-like collection of **medium tail** content for Software? Quickstarts, tutorials and real world examples from the trenches? At AirPair, we think it doesn't exist yet, because no one has executed a collaborative model.
+Developers already have a universal go-to ***long tail*** knowledge source, thanks to StackOverflow's successful social Q/A platform. We also have a plethora of high quality independent ***short tail*** knowledge repositories, thanks to investments in official documentation by Open Source framework contributors and proprietary API providers. 
+
+<!-- TODO Tinsert screenshots of stackoverflow, AngularJS docs & keen.io here -->
+
+But what about ***medium tail*** Software knowledge? Independently produced quickstarts, tutorials and tales of production horros and success already exist scattered on blogs across the web. But we think there's room and would argue a growing necessity, for a consolidated Wikipedia-like resource of superior quality medium tail software content. 
+
+Sounds obvious... So why doesn't it exist already? Because authoring this type of content is HARD and for some reason, no one has successfully executed a social, collaborative model.
 
 ### 1.1 Announcing our Social Authoring Experiement
 

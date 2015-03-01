@@ -71,12 +71,22 @@ post](//airpair.github.io/img/2015/02/start-post.png)](/posts/new)
 - To fork, hit the orange *fork* button in the right rail
 
 - Give feedback with the review widget at the bottom of each post
-
 >[![Review a
 post](//airpair.github.io/img/2015/02/review-post.png)](#review)
-
 
 - Help Q/A and vet [Posts in review](/posts/in-community-review) waiting
 to get published
 
 - Bookmark this post if you want to come back to it later
+
+## 2 Why Power Publishing with Git
+
+There are a gamut of forces that led us to integrate the GitHub API with
+our existing authoring tools. Some motivations came from a philosphical
+sense that this could be evolutionary... Other influences were based on
+economics we needed to solve. Our main impetus was to make the authoring
+experience easier and more impactful than publishing developer content
+anywhere else. Lets see why it so happens that Git is a great fit for
+each angle.
+
+### 2.1 When (Developer) Ideas Have Sex

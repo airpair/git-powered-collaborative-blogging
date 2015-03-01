@@ -90,3 +90,209 @@ anywhere else. Lets see why it so happens that Git is a great fit for
 each angle.
 
 ### 2.1 When (Developer) Ideas Have Sex
+
+
+
+[![Matt
+Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en)
+> ***"To answer our continual ability to attain more wealth and improve our
+own living standards, you need to understand how human beings bring together
+their brains, and enable their ideas to combine and recombine, to meet and
+indeed to mate."*** I can't recommend enough, to set aside 15 minutes to
+absorb my all-time favorite TED Talk - [When ideas have
+sex](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en) -
+by Matt Ridley. Ridley presents evolution as an accelerating byproduct of
+sharing ideas. His framework for thinking is both a applicable for describing
+of how this idea came about (Combining AirPair with GitHub) as well as the
+millions of combinations and mutations of software ideas we hope to spawn.  A
+part Ridley covers that is particularly relevant to software, is the notion of
+our intellectual acceleration. The more we interact, converse and exchange
+knowledge, the more our ideas combine and mutate forming new ideas and
+products. ![Stone
+Axe](//airpair.github.io/img/2015/02/matt-ridley-stone-axe.jpg) What you and I
+first conceive day to day as single ideas actually embody previous ideas
+originating from thousands or even millions of individuals. Interestingly, as
+ideas become more evolved, they are even more quickly superseded. The Stone
+Axe was used for thirty thousand, yet iPhones are now out of fashion within a
+few months.
+![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg)
+<!--We've had a great time working with our authors who inspired more than a
+million readers to visit AirPair in the last few months. --> **2.1.2 GitHub =>
+Social Coding** As developers, we've seen hands down what Ridley is talking
+about. Every year the cycle of new frameworks appearing, spreading worldwide
+and becoming second best, gets shorter.  Largely thanks to GitHub, Developer
+ideas having sex is old news. By removing friction for the common developer to
+wield Git, they made Open Source mainstream. I'm still awed and thankful to
+those GitHubbers who first empowered developers, who had never met, to
+collaborate, contribute, discuss and form bonds while improving common code.
+** 2.1.3 AirPair => Social Authoring** AirPair's thesis for existing, is an
+observation around the acceleration of software ideas. *As we make better
+software faster and faster, we'll need more efficient and powerful ways to
+express, share and consume the knowledge embedded in our code.* We're
+primarily known for connecting developers over video chat for live one-on-one
+help. But our broader mission is to find new ways to create relationships
+between developers that enable more efficient knowledge share.  We've decided
+to run an experiment and see if we can reproduce for long form technical
+content, what Stackoverflow did for Q/A and Wikipedia did for encyclopedic
+knowledge. <!--Our new Git powered Posts section is aimed to enable 
+collaboration on more consolidated, refined and clearly expressed long form
+technical content than ever before. We all experienced the transformation
+journey GitHub took us on by ushering in the era of Social Coding. Now we'd
+like to reuse what they built mixed with a little AirPair spice and build out
+community based around passion for sharing developer knowledge and learning
+from one another.--> ### 2.2 Improving ROI on content investment We had great
+success in our first 6 months pushing community posts. The average post
+published on AirPair in January 2015 received more than 15,000 views. Our most
+trafficked post has been read more than 200,000 times and our 24 hour record
+is 35,000 reads for a single post. ![AirPair Traffic
+Growth](/static/img/pages/postscomp/traffic-growth.png) The seeding phase was
+however, expensive and unsustainably heavy on internal manpower. To keep up
+the quality and pace incumbent of our initial success, we needed to solve the
+following challenges. **2.2.1 Reduce internal time per post** Every publisher
+dreams of ***user generated content*** magically appearing. From experience,
+we can tell you, great content takes time and energy. During our seed phase,
+each post consumed around 10 hours from our team. There's no shortcut, so
+we're attempting to use GitHub and new our review system to crowdsource many
+of those hours across contributors. **2.2.2 Reduce content half life** We've
+covered how software moves exceptionally quick. The unfortunate byproduct is,
+software content decays exceptionally fast too. Often the principals of a
+piece remain relevant, but as new framework versions emerge, it becomes
+unclear if the content is still useful. Maintaining content against moving
+code bases is an unwiedly endevour. Git provides a way to collaboratively
+maintain posts through forks and pull requests. It can even be used to tag and
+retrieve iterations relevant to a specific framework versions. ### 2.3 Gaining
+an edge The Authoring Experience ** 2.3.1 Sharing editorial load with Pull
+Requests ** Editing is a particularly time and energy intensive process. The
+last 10% of changes usually require a disproportionate amount of time and are
+the least fun... The same git flow you know and love for code review can also
+empower fresh eyes to double-check your content and form so you can  focus
+more energy on the substance of your piece. If you've always wanted to improve
+your writing, a portion of reviewers will be happy to help you express better
+grammar and style. ** 2.3.2 Discussing evolving ideas with Github Comments **
+GitHub issues, discussions and comments provide an amazing opportunity to get
+feedback that will force you to re-think the subject matter. Other influencers
+will help you reinforce arguments and even less advanced readers can help you
+simplify how you present concepts in clearer ways. ## 3 What we built ### 3.1
+The AirPair live editor TODO screenshots and short explanation of the editor.
+Authors start posts in our live editor. Posts are written in markdown via the
+[ace web IDE](http://ace.c9.io/) by Cloud 9 and are refreshed in the browser
+as you type using the [marked library](https://github.com/chjj/marked"). While
+in draft, posts only exist in our database and do not have any git history.
+Once submitted to the community, a git repo is created and HEAD represents the
+most up to date working copy of a post. Updates at this point go through git,
+so the editor requires a commit message each time you save. The actual
+displayed post still comes from our database. This enables us to let you
+"preview" before propagating changes to production. ### 3.2 How we store posts
+on GitHub #### Private repos and private forks When an author submits a post
+for community review, we create **a private repository on the [airpair
+organization](//github.com/airpair)** in which only the author has write
+permissions. When a reader wants to contribute, they make **a private fork on
+their own github account**. ** Private forks do not count towards your private
+repo limits. #### Adding users to the airpair organization and repo read/write
+teams To facilitate the desired read/write permissions for different users,
+all users are added to the airpair github org and then to unique teams are
+created for each repo. Each repo has one team with write permissions for the
+author so that they may edit the post and pull request. The second team is
+created with read only permissions that allows contributors to fork and submit
+PRs without the ability to self merge.  ** Authors and readers unfortunately
+need to authenticate with repo privileges to facilitate this workflow. ### 3.3
+Leveraging GitHub as much as possible Especially for this first iteration, our
+aim was to leverage as much of the existing GitHub API and github.com UI as we
+could. GitHub already has rock solid discussion capabilities, merge tools and
+such. Leveraging as much as we could meant that we didn't have to reinvent the
+wheel and we could take advantage of the fact that Developers are already
+familiar with the tooling.  Althought there are advantages to the AirPair live
+editor, once you fork a post as a contributor you have the option of doing
+nothing else on airpair.com and can work exclusively with your own environment
+and tool set. ### 3.4 Our 3-Step Publishing Workflow All posts go through 3
+sequential states: > **1**. Draft > **2**. Community Review > **3**. Published
+#### Draft ```javascript // Properties of a post in draft var draft = {   
+visibility: ['you'],   contentStore: {     workingCopy: 'airpair mongo
+instance',     previewedCopy: 'is the working copy'       },
+  authoring: {
+    editWith: ['the airpair editor'],
+    editRestrictions: ['the mongo id']
+  }
+}
+```
+
+New posts starts in ***Draft*** and are completely private. They have no git
+repo or history log. If you start something and your idea never goes anywhere,
+that experience was just for you. You can change everything as much as you
+like, so enjoy not taking things too seriously until you realize you want to. 
+ #### In Review
+```javascript
+// Properties of a post in review
+var review = { 
+  visibility: ['you', 'reviewers (logged in to airpair.com)'],
+  contentStore: {
+    workingCopy: 'github HEAD',
+    previewedCopy: 'github HEAD',
+    inReviewCopy: 'airpair mongo instance'    
+  },
+  authoring: {
+    editWith: ['airpair editor', 'github.com', 'any tool you code with']
+    editRestrictions: [
+        'mongo id',
+        'the repo name'],
+    publishRestrictions: [
+        '3 positivce reviews are required to publish'
+    ]
+  }
+}
+```
+
+*** No turning back ***
+
+When you submit your post we create a GitHub repo to begin tracking all
+changes via Git. Repo names across our org are unique and are locked once you
+submit,so make sure you are 100% happy when you submit. ***Visibility***
+
+Congrats, your post is now visible to reviewers logged in to AirPair. It is
+still hidden from open traffic and marked as noindex just in case.
+*** Where your posts lives and gets saved *** 
+
+Once your post is submitted, you have to choice to continue editing on
+AirPair, or clone your repo and use any editor of your choosing. Either way,
+each time you save your post, including from the editor, it gets committed to
+master on github. The markdown appearing in the editor comes from HEAD and
+***it will not appear on airpair.com until you publish changes from head back
+to AirPair**. This allows us to give you a preview feature without having to
+change your live copy. Although not quite semantically correct, you can think
+of HEAD as your working branch, and the copy stored in AirPair's mongo
+instance as your prod branch.  #### Published ```javascript // Properties of a
+post already published var published = {    visibility: ['you', 'all logged in
+users', 'anonymous users', 'google', 'other bots'],   contentStore: {    
+workingCopy: 'github HEAD',     previewedCopy: 'github HEAD',    
+publishedCopy: 'airpair mongo instance'       },
+  authoring: {
+    editWith: ['airpair editor', 'github.com', 'any tool you code with']
+    editRestrictions: [
+        'mongo id',
+        'tags',
+        'title',        
+        'repo name'],
+    publishRestrictions: [        
+        'A users with editor permissions must re-publish the post from HEAD if
+updates are ready'         ]
+    ]
+  }
+}
+```
+
+Published posts can take advantage of all the same forking and merging
+goodness as the review phase, with the exception the author needs an editor
+with permissions to update the live copy on AirPair.  ***Visibility***
+
+Posts will appear at the top of our posts section and Rss feeds and will be
+fully index by google. Distiguished works will be promoted by AirPair's
+marketing team for additional exposure. ## 4 Conclusion
+
+We hope this project is as impactful as we think it can be. At AirPair we come
+to work each day focused on how we enable knowledge transfer from developer to
+another. We hope to see your posts and contributions. If you haven't yet, now
+is a great time to check out our $100k Writing Competition.
+[![$100k Developer Writing
+Competition](//www.airpair.com/static/img/pages/postscomp/og.png)](http://airpair.com/100k-writing-competition)
+Drop us a line if you're excited about this or have some ideas about how to
+help us get this off the ground.

@@ -83,56 +83,74 @@ to get published
 ## 2 Why Power Publishing with Git
 
 There are a gamut of forces that led us to integrate the GitHub API with
-our existing authoring tools. Some motivations came from a philosphical
-sense that this could be evolutionary... Other influences were based on
-economics we needed to solve. But our main impetus was to make the authoring
-experience easier and more impactful for our authors who inspired more than a
-million readers to visit AirPair in the last few months. Lets see how Git
-improves publishing from each angle.
+our existing authoring tools. In `2.1` I'll cover *philosophically* how we
+think combining Git with long form technical blogging can be evolutionary for 
+the developer community... In `2.2` I'll touch on content marketing *economics*
+believe Git will help us (and potentially many others) solve. Mostly though, we
+wanted thank the authors who inspired more than a million readers to visit
+AirPair in the last few months by making the authoring *user experience*
+easier, more fun and more impactful (which I'll explore in`2.3`).
+
 ### 2.1 When (Developer) Ideas Have Sex
 
-I can't recommend enough, to set aside 15 minutes to absorb my all-time
+I can't recommend enough: set aside 15 minutes to absorb my all-time
 favorite TED Talk - [When ideas have
 sex](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en) - 
-by Matt Ridley. Ridley presents evolution as an accelerating byproduct of
-sharing ideas. [![Matt
+by Matt Ridley.
+
+[![Matt
 Ridley](//airpair.github.io/img/2015/01/matt-ridley.png)](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en)
-> ***"To answer our continual ability to attain more wealth and improve our
+> The short version
+
+> **Ridley presents evolution as an accelerating byproduct of
+sharing ideas:**
+
+> *"To answer our continual ability to attain more wealth and improve our
 own living standards, you need to understand how human beings bring together
 their brains, and enable their ideas to combine and recombine, to meet and
-indeed to mate."*** 
-A part Ridley covers that is particularly relevant to software, is the notion
-of our intellectual acceleration. The more we interact, converse and exchange
-knowledge, the more our ideas combine and mutate forming new ideas and
-products. 
+indeed to mate."*
+
+
+One part Ridley covers that is particularly relevant to software, is the notion
+of our ***intellectual acceleration***. The more we interact, converse and
+exchange knowledge, the more our ideas combine and mutate forming new ideas and
+products. Things you and I conceive day to day as single ideas, actually embody
+previous ideas originating from thousands or even millions of individuals.
+
 ![Stone
 Axe](//airpair.github.io/img/2015/02/matt-ridley-stone-axe.jpg) 
 
-Many things you and I conceive day to day as single ideas actually embody
-previous ideas originating from thousands or even millions of individuals.
 Interestingly, as ideas become more evolved, they are even more quickly
-superseded. The Stone Axe was used for thirty thousand, yet iPhones are now
-out of fashion within a few months.
-![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg) As
-developers, we've seen hands down what Ridley is talking about. Every year the
-cycle of new frameworks appearing, spreading worldwide and becoming second
+superseded. The Stone Axe was used for thirty thousand years, yet iPhones are
+now out of fashion within a few months.
+
+![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg) 
+
+** 2.1.1 (Developer) Intellectual Acceleration **
+
+As developers, we've seen hands down what Ridley is talking about. Every year
+the cycle of new frameworks appearing, spreading worldwide and becoming second
 best, gets shorter. Largely thanks to GitHub making Open Source mainstream,
-Developer ideas having sex is old news. ** 2.1.3 AirPair => Social Authoring**
-AirPair's thesis for existing, is an observation around the acceleration of
-software ideas. *As we make better software faster and faster, we'll need more
-efficient and powerful ways to express, share and consume the knowledge
-embedded in our code.* We're primarily known for connecting developers over
+*Developer ideas having sex* is old news. 
+
+AirPair's thesis for existing, is around an observation. *As we make better
+software faster and faster, we'll need more efficient and powerful ways to
+express, share and consume the knowledge embedded in our code.*
+
+** 2.1.2 Socially creating better content faster **
+
+We're primarily known for connecting developers over
 video chat for live one-on-one help. But our broader mission is to find new
 ways to create relationships between developers that enable more efficient
-knowledge share.  We've decided to run an experiment and see if we can
-reproduce for long form technical content, what Stackoverflow did for Q/A and
-Wikipedia did for encyclopedic knowledge. <!--Our new Git powered Posts
-section is aimed to enable  collaboration on more consolidated, refined and
-clearly expressed long form technical content than ever before. We all
-experienced the transformation journey GitHub took us on by ushering in the
-era of Social Coding. Now we'd like to reuse what they built mixed with a
-little AirPair spice and build out community based around passion for sharing
-developer knowledge and learning from one another.--> ### 2.2 Improving ROI on
+knowledge share. So with our mission in mind, we decided to run an experiment
+and see if we can reproduce what Stackoverflow did for Q/A and
+Wikipedia did for long-form encyclopedic content using the tools GitHub used
+to usher the era of Social Coding.
+
+<!--** todo insert illustration ** -->
+
+### 2.2 Improving ROI on
+
 content investment We had great success in our first 6 months pushing
 community posts. The average post published on AirPair in January 2015
 received more than 15,000 views. Our most trafficked post has been read more

@@ -252,29 +252,35 @@ When the editor says your posts is `unsynced`, it means there is a newer version
 
 ***From a contributors point of view***, when a contributor edits from the AirPair editor, they are editing HEAD on the `edit branch from THEIR FORKED repository. The preview feature reads this same file (on their fork). This is super cool, as an author can edit master and preview their changes as the same time a contributor makes and previews their own. All of this happens while the version other reviwers are seeing continues to be served and intact from our database.
 
-***All pull request and mergeing*** activity happens on GitHub.com via pull requests from the `edit` branch of a fork to the `edit` branch of the master repository.
+***All pull request and mergeing*** activity happens on GitHub.com via pull requests from the `edit` branch of a fork to the `edit` branch of the master repo on AirPair's org account.
 
 ** 3.3.3 `PUBLISHED` Posts **
 
-Published posts take advantage of all the same forking and merging
+`PUBLISHED` posts take advantage of all the same forking and merging
 goodness as posts in `COMMUNITY REVIEW`. Everything is stored in all the same places. Contributors can continue to fork. Authors can continue to edit. The only exception is that a user much have AirPair `editor` privilages to `sync` HEAD to the published version of a post.  
 
-### 3.4 Ratings, Publishing and Visibilty
+### 3.4 Visibilty, Ratings & Publishing
 
-** 3.1.1 Posts in DRAFT **
+** 3.4.1 Posts in DRAFT **
 
+Post in draft are visible only to the author. They are not surfaced anywhere around the airpair.com website. As such they cannot be reviewed or given ratings. No repo exists, so no forking and merge activity is possible.
 
-***Visibility***
+** 3.4.2 Posts in COMMUNITY REVIEW **
 
-Posts will appear at the top of our posts section and Rss feeds and will be
-fully index by google. Distiguished works will be promoted by AirPair's
-marketing team for additional exposure. ## 4 Conclusion
+In review, posts are semi-private, in the sense that they are not shown in our main [posts section](//airpair.com/posts) and are not indexable by google. Users can only access posts if logged in. And all posts in review can be found on the [posts section](//airpair.com/posts/in-community-review) In Community review page. This is to allow an author to present unfinished work without permanent consequences.
+
+Even reviews given by other users can be updated at anytime, so don't worry if someone gives you critisism. All you have to do is concince them through improving your work to take it down and replace their comment with a more positive one.
+
+A post in review can be published by its author once it has 3 reviews with a 3.5/5 start rating or higher.
+
+** 3.4.2 PUBLISHED Posts **
+
+Published posts are visible by anyone, whether logged in, anonymous or actually a computer. Users will need an AirPair account to fork posts and leave reviews, though they will be able to read reviews by others without being logged in.
+
+## 4 Conclusion
 
 We hope this project is as impactful as we think it can be. At AirPair we come
-to work each day focused on how we enable knowledge transfer from developer to
-another. We hope to see your posts and contributions. If you haven't yet, now
-is a great time to check out our $100k Writing Competition.
+to work each day focused on how we enable knowledge transfer from one developer to another. We hope to see your posts and contributions. If you haven't yet, now is a great time to check out our $100k Writing Competition.
+
 [![$100k Developer Writing
 Competition](//www.airpair.com/static/img/pages/postscomp/og.png)](http://airpair.com/100k-writing-competition)
-Drop us a line if you're excited about this or have some ideas about how to
-help us get this off the ground.

@@ -89,7 +89,15 @@ waiting to get published
 
 ## 2 Why we built publishing on Git
 
-If you're more interested in the technicalities on what and how we built things, you might want to jump to <a href="#3-1-our-3-step-authoring-workflow">section 3</a>. This section is all about the why and in `2.1` I'll cover *philosophically* how combining Git with long form technical writing can be evolutionary for the developer community. In `2.2` I'll touch on content marketing *economics* we believe Git will help solve. Our main drive to build all this was to thank the authors by making the authoring *user experience* easier, more fun and more impactful. `2.3` will talk about how git makes authoring on airpair.com an edge compared with anywhere else.
+If you're more interested in the technicalities on what and how we built
+things, you might want to jump to <a href="#3-1-our-3-step-authoring-workflow">section 3</a>. This section is all
+about the why and in `2.1` I'll cover *philosophically* how combining Git with
+long form technical writing can be evolutionary for the developer community. In
+`2.2` I'll touch on content marketing *economics* we believe Git will help
+solve. Our main drive to build all this was to thank the authors by making the
+authoring *user experience* easier, more fun and more impactful. `2.3` will
+talk about how git makes authoring on airpair.com an edge compared with
+anywhere else.
 
 ### 2.1 When (Developer) Ideas Have Sex
 
@@ -145,7 +153,9 @@ ways to create relationships between developers that enable more efficient
 knowledge share. 
 
 So with our mission in mind, we'd love you to join our experiment
-to see if we can reproduce what Stackoverflow did for Q/A starting a Wikipedia-like community using the same tools GitHub used to usher in the era of Social Coding.
+to see if we can reproduce what Stackoverflow did for Q/A starting a
+Wikipedia-like community using the same tools GitHub used to usher in the era
+of Social Coding.
 
 <!--** todo insert illustration ** -->
 
@@ -153,41 +163,52 @@ to see if we can reproduce what Stackoverflow did for Q/A starting a Wikipedia-l
 
 We had great success in our first 6 months pushing community content. The
 average post published on AirPair in January 2015 received more than 15,000
-views. Our 24 hour record is 35,000 reads and the most trafficked post has been visited more than 200,000 times. 
+views. Our 24 hour record is 35,000 reads and the most trafficked post has been
+visited 250,000+ times. 
 
 > ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png) 
 
 The seeding phase was however, expensive and unsustainably heavy on internal
 manpower. To keep up the quality and pace incumbent of our initial success, we
-thought Git could improve the economics in the following ways. 
+needed to decrease the effort of finding authors, reduce the time our internal
+team assited with editing. 
 
 Every publisher dreams of ***user generated content*** magically
 appearing. From experience, we can tell you, great content takes time and
-energy. During our seed phase, each post consumed around 10 hours of internal manpower. 
+energy. During our seed phase, each post consumed around 10 hours of internal
+manpower. There's no shortcut, so we've built a crowdsourcing review and rating
+system to crowdsource vetting and Q/A before our internal team gets involved.
 
-There's no shortcut, so with our review system to crowdsource many of those hours across contributors. 
+> ![Crowdsourced Editng](//airpair.github.io/img/2015/02/post-rating-signal.png)
+
+A great side effect is that stars immediately indicate to readers as the browse, which posts to pay attention to. 
 
 <!-- insert contributors screenshot here -->
 
-### 2.3 What Git Powered Publishing offers for Authoring
+### 2.3 What Git offers to the Authoring Experience
 
 ** 2.3.1 Sharing editorial load with Pull Requests ** 
 
-Editing is a particularly time and energy intensive process. The last 10% of changes usually require a disproportionate amount of time and are the least fun... The same git flow you know and love for code review can also empower fresh eyes to double-check your content and form so you can  focus more energy on the substance of your piece. If you've always wanted to improve your writing, a portion of reviewers will be happy to help you express better grammar and style. 
+Editing is a particularly time and energy intensive step in publishing. The last 10% of changes usually require a disproportionate amount of time and are the least fun... The same git flow you know and love for code review can enable fresh eyes that have spotted fixes to send them to you.
 
 > ![Crowdsourced Editng](//airpair.github.io/img/2015/02/crowdsourced-post-editing.png)
 
+**2.3.2 Extend content life time and relevance** 
 
-**2.3.2 Reduce content half life** 
-
-We've covered how software moves exceptionally quick. The unfortunate byproduct is, software content decays exceptionally fast too. Often the principals of a piece remain relevant, but as new framework versions emerge, it becomes unclear if the content is still useful. Maintaining content against moving code bases is an unwiedly endevour. Git provides a way to collaboratively maintain posts through forks and pull requests. It can even be used to tag and retrieve iterations relevant to a specific framework versions. ### 2.3 Gaining an edge The Authoring Experience
+We've covered how software moves exceptionally quick. The unfortunate byproduct
+is, software content decays exceptionally fast too. Often the principals of a
+piece remain relevant, but as new framework versions emerge, it becomes unclear
+if the content is still useful. Maintaining content against moving code bases
+has never really been possible as an individual and is an unwiedly endevour for
+companies. Git provides a way to collaboratively maintain posts through forks
+and pull requests. It can even be used to tag and retrieve iterations relevant
+to specific framework versions.
 
 ** 2.3.3 Discussing evolving ideas with Github Comments ** 
 
 GitHub issues, discussions and comments provide an amazing opportunity to get
-feedback that will force you to re-think the subject matter. Other influencers
-will help you reinforce arguments and even less advanced readers can help you
-simplify how you present concepts in clearer ways. 
+feedback that will force you to re-think the subject matter. Influencers
+will help you reinforce your arguments and less advanced readers will force you to simplify and present concepts in clearer ways. 
 
 ## 3 How we built a Social Authoring experience with the GitHub API
 

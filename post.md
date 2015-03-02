@@ -149,41 +149,50 @@ to usher the era of Social Coding.
 
 <!--** todo insert illustration ** -->
 
-### 2.2 Improving ROI on
+### 2.2 How Git Improves ROI on Content Marketing
 
-content investment We had great success in our first 6 months pushing
-community posts. The average post published on AirPair in January 2015
-received more than 15,000 views. Our most trafficked post has been read more
-than 200,000 times and our 24 hour record is 35,000 reads for a single post.
-![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png) The
-seeding phase was however, expensive and unsustainably heavy on internal
+We had great success in our first 6 months pushing community content. The
+average post published on AirPair in January 2015 received more than 15,000
+views. Our 24 hour record is 35,000 reads and the most trafficked post has been visited more than 200,000 times. 
+
+![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png) 
+
+The seeding phase was however, expensive and unsustainably heavy on internal
 manpower. To keep up the quality and pace incumbent of our initial success, we
-needed to solve the following challenges. **2.2.1 Reduce internal time per
-post** Every publisher dreams of ***user generated content*** magically
+thought Git could improve the economics in the following ways. 
+
+Every publisher dreams of ***user generated content*** magically
 appearing. From experience, we can tell you, great content takes time and
-energy. During our seed phase, each post consumed around 10 hours from our
-team. There's no shortcut, so we're attempting to use GitHub and new our
-review system to crowdsource many of those hours across contributors. **2.2.2
-Reduce content half life** We've covered how software moves exceptionally
-quick. The unfortunate byproduct is, software content decays exceptionally
-fast too. Often the principals of a piece remain relevant, but as new
-framework versions emerge, it becomes unclear if the content is still useful.
-Maintaining content against moving code bases is an unwiedly endevour. Git
-provides a way to collaboratively maintain posts through forks and pull
-requests. It can even be used to tag and retrieve iterations relevant to a
-specific framework versions. ### 2.3 Gaining an edge The Authoring Experience
-** 2.3.1 Sharing editorial load with Pull Requests ** Editing is a
-particularly time and energy intensive process. The last 10% of changes
-usually require a disproportionate amount of time and are the least fun... The
-same git flow you know and love for code review can also empower fresh eyes to
-double-check your content and form so you can  focus more energy on the
-substance of your piece. If you've always wanted to improve your writing, a
-portion of reviewers will be happy to help you express better grammar and
-style. ** 2.3.2 Discussing evolving ideas with Github Comments ** GitHub
-issues, discussions and comments provide an amazing opportunity to get
+energy. During our seed phase, each post consumed around 10 hours of internal manpower. 
+
+There's no shortcut, so with our review system to crowdsource many of those hours across contributors. 
+
+<!-- insert contributors screenshot here -->
+
+### 2.3 What Git Powered Publishing offers for Authoring
+
+** 2.3.1 Sharing editorial load with Pull Requests ** 
+
+Editing is a particularly time and energy intensive process. The last 10% of changes usually require a disproportionate amount of time and are the least fun... The same git flow you know and love for code review can also empower fresh eyes to double-check your content and form so you can  focus more energy on the substance of your piece. If you've always wanted to improve your writing, a portion of reviewers will be happy to help you express better grammar and style. 
+
+> ![Crowdsourced Editng](//airpair.github.io/img/2015/02/crowdsourced-post-editing.png)
+
+
+**2.3.2 Reduce content half life** 
+
+We've covered how software moves exceptionally quick. The unfortunate byproduct is, software content decays exceptionally fast too. Often the principals of a piece remain relevant, but as new framework versions emerge, it becomes unclear if the content is still useful. Maintaining content against moving code bases is an unwiedly endevour. Git provides a way to collaboratively maintain posts through forks and pull requests. It can even be used to tag and retrieve iterations relevant to a specific framework versions. ### 2.3 Gaining an edge The Authoring Experience
+
+** 2.3.3 Discussing evolving ideas with Github Comments ** 
+
+GitHub issues, discussions and comments provide an amazing opportunity to get
 feedback that will force you to re-think the subject matter. Other influencers
 will help you reinforce arguments and even less advanced readers can help you
-simplify how you present concepts in clearer ways. ## 3 What we built ### 3.1
+simplify how you present concepts in clearer ways. 
+
+## 3 What we built 
+
+### 3.1
+
 The AirPair live editor TODO screenshots and short explanation of the editor.
 Authors start posts in our live editor. Posts are written in markdown via the
 [ace web IDE](http://ace.c9.io/) by Cloud 9 and are refreshed in the browser

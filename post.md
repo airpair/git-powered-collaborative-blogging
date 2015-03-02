@@ -21,42 +21,44 @@ The Social thing to work for Q&A on Stackoverflow. The Social thing worked for c
 ### 1.1 Announcing Social Authoring on AirPair
 
 Pretty much anything part Git, or Octocat related is going to be cool. If
-you've already enjoyed AirPair's posts section, it gives me great
-pleasure knowing that from today our community content is about to get
-way more awesome. Join our ***Social Authoring*** experiment as an author
-publishing your own posts, or reviewer contributing to posts by others
-using **Forks and Pull Requests**.
+you've already enjoyed some of the epic community posts that have gone viral on 
+AirPair, it gives me great pleasure knowing from today our community content is 
+about to get way more awesome, as ***authors can now work with
+readers using Forks and Pull Requests***.
+
+With our new *GitHub Powered Workflow*, we hope to usher collaboration
+that will enable more accurate and refined technical writing than ever
+before.
 
 ![Collaborate on post using
 Git](/static/img/pages/posts/authoring-flow.png)
 
-With our new *GitHub Powered Workflow*, we hope to usher collaboration
-that will enable more accurate and refined technical writing than ever
-before. In this post, I'll cover how we integrated GitHub intertwined
-with many cool opportunities that make our new authoring setup
-significant. We'll end leading into our ***$100,000 Developer Writing
-Competition***, but before diving into details, here's a screenshot to
-get you thinking:
+In this post, I'll cover how we integrated GitHub and many of the cool 
+opportunities that make our new authoring setup significant. We'll end leading 
+into our ***$100,000 Developer Writing Competition***. 
+
+Before diving into details, here's a screenshot to get you thinking:
 
 ![Fork a post on
 AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 
-### 1.2 Benefits for readers and authors
+### 1.2 Benefits of Social Authoring
 
-We think readers are going to love  
+Readers are going to love  
 
 - More proofed, comprehensive and up to date technical content than ever
-before - Clear quality signals from our rating system
-- The **ability to contribute** without the time or understanding
+before 
+- Clear quality signals on which posts to read
+- The **ability to contribute** small bytes, without the time or understanding
 required to author a whole post
 
-We think authors are going love
+Authors are going love
 
 - Exposure to more feedback than publishing elsewhere
 - Crowdsourced help improving post quality
 - A forum to bounce whacky ideas before they become public
-- Instant exposure for great posts, without peviously amassing a personal
-following
+- Instant exposure for great posts (without needing a personal
+following)
 
 ### 1.3 Getting involved
 

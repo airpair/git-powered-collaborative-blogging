@@ -87,16 +87,9 @@ waiting to get published
 
 - Bookmark this post if you want to come back to it later
 
-## 2 Why Power Publishing with Git
+## 2 Why we built publishing on Git
 
-There are a gamut of forces that led us to integrate the GitHub API with
-our existing authoring tools. In `2.1` I'll cover *philosophically* how we
-think combining Git with long form technical blogging can be evolutionary for 
-the developer community... In `2.2` I'll touch on content marketing *economics*
-believe Git will help us (and potentially many others) solve. Mostly though, we
-wanted thank the authors who inspired more than a million readers to visit
-AirPair in the last few months by making the authoring *user experience*
-easier, more fun and more impactful (which I'll explore in`2.3`).
+If you're more interested in the technicalities on what and how we built things, you might want to jump to <a href="#3-1-our-3-step-authoring-workflow">section 3</a>. This section is all about the why and in `2.1` I'll cover *philosophically* how combining Git with long form technical writing can be evolutionary for the developer community. In `2.2` I'll touch on content marketing *economics* we believe Git will help solve. Our main drive to build all this was to thank the authors by making the authoring *user experience* easier, more fun and more impactful. `2.3` will talk about how git makes authoring on airpair.com an edge compared with anywhere else.
 
 ### 2.1 When (Developer) Ideas Have Sex
 
@@ -118,10 +111,10 @@ their brains, and enable their ideas to combine and recombine, to meet and
 indeed to mate."*
 
 
-One part Ridley covers that is particularly relevant to software, is the notion
+One part of the talk that is particularly relevant to software, is the notion
 of our ***intellectual acceleration***. The more we interact, converse and
 exchange knowledge, the more our ideas combine and mutate forming new ideas and
-products. Things you and I conceive day to day as single ideas, actually embody
+products. Things you and I conceive day-to-day as single ideas, actually embody
 previous ideas originating from thousands or even millions of individuals.
 
 > ![Stone
@@ -140,7 +133,7 @@ the cycle of new frameworks appearing, spreading worldwide and becoming second
 best, gets shorter. Largely thanks to GitHub making Open Source mainstream,
 *Developer ideas having sex* is old news. 
 
-AirPair's thesis for existing, is around an observation. *As we make better
+AirPair's thesis for existing, is based on an observation: *As we make better
 software faster and faster, we'll need more efficient and powerful ways to
 express, share and consume the knowledge embedded in our code.*
 
@@ -149,10 +142,10 @@ express, share and consume the knowledge embedded in our code.*
 We're primarily known for connecting developers over
 video chat for live one-on-one help. But our broader mission is to find new
 ways to create relationships between developers that enable more efficient
-knowledge share. So with our mission in mind, we decided to run an experiment
-and see if we can reproduce what Stackoverflow did for Q/A and
-Wikipedia did for long-form encyclopedic content using the tools GitHub used
-to usher the era of Social Coding.
+knowledge share. 
+
+So with our mission in mind, we'd love you to join our experiment
+to see if we can reproduce what Stackoverflow did for Q/A starting a Wikipedia-like community using the same tools GitHub used to usher in the era of Social Coding.
 
 <!--** todo insert illustration ** -->
 

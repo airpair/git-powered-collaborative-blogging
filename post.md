@@ -3,23 +3,20 @@
 ## 1 Filling a gap with Social Authoring
 
 Thanks to StackOverflow's *Social Q&A* platform, we have a reliable,
-universal go-to for ***long tail*** software knowledge. On the **short**
-end of the spectrum, docs by Open Source creators and API companies
-provide excellent answers for most queries like "AngularJS Directive". 
+universal go-to for ***long tail*** software knowledge. "Long tail", meaning niche, often obsure things that need to be expressed in lots of words like "Ace Editor onChange event rendering performance with AngularJS". On the **short** end of the spectrum, docs by Open Source creators and API companies provide excellent answers for most queries like "AngularJS Directive". 
 
 But what about questions in between, like "How to Build a mobile chat
-system with Firebase" or "Should I use AngularJS or Ember"? Independent
+system with Firebase?" or "Should I use AngularJS or Ember?". Independent
 posts scattered across the web are our best tools for answering ***medium
 tail*** queries like these. Unfortunately, unless you recognize an
-author, it can be hard to if you're about to read the best or even a good
-enough piece on a given subject matter.
+author, it can be hard to know if you're about to read the best or even a good peice on a given subject matter.
 
-Writing high quality long form technical content is hard. It’s even harder
-to maintain. Yet there's a growing necessity to cover more permutations of
-medium tail queries with better tutorials, examples of technology in
-production and expert opinion pieces. The Social thing seemed to work for
-Q&A on Stackoverflow and coding on GitHub. Can we step authoring up a
-notch with some social magic too?
+Writing high quality ***long form technical content is hard***... and even
+harder to maintain. Yet with the accceleration of new frameworks spawning, ***there's necessity to cover more permutations of medium tail software
+knowledge *** with better tutorials, examples of technology in
+production and expert guides. 
+
+The Social thing to work for Q&A on Stackoverflow. The Social thing worked for coding on GitHub. Can we step **authoring** up a notch with some social magic?
 
 ### 1.1 Announcing Social Authoring on AirPair
 

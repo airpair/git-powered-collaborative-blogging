@@ -3,28 +3,44 @@
 ## 1 Filling a gap with Social Authoring
 
 Thanks to StackOverflow's *Social Q&A* platform, we have a reliable,
-universal go-to for ***long tail*** software knowledge. "Long tail" meaning niche topics that need to be found using lots of words like "Ace Editor onChange event rendering performance with AngularJS". On the **short** end of the spectrum, docs by Open Source creators and API companies provide excellent answers for most queries like "AngularJS Directive". But what about questions in between, like "How to Build a mobile chat system with Firebase?" or "Should I use AngularJS or Ember?".
+universal go-to for *long tail* software knowledge. "Long tail" meaning niche
+topics that need to be found using lots of words like "Ace Editor onChange
+event rendering performance with AngularJS". On the *short* end of the
+spectrum, docs by Open Source creators and API companies provide excellent
+answers for most queries like "AngularJS Directive". But what about questions
+in between, like "How to scale a mobile chat system with Firebase?" or "Should
+I use BackboneJS or EmberJS?".
 
-Independent posts scattered across the web are our best tools for answering ***medium tail***. Unfortunately, unless you recognize an author, its hard to know if you're about to read the best or even a good peice on a given subject. From the publishers perspective, writing high quality ***long form technical content is hard***. Its even harder to maintain. Yet more and more frameworks are appearing faster and faster each year, so ***there's a growing demand to cover more permutations of medium tail software knowledge ***. 
+Independent posts scattered across the web are our best tools when searching
+for *medium tail* answers. However, unless you recognize an author, its hard to
+know if you're about to read the best or even a good post on a given subject.
+From the publishing perspective, ***writing high quality long form technical
+content is hard*** and often even harder to maintain. Yet more frameworks are
+appearing faster and faster each year and with it comes *** a challenge to
+cover permutations of using different technolgoies together to solve real world
+problems ***. 
 
-The Social thing to work for Q&A on Stackoverflow. It also worked for coding on GitHub. It even worked for long form encyclopedia content. Can we step developer authoring up a notch with some  stackoverflow-github-wikipedia hybrid Social magic?
+The Social thing worked for Q&A on Stackoverflow. It also worked for coding on
+GitHub. It even worked for long form encyclopedia content. Can we step-up
+developer authoring and create better technical content, more efficiently than
+ever before with some sort of stackoverflow-github-wikipedia hybrid Social
+magic?
 
 ### 1.1 Announcing Social Authoring on AirPair
 
 Pretty much anything part Git, or Octocat related is going to be cool. If
 you've already enjoyed some of the epic community posts that have gone
 viral on  AirPair, it gives me great pleasure knowing from today our
-community content is  about to get way more awesome, as ***authors can
+community content is  about to get way more awesome, because ***authors can
 now work with readers using Forks and Pull Requests***.
 
 With our new *GitHub Powered Workflow*, we hope to usher collaboration
-that will enable more accurate and refined technical writing than ever
-before.
+that will enable more accurate and refined technical writing.
 
 ![Collaborate on post using
 Git](/static/img/pages/posts/authoring-flow.png)
 
-In this post, I'll cover how we integrated GitHub and many of the cool 
+In this post, I'll cover how we integrated GitHub and many cool 
 opportunities that make our new authoring setup significant. We'll end
 leading into our ***$100,000 Developer Writing Competition***. 
 
@@ -35,30 +51,30 @@ AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 
 ### 1.2 Benefits of Social Authoring
 
-Readers are going to love  
+**For readers**
 
 - More proofed, comprehensive and up to date technical content than ever
 before 
-- Clear quality signals on which posts to read
-- The **ability to contribute** small bytes, without the time or understanding
-required to author a whole post
+- Clear quality signals with what posts are worth reading
+- The **ability to contribute** small bytes, without the level of understanding
+required to author an entrie post
 
-Authors are going love
+**For authors**
 
 - Exposure to more feedback than publishing elsewhere
-- Crowdsourced help improving post quality
-- A forum to bounce whacky ideas before they become public
-- Instant exposure for great posts (without needing a personal
+- Crowdsourced help with improving post quality
+- A forum to bounce new ideas before they become public
+- Instant exposure for great work (with or without a social
 following)
 
 ### 1.3 Getting involved
 
-- **[Staring a post](/posts/new)** is a piece of cake and everything is
-private until you submit to the community.  
+- **[Staring a post](/posts/new)** is a piece of cake. Everything is
+private until you submit to the community 
 >[![Star a
 post](//airpair.github.io/img/2015/02/start-post.png)](/posts/new)
 
-- To fork, hit the orange *fork* button in the right rail
+- Hit the *fork* button in the right rail to start contibuting to someone else's post
 >[![Review a
 post](//airpair.github.io/img/2015/02/fork-button.png)](#review)
 
@@ -66,8 +82,8 @@ post](//airpair.github.io/img/2015/02/fork-button.png)](#review)
 >[![Review a
 post](http://airpair.github.io/img/2015/02/review-post.png)](#review)
 
-- Help Q/A and vet [Posts in review](/posts/in-community-review) waiting
-to get published
+- Help community vet and Q/A **[Posts in review](/posts/in-community-review)**
+waiting to get published
 
 - Bookmark this post if you want to come back to it later
 

@@ -3,28 +3,19 @@
 ## 1 Filling a gap with Social Authoring
 
 Thanks to StackOverflow's *Social Q&A* platform, we have a reliable,
-universal go-to for ***long tail*** software knowledge. "Long tail", meaning niche, often obsure things that need to be expressed in lots of words like "Ace Editor onChange event rendering performance with AngularJS". On the **short** end of the spectrum, docs by Open Source creators and API companies provide excellent answers for most queries like "AngularJS Directive". 
+universal go-to for ***long tail*** software knowledge. "Long tail" meaning niche topics that need to be found using lots of words like "Ace Editor onChange event rendering performance with AngularJS". On the **short** end of the spectrum, docs by Open Source creators and API companies provide excellent answers for most queries like "AngularJS Directive". But what about questions in between, like "How to Build a mobile chat system with Firebase?" or "Should I use AngularJS or Ember?".
 
-But what about questions in between, like "How to Build a mobile chat
-system with Firebase?" or "Should I use AngularJS or Ember?". Independent
-posts scattered across the web are our best tools for answering ***medium
-tail*** queries like these. Unfortunately, unless you recognize an
-author, it can be hard to know if you're about to read the best or even a good peice on a given subject matter.
+Independent posts scattered across the web are our best tools for answering ***medium tail***. Unfortunately, unless you recognize an author, its hard to know if you're about to read the best or even a good peice on a given subject. From the publishers perspective, writing high quality ***long form technical content is hard***. Its even harder to maintain. Yet more and more frameworks are appearing faster and faster each year, so ***there's a growing demand to cover more permutations of medium tail software knowledge ***. 
 
-Writing high quality ***long form technical content is hard***... and even
-harder to maintain. Yet with the accceleration of new frameworks spawning, ***there's necessity to cover more permutations of medium tail software
-knowledge *** with better tutorials, examples of technology in
-production and expert guides. 
-
-The Social thing to work for Q&A on Stackoverflow. The Social thing worked for coding on GitHub. Can we step **authoring** up a notch with some social magic?
+The Social thing to work for Q&A on Stackoverflow. It also worked for coding on GitHub. It even worked for long form encyclopedia content. Can we step developer authoring up a notch with some  stackoverflow-github-wikipedia hybrid Social magic?
 
 ### 1.1 Announcing Social Authoring on AirPair
 
 Pretty much anything part Git, or Octocat related is going to be cool. If
-you've already enjoyed some of the epic community posts that have gone viral on 
-AirPair, it gives me great pleasure knowing from today our community content is 
-about to get way more awesome, as ***authors can now work with
-readers using Forks and Pull Requests***.
+you've already enjoyed some of the epic community posts that have gone
+viral on  AirPair, it gives me great pleasure knowing from today our
+community content is  about to get way more awesome, as ***authors can
+now work with readers using Forks and Pull Requests***.
 
 With our new *GitHub Powered Workflow*, we hope to usher collaboration
 that will enable more accurate and refined technical writing than ever
@@ -34,8 +25,8 @@ before.
 Git](/static/img/pages/posts/authoring-flow.png)
 
 In this post, I'll cover how we integrated GitHub and many of the cool 
-opportunities that make our new authoring setup significant. We'll end leading 
-into our ***$100,000 Developer Writing Competition***. 
+opportunities that make our new authoring setup significant. We'll end
+leading into our ***$100,000 Developer Writing Competition***. 
 
 Before diving into details, here's a screenshot to get you thinking:
 
@@ -117,14 +108,14 @@ exchange knowledge, the more our ideas combine and mutate forming new ideas and
 products. Things you and I conceive day to day as single ideas, actually embody
 previous ideas originating from thousands or even millions of individuals.
 
-![Stone
+> ![Stone
 Axe](//airpair.github.io/img/2015/02/matt-ridley-stone-axe.jpg) 
 
 Interestingly, as ideas become more evolved, they are even more quickly
 superseded. The Stone Axe was used for thirty thousand years, yet iPhones are
 now out of fashion within a few months.
 
-![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg) 
+> ![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg) 
 
 ** 2.1.1 (Developer) Intellectual Acceleration **
 
@@ -155,7 +146,7 @@ We had great success in our first 6 months pushing community content. The
 average post published on AirPair in January 2015 received more than 15,000
 views. Our 24 hour record is 35,000 reads and the most trafficked post has been visited more than 200,000 times. 
 
-![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png) 
+> ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png) 
 
 The seeding phase was however, expensive and unsustainably heavy on internal
 manpower. To keep up the quality and pace incumbent of our initial success, we
@@ -189,7 +180,7 @@ feedback that will force you to re-think the subject matter. Other influencers
 will help you reinforce arguments and even less advanced readers can help you
 simplify how you present concepts in clearer ways. 
 
-## 3 What we built 
+## 3 How we built on top the GitHub API
 
 ### 3.1
 

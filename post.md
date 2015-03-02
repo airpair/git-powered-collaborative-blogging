@@ -80,7 +80,7 @@ post](//airpair.github.io/img/2015/02/fork-button.png)](#review)
 
 - Give feedback with the review widget at the bottom of each post
 >[![Review a
-post](http://airpair.github.io/img/2015/02/review-post.png)](#review)
+post](//airpair.github.io/img/2015/02/review-post.png)](#review)
 
 - Help community vet and Q/A **[Posts in review](/posts/in-community-review)**
 waiting to get published

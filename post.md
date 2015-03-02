@@ -210,142 +210,61 @@ GitHub issues, discussions and comments provide an amazing opportunity to get
 feedback that will force you to re-think the subject matter. Influencers
 will help you reinforce your arguments and less advanced readers will force you to simplify and present concepts in clearer ways. 
 
-## 3 How we built a Social Authoring experience with the GitHub API
+## 3 What we built
 
-### 3.1 Our 3-Step Authoring Workflow 
+### 3.1 A 3-Step Authoring Workflow 
 
-All posts go through 3 phases with different users having variying visibilty and functions at each stage:
+All posts go through 3 phases. Authors, Contributors and Editors have variying visibilty and functions at each stage:
 
 ![3 Step Authoring Workflow](//www.airpair.com/static/img/pages/posts/social-authoring.png)
 
 ### 3.2 Leveraging GitHub as much as possible 
 
-We wanted to use as much of the existing GitHub API and github.com UI
-as we could. Not only does GitHub already have rock solid discussion
-capabilities, merge tools that we didn't want to rewrite, Developers are already familiar with and love their tooling.  
+We wanted to use as much existing functionality provided by GitHub's API and github.com as we could. Not only does GitHub already have rock solid discussion
+capabilities, merge tools and such that we didn't want to rewrite, Developers are already familiar with and love their tooling.  
 
-Theoretically, once a contributor forks a post, they could work exclusively from their own environment and send their suggested edits back to the author without coming back onto airpair.com 
+Theoretically, once a contributor forks a post, they can work exclusively on github.com or from their own environment to send suggested edits back to the author. The AirPair editor does hide some complexities though.
 
 ### 3.3 Editing, previewing and storing posts
 
-** 3.1.1 DRAFT **
+** 3.3.1 Posts in `DRAFT` **
 
-Authoring starts in our live editor. Posts are written in markdown via Cloud 9's [ace web IDE](http://ace.c9.io/). Next to the editor we periodically preview how the body of your post would render on our site using the [marked library](https://github.com/chjj/marked"). 
+Authoring starts in our live editor. Posts are written in markdown via Cloud 9's [ace web IDE](http://ace.c9.io/). Next to the editor we periodically preview how the body of your post would render using the [marked library](https://github.com/chjj/marked"). 
 
 > ![AirPair Live Editor](//airpair.github.io/img/2015/02/edit-post.png)
 
-While in draft, things are simple. A single version of your post's markdown is stored in our database without any version or edit history. This is because we want you to go to down on ideas and change thingss as much as you want with no consequence. When you full page preview your post, you are looking at the one copy of your markdown in our db.
+In DRAFT, things are simple. A single version of your markdown is stored in our database without any versioning or edit history. We wanted authors to be as comfortable as possible splatting whatever comes out of your head with no consequence or papertrail. When you click the PREVIEW button to see a full page preview your post, you will see the same copy of your draf markdown stroed in our db.
 
-** 3.1.2 COMMUNITY REVIEW **
+** 3.3.2 Post in `COMMUNITY REVIEW` **
 
-Once a post is submitted to the community for review, an open source git repo is created on [AirPair's Github organization account](//www.github.com/airpair) so authors can begin receieving pull requests with suggested improvements. All edit history from this point will be tracked by git and can be explored by anyone on github.com!
-
-We create a special `organization team` to be used only with this post's repo and we add the author to that team with write permissions so that only they may be able to edit and accept pull requests to the master repository.
-
-We store the post's markdown `post.md` on a branch called "Edit". Storing it on a branch means it won't get indexed by google on github.com and thus when people google the post they will find the original published piece rather than versions of forks.
+When a post is submitted to the community for review, a *master* open source repo is created on [AirPair's Github organization account](//www.github.com/airpair) so that authors can begin to recevie pull requests with suggested improvements. All edit history from this point ise tracked by git and can be explored by anyone on github.com same as any other open source code base.
 
 >  ![AirPair Live Editor](//airpair.github.io/img/2015/02/my-contributions.png)
 
-** From the authors point of view **
+To give authors permissions to edit and accept pull requests to the master repository we create an `organization team` exclusively for a post's repo adding only the author with write privilages.
 
-When they edit a post in the AirPair editor, they are editing HEAD on the master repository. The preview feature also reads the markdown from this file. This allows the author to make changes and view them without effecting the live version being displayed to other uses.
+A post's markdown is stored in a `post.md` on a branch called "Edit". Using a branch stops the post.md getting indexed by google. You're welcome to make edits to your post from any environment you like, but you will need to stay on the `edit` branch.
 
-If the author wants their changes to be published, they can sync HEAD to the live version stored in our database. This is what it means when the editor tells you that your posts is `unsynced`. You'll also notice that the live AirPair editor now requires a commit message each time you save. 
-** From a contributors point of view **
+*** From the author point of view ***,
+when authors edit from the AirPair editor, they are editing HEAD on the `edit` branch from the master repository. The preview feature reads this same file. The version displayed to reviewers comes from a completely different source, the same placeholder in our database that previously stored the posts' markdown file in draft. This has two nice side effects. (1) We don't have to make round trips to github when showing a post to other users. (2) Authors can make changes and preview them without effecting the live version displayed to reviewers.
 
+When the editor says your posts is `unsynced`, it means there is a newer version in git than being shown to others. Authors can SYNC changes from HEAD to the version in our database whenever they like. 
 
-#### Private repos and private forks When an author submits a post
-for community review, we create **a private repository on the [airpair
-organization](//github.com/airpair)** in which only the author has write
-permissions. When a reader wants to contribute, they make **a private fork on
-their own github account**. ** Private forks do not count towards your private
-repo limits. #### Adding users to the airpair organization and repo read/write
-teams To facilitate the desired read/write permissions for different users,
-all users are added to the airpair github org and then to unique teams are
-created for each repo. Each repo has one team with write permissions for the
-author so that they may edit the post and pull request. The second team is
-created with read only permissions that allows contributors to fork and submit
-PRs without the ability to self merge.  ** Authors and readers unfortunately
-need to authenticate with repo privileges to facilitate this workflow.
+***From a contributors point of view***, when a contributor edits from the AirPair editor, they are editing HEAD on the `edit branch from THEIR FORKED repository. The preview feature reads this same file (on their fork). This is super cool, as an author can edit master and preview their changes as the same time a contributor makes and previews their own. All of this happens while the version other reviwers are seeing continues to be served and intact from our database.
 
+***All pull request and mergeing*** activity happens on GitHub.com via pull requests from the `edit` branch of a fork to the `edit` branch of the master repository.
 
+** 3.3.3 `PUBLISHED` Posts **
+
+Published posts take advantage of all the same forking and merging
+goodness as posts in `COMMUNITY REVIEW`. Everything is stored in all the same places. Contributors can continue to fork. Authors can continue to edit. The only exception is that a user much have AirPair `editor` privilages to `sync` HEAD to the published version of a post.  
+
+### 3.4 Ratings, Publishing and Visibilty
+
+** 3.1.1 Posts in DRAFT **
 
 
-#### Draft ```javascript // Properties of a post in draft var draft = {   
-visibility: ['you'],   contentStore: {     workingCopy: 'airpair mongo
-instance',     previewedCopy: 'is the working copy'       },   authoring: {   
- editWith: ['the airpair editor'],     editRestrictions: ['the mongo id']
-  }
-}
-```
-
-New posts starts in ***Draft*** and are completely private. They have no git
-repo or history log. If you start something and your idea never goes anywhere,
-that experience was just for you. You can change everything as much as you
-like, so enjoy not taking things too seriously until you realize you want to. 
- #### In Review
-```javascript
-// Properties of a post in review
-var review = { 
-  visibility: ['you', 'reviewers (logged in to airpair.com)'],
-  contentStore: {
-    workingCopy: 'github HEAD',
-    previewedCopy: 'github HEAD',
-    inReviewCopy: 'airpair mongo instance'    
-  },
-  authoring: {
-    editWith: ['airpair editor', 'github.com', 'any tool you code with']
-    editRestrictions: [
-        'mongo id',
-        'the repo name'],
-    publishRestrictions: [
-        '3 positivce reviews are required to publish'
-    ]
-  }
-}
-```
-
-*** No turning back ***
-
-When you submit your post we create a GitHub repo to begin tracking all
-changes via Git. Repo names across our org are unique and are locked once you
-submit,so make sure you are 100% happy when you submit. ***Visibility***
-
-Congrats, your post is now visible to reviewers logged in to AirPair. It is
-still hidden from open traffic and marked as noindex just in case.
-*** Where your posts lives and gets saved *** 
-
-Once your post is submitted, you have to choice to continue editing on
-AirPair, or clone your repo and use any editor of your choosing. Either way,
-each time you save your post, including from the editor, it gets committed to
-master on github. The markdown appearing in the editor comes from HEAD and
-***it will not appear on airpair.com until you publish changes from head back
-to AirPair**. This allows us to give you a preview feature without having to
-change your live copy. Although not quite semantically correct, you can think
-of HEAD as your working branch, and the copy stored in AirPair's mongo
-instance as your prod branch.  #### Published ```javascript // Properties of a
-post already published var published = {    visibility: ['you', 'all logged in
-users', 'anonymous users', 'google', 'other bots'],   contentStore: {    
-workingCopy: 'github HEAD',     previewedCopy: 'github HEAD',    
-publishedCopy: 'airpair mongo instance'       },
-  authoring: {
-    editWith: ['airpair editor', 'github.com', 'any tool you code with']
-    editRestrictions: [
-        'mongo id',
-        'tags',
-        'title',        
-        'repo name'],
-    publishRestrictions: [        
-        'A users with editor permissions must re-publish the post from HEAD if
-updates are ready'         ]
-    ]
-  }
-}
-```
-
-Published posts can take advantage of all the same forking and merging
-goodness as the review phase, with the exception the author needs an editor
-with permissions to update the live copy on AirPair.  ***Visibility***
+***Visibility***
 
 Posts will appear at the top of our posts section and Rss feeds and will be
 fully index by google. Distiguished works will be promoted by AirPair's

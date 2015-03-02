@@ -68,10 +68,12 @@ private until you submit to the community.
 post](//airpair.github.io/img/2015/02/start-post.png)](/posts/new)
 
 - To fork, hit the orange *fork* button in the right rail
+>[![Review a
+post](//airpair.github.io/img/2015/02/fork-button.png)](#review)
 
 - Give feedback with the review widget at the bottom of each post
 >[![Review a
-post](//airpair.github.io/img/2015/02/review-post.png)](#review)
+post](http://airpair.github.io/img/2015/02/review-post.png)](#review)
 
 - Help Q/A and vet [Posts in review](/posts/in-community-review) waiting
 to get published

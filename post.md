@@ -33,7 +33,7 @@ magic?
 
 Pretty much anything part Git, or Octocat related is going to be cool. If
 you've already enjoyed some of the epic community posts that have gone
-viral on  AirPair, it gives me great pleasure knowing from today our
+viral on  AirPair it gives me great pleasure knowing that from today on our
 community content is  about to get way more awesome, because ***authors can
 now work with readers using Forks and Pull Requests***.
 
@@ -58,9 +58,9 @@ AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 
 - More proofed, comprehensive and up to date technical content than ever
 before 
-- Clear quality signals with what posts are worth reading
+- Clear quality signals of which posts are worth reading
 - The **ability to contribute** small bytes, without the level of understanding
-required to author an entrie post
+required to author an entire post
 
 **For authors**
 
@@ -99,7 +99,7 @@ long form technical writing can be evolutionary for the developer community. In
 `2.2` I'll touch on content marketing *economics* we believe Git will help
 solve. Our main drive to build all this was to thank the authors by making the
 authoring *user experience* easier, more fun and more impactful. `2.3` will
-talk about how git makes authoring on airpair.com an edge compared with
+talk about how git gives authoring on airpair.com an edge compared with
 anywhere else.
 
 ### 2.1 When (Developer) Ideas Have Sex

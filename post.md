@@ -260,9 +260,9 @@ When the editor says your posts is `unsynced`, it means there is a newer version
 ** 3.3.3 `PUBLISHED` Posts **
 
 `PUBLISHED` posts take advantage of all the same forking and merging
-goodness as posts in `COMMUNITY REVIEW`. Everything is stored in all the same places. Contributors can continue to fork. Authors can continue to edit. The only exception is that a user much have AirPair `editor` privilages to `sync` HEAD to the published version of a post.  
+goodness as posts in `COMMUNITY REVIEW`. Everything is stored in all the same places. Contributors can continue to fork. Authors can continue to edit. The only exception is that a user must have AirPair `editor` privilages to `sync` HEAD to the published version of a post.  
 
-### 3.4 Visibilty, Ratings & Publishing
+### 3.4 Visibility, Ratings & Publishing
 
 ** 3.4.1 Posts in DRAFT **
 
@@ -272,7 +272,7 @@ Post in draft are visible only to the author. They are not surfaced anywhere aro
 
 In review, posts are semi-private, in the sense that they are not shown in our main [posts section](//airpair.com/posts) and are not indexable by google. Users can only access posts if logged in. And all posts in review can be found on the [posts section](//airpair.com/posts/in-community-review) In Community review page. This is to allow an author to present unfinished work without permanent consequences.
 
-Even reviews given by other users can be updated at anytime, so don't worry if someone gives you critisism. All you have to do is concince them through improving your work to take it down and replace their comment with a more positive one.
+Even reviews given by other users can be updated at anytime, so don't worry if someone gives you criticism. All you have to do is convince them through improving your work to take it down and replace their comment with a more positive one.
 
 A post in review can be published by its author once it has 3 reviews with a 3.5/5 start rating or higher.
 

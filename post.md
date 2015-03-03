@@ -217,7 +217,7 @@ will help you reinforce your arguments and less advanced readers will force you 
 
 ### 3.1 A 3-Step Authoring Workflow 
 
-All posts go through 3 phases. Authors, Contributors and Editors have variying visibilty and functions at each stage:
+All posts go through 3 phases. Authors, Contributors and Editors have varying visibility and functions at each stage:
 
 ![3 Step Authoring Workflow](//www.airpair.com/static/img/pages/posts/social-authoring.png)
 

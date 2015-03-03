@@ -1,5 +1,8 @@
 <!-- *TODO add CTA to subscribe to the AP Content Maillist here.* -->
 
+> **tldr;** Would writing technical content get easier if we collaborated using
+the same git flow for content as we do for code? Fork this post and join the *Mother Forkers Developer Content Revolution*!
+
 ## 1 Filling a gap with Social Authoring
 
 Thanks to StackOverflow's *Social Q&A* platform, we have a reliable,

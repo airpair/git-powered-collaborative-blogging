@@ -57,7 +57,7 @@ AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 before 
 - Clear quality signals with what posts are worth reading
 - The **ability to contribute** small bytes, without the level of understanding
-required to author an entrie post
+required to author an entire post
 
 **For authors**
 

@@ -69,7 +69,7 @@ following)
 
 ### 1.3 Getting involved
 
-- **[Staring a post](/posts/new)** is a piece of cake. Everything is
+- **[Starting a post](/posts/new)** is a piece of cake. Everything is
 private until you submit to the community 
 >[![Star a
 post](//airpair.github.io/img/2015/02/start-post.png)](/posts/new)

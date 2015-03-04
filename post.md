@@ -233,14 +233,14 @@ In DRAFT, things are simple. A single version of your markdown is stored in our
 database without any versioning or edit history. We wanted authors to be as
 comfortable as possible splatting whatever comes out of your head with no
 consequence or papertrail. When you click the PREVIEW button to see a full page
-preview your post, you will see the same copy of your draf markdown stroed in
+preview your post, you will see the same copy of your draft markdown stored in
 our db.
 
 ** 3.3.2 Post in `COMMUNITY REVIEW` **
 
 When a post is submitted to the community for review, a *master* open source
-repo is created on [AirPair's Github organization account](//www.github.com/airpair) so that authors can begin to recevie pull
-requests with suggested improvements. All edit history from this point ise
+repo is created on [AirPair's Github organization account](//www.github.com/airpair) so that authors can begin to receive pull
+requests with suggested improvements. All edit history from this point is
 tracked by git and can be explored by anyone on github.com same as any other
 open source code base.
 

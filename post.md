@@ -233,7 +233,7 @@ In DRAFT, things are simple. A single version of your markdown is stored in our
 database without any versioning or edit history. We wanted authors to be as
 comfortable as possible splatting whatever comes out of your head with no
 consequence or papertrail. When you click the PREVIEW button to see a full page
-preview your post, you will see the same copy of your draf markdown stroed in
+preview your post, you will see the same copy of your draft markdown stored in
 our db.
 
 ** 3.3.2 Post in `COMMUNITY REVIEW` **

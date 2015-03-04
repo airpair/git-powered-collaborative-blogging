@@ -239,8 +239,8 @@ our db.
 ** 3.3.2 Post in `COMMUNITY REVIEW` **
 
 When a post is submitted to the community for review, a *master* open source
-repo is created on [AirPair's Github organization account](//www.github.com/airpair) so that authors can begin to recevie pull
-requests with suggested improvements. All edit history from this point ise
+repo is created on [AirPair's Github organization account](//www.github.com/airpair) so that authors can begin to receive pull
+requests with suggested improvements. All edit history from this point is
 tracked by git and can be explored by anyone on github.com same as any other
 open source code base.
 

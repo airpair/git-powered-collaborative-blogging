@@ -21,7 +21,7 @@ From the publishing perspective, ***writing high quality long form technical
 content is hard*** and often even harder to maintain. Yet more frameworks are
 appearing faster and faster each year and with it comes *** a challenge to
 cover permutations of using different technologies together to solve real world
-problems ***. 
+problems ***.
 
 The Social thing worked for Q&A on StackOverflow. It also worked for coding on
 GitHub. It even worked for long form encyclopedia content. Can we step-up
@@ -43,9 +43,9 @@ that will enable more accurate and refined technical writing.
 ![Collaborate on post using
 Git](/static/img/pages/posts/authoring-flow.png)
 
-In this post, I'll cover how we integrated GitHub and many cool 
+In this post, I'll cover how we integrated GitHub and many cool
 opportunities that make our new authoring setup significant. We'll end
-leading into our ***$100,000 Developer Writing Competition***. 
+leading into our ***$100,000 Developer Writing Competition***.
 
 Before diving into details, here's a screenshot to get you thinking:
 
@@ -57,7 +57,7 @@ AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 **For readers**
 
 - More proofed, comprehensive and up to date technical content than ever
-before 
+before
 - Clear quality signals with what posts are worth reading
 - The **ability to contribute** small bytes, without the level of understanding
 required to author an entire post
@@ -73,7 +73,7 @@ following)
 ### 1.3 Getting involved
 
 - **[Starting a post](/posts/new)** is a piece of cake. Everything is
-private until you submit to the community 
+private until you submit to the community
 >[![Start a
 post](//airpair.github.io/img/2015/02/start-post.png)](/posts/new)
 
@@ -99,7 +99,7 @@ things, you might want to jump to <a href="#3-1-a-3-step-authoring-workflow">sec
 
 I can't recommend enough: set aside 15 minutes to absorb my all-time
 favorite TED Talk - [When ideas have
-sex](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en) - 
+sex](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en) -
 by Matt Ridley.
 
 [![Matt
@@ -122,20 +122,20 @@ products. Things you and I conceive day-to-day as single ideas, actually embody
 previous ideas originating from thousands or even millions of individuals.
 
 > ![Stone
-Axe](//airpair.github.io/img/2015/02/matt-ridley-stone-axe.jpg) 
+Axe](//airpair.github.io/img/2015/02/matt-ridley-stone-axe.jpg)
 
 Interestingly, as ideas become more evolved, they are even more quickly
 superseded. The Stone Axe was used for thirty thousand years, yet iPhones are
 now out of fashion within a few months.
 
-> ![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg) 
+> ![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg)
 
 ** 2.1.1 (Developer) Intellectual Acceleration **
 
 As developers, we've seen hands down what Ridley is talking about. Every year
 the cycle of new frameworks appearing, spreading worldwide and becoming second
 best, gets shorter. Largely thanks to GitHub making Open Source mainstream,
-*Developer ideas having sex* is old news. 
+*Developer ideas having sex* is old news.
 
 AirPair's thesis for existing, is based on an observation: *As we make better
 software faster and faster, we'll need more efficient and powerful ways to
@@ -146,28 +146,28 @@ express, share and consume the knowledge embedded in our code.*
 We're primarily known for connecting developers over
 video chat for live one-on-one help. But our broader mission is to find new
 ways to create relationships between developers that enable more efficient
-knowledge share. 
+knowledge share.
 
 So with our mission in mind, we'd love you to join our experiment
 to see if we can reproduce what StackOverflow did for Q/A starting a
 Wikipedia-like community using the same tools GitHub used to usher in the era
 of Social Coding.
 
-<!--** todo insert illustration ** 
+<!--** todo insert illustration **
 
 ### 2.2 How Git Improves ROI on Content Marketing
 
 We had great success in our first 6 months pushing community content. The
 average post published on AirPair in January 2015 received more than 15,000
 views. Our 24 hour record is 35,000 reads and the most trafficked post has been
-visited 250,000+ times. 
+visited 250,000+ times.
 
-> ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png) 
+> ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
 The seeding phase was however, expensive and unsustainably heavy on internal
 manpower. To keep up the quality and pace incumbent of our initial success, we
 needed to decrease the effort of finding authors, reduce the time our internal
-team assited with editing. 
+team assited with editing.
 
 Every publisher dreams of ***user generated content*** magically
 appearing. From experience, we can tell you, great content takes time and
@@ -177,19 +177,19 @@ system to crowdsource vetting and Q/A before our internal team gets involved.
 -->
 > ![Crowdsourced Editng](//airpair.github.io/img/2015/02/post-rating-signal.png)
 
-A great side effect is that stars immediately indicate to readers as the browse, which posts to pay attention to. 
+A great side effect is that stars immediately indicate to readers as the browse, which posts to pay attention to.
 
 <!-- insert contributors screenshot here -->
 
 ### 2.2 What Git offers to the Authoring Experience
 
-** 2.2.1 Sharing editorial load with Pull Requests ** 
+** 2.2.1 Sharing editorial load with Pull Requests **
 
 Editing is a particularly time and energy intensive step in publishing. The last 10% of changes usually require a disproportionate amount of time and are the least fun... The same Git flow you know and love for code review can enable fresh eyes that have spotted fixes to send them to you.
 
 > ![Crowdsourced Editing](//airpair.github.io/img/2015/02/crowdsourced-post-editing.png)
 
-**2.2.2 Extend content life time and relevance** 
+**2.2.2 Extend content life time and relevance**
 
 We've covered how software moves exceptionally quick. The unfortunate byproduct
 is, software content decays exceptionally fast too. Often the principals of a
@@ -200,21 +200,21 @@ for companies. Git provides a way to collaboratively maintain posts through
 forks and pull requests. It can even be used to tag and retrieve iterations
 relevant to specific framework versions.
 
-** 2.2.3 Discussing evolving ideas with GitHub Comments ** 
+** 2.2.3 Discussing evolving ideas with GitHub Comments **
 
 GitHub issues, discussions and comments provide an amazing opportunity to get
 feedback that will force you to re-think the subject matter. Influencers
-will help you reinforce your arguments and less advanced readers will force you to simplify and present concepts in clearer ways. 
+will help you reinforce your arguments and less advanced readers will force you to simplify and present concepts in clearer ways.
 
 ## 3 What we built
 
-### 3.1 A 3-Step Authoring Workflow 
+### 3.1 A 3-Step Authoring Workflow
 
 All posts go through 3 phases. Authors, Contributors and Editors have varying visibility and functions at each stage:
 
 ![3 Step Authoring Workflow](//www.airpair.com/static/img/pages/posts/social-authoring.png)
 
-### 3.2 Leveraging GitHub as much as possible 
+### 3.2 Leveraging GitHub as much as possible
 
 We wanted to use as much existing functionality provided by GitHub's API and github.com as we could. Not only does GitHub already have rock solid discussion
 capabilities, merge tools and such that we didn't want to rewrite, Developers are already familiar with and love their tooling.  
@@ -225,7 +225,7 @@ Theoretically, once a contributor forks a post, they can work exclusively on git
 
 ** 3.3.1 Posts in `DRAFT` **
 
-Authoring starts in our live editor. Posts are written in markdown via Cloud 9's [ace web IDE](http://ace.c9.io/). Next to the editor we periodically preview how the body of your post would render using the [marked library](https://github.com/chjj/marked"). 
+Authoring starts in our live editor. Posts are written in markdown via Cloud 9's [ace web IDE](http://ace.c9.io/). Next to the editor we periodically preview how the body of your post would render using the [marked library](https://github.com/chjj/marked").
 
 > ![AirPair Live Editor](//airpair.github.io/img/2015/02/edit-post.png)
 
@@ -266,7 +266,7 @@ changes and preview them without affecting the live version displayed to reviewe
 
 When the editor says your posts is `unsynced`, it means there is a newer
 version in Git than being shown to others. Authors can SYNC changes from HEAD
-to the version in our database whenever they like. 
+to the version in our database whenever they like.
 
 ***From a contributors point of view***, when a contributor edits from the
 AirPair editor, they are editing HEAD on the `edit branch from THEIR FORKED

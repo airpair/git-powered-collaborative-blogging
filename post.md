@@ -20,13 +20,13 @@ know if you're about to read the best or even a good post on a given subject.
 From the publishing perspective, ***writing high quality long form technical
 content is hard*** and often even harder to maintain. Yet more frameworks are
 appearing faster and faster each year and with it comes *** a challenge to
-cover permutations of using different technolgoies together to solve real world
-problems ***. 
+cover permutations of using different technologies together to solve real world
+problems ***.
 
-The Social thing worked for Q&A on Stackoverflow. It also worked for coding on
+The Social thing worked for Q&A on StackOverflow. It also worked for coding on
 GitHub. It even worked for long form encyclopedia content. Can we step-up
 developer authoring and create better technical content, more efficiently than
-ever before with some sort of stackoverflow-github-wikipedia hybrid Social
+ever before with some sort of StackOverflow-GitHub-Wikipedia hybrid social
 magic?
 
 ### 1.1 Announcing Social Authoring on AirPair
@@ -43,9 +43,9 @@ that will enable more accurate and refined technical writing.
 ![Collaborate on post using
 Git](/static/img/pages/posts/authoring-flow.png)
 
-In this post, I'll cover how we integrated GitHub and many cool 
+In this post, I'll cover how we integrated GitHub and many cool
 opportunities that make our new authoring setup significant. We'll end
-leading into our ***$100,000 Developer Writing Competition***. 
+leading into our ***$100,000 Developer Writing Competition***.
 
 Before diving into details, here's a screenshot to get you thinking:
 
@@ -57,7 +57,7 @@ AirPair](//airpair.github.io/img/2015/01/fork-examples.png)
 **For readers**
 
 - More proofed, comprehensive and up to date technical content than ever
-before 
+before
 - Clear quality signals with what posts are worth reading
 - The **ability to contribute** small bytes, without the level of understanding
 required to author an entire post
@@ -73,11 +73,11 @@ following)
 ### 1.3 Getting involved
 
 - **[Starting a post](/posts/new)** is a piece of cake. Everything is
-private until you submit to the community 
->[![Star a
+private until you submit to the community
+>[![Start a
 post](//airpair.github.io/img/2015/02/start-post.png)](/posts/new)
 
-- Hit the *fork* button in the right rail to start contibuting to someone else's post
+- Hit the *fork* button in the right rail to start contributing to someone else's post
 >[![Review a
 post](//airpair.github.io/img/2015/02/fork-button.png)](#review)
 
@@ -85,7 +85,7 @@ post](//airpair.github.io/img/2015/02/fork-button.png)](#review)
 >[![Review a
 post](//airpair.github.io/img/2015/02/review-post.png)](#review)
 
-- Help community vet and Q/A **[Posts in review](/posts/in-community-review)**
+- Help community vet and Q/A **[posts in review](/posts/in-community-review)**
 waiting to get published
 
 - Bookmark this post if you want to come back to it later
@@ -93,20 +93,13 @@ waiting to get published
 ## 2 Why we built publishing on Git
 
 If you're more interested in the technicalities on what and how we built
-things, you might want to jump to <a href="#3-1-our-3-step-authoring-workflow">section 3</a>. This section is all
-about the why and in `2.1` I'll cover *philosophically* how combining Git with
-long form technical writing can be evolutionary for the developer community. In
-`2.2` I'll touch on content marketing *economics* we believe Git will help
-solve. Our main drive to build all this was to thank the authors by making the
-authoring *user experience* easier, more fun and more impactful. `2.3` will
-talk about how git makes authoring on airpair.com an edge compared with
-anywhere else.
+things, you might want to jump to <a href="#3-1-a-3-step-authoring-workflow">section 3</a>.
 
 ### 2.1 When (Developer) Ideas Have Sex
 
 I can't recommend enough: set aside 15 minutes to absorb my all-time
 favorite TED Talk - [When ideas have
-sex](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en) - 
+sex](http://www.ted.com/talks/matt_ridley_when_ideas_have_sex?language=en) -
 by Matt Ridley.
 
 [![Matt
@@ -129,20 +122,20 @@ products. Things you and I conceive day-to-day as single ideas, actually embody
 previous ideas originating from thousands or even millions of individuals.
 
 > ![Stone
-Axe](//airpair.github.io/img/2015/02/matt-ridley-stone-axe.jpg) 
+Axe](//airpair.github.io/img/2015/02/matt-ridley-stone-axe.jpg)
 
 Interestingly, as ideas become more evolved, they are even more quickly
 superseded. The Stone Axe was used for thirty thousand years, yet iPhones are
 now out of fashion within a few months.
 
-> ![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg) 
+> ![Mouse](//airpair.github.io/img/2015/02/matt-ridley-computer-mouse.jpg)
 
 ** 2.1.1 (Developer) Intellectual Acceleration **
 
 As developers, we've seen hands down what Ridley is talking about. Every year
 the cycle of new frameworks appearing, spreading worldwide and becoming second
 best, gets shorter. Largely thanks to GitHub making Open Source mainstream,
-*Developer ideas having sex* is old news. 
+*Developer ideas having sex* is old news.
 
 AirPair's thesis for existing, is based on an observation: *As we make better
 software faster and faster, we'll need more efficient and powerful ways to
@@ -153,75 +146,75 @@ express, share and consume the knowledge embedded in our code.*
 We're primarily known for connecting developers over
 video chat for live one-on-one help. But our broader mission is to find new
 ways to create relationships between developers that enable more efficient
-knowledge share. 
+knowledge share.
 
 So with our mission in mind, we'd love you to join our experiment
-to see if we can reproduce what Stackoverflow did for Q/A starting a
+to see if we can reproduce what StackOverflow did for Q/A starting a
 Wikipedia-like community using the same tools GitHub used to usher in the era
 of Social Coding.
 
-<!--** todo insert illustration ** -->
+<!--** todo insert illustration **
 
 ### 2.2 How Git Improves ROI on Content Marketing
 
 We had great success in our first 6 months pushing community content. The
 average post published on AirPair in January 2015 received more than 15,000
 views. Our 24 hour record is 35,000 reads and the most trafficked post has been
-visited 250,000+ times. 
+visited 250,000+ times.
 
-> ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png) 
+> ![AirPair Traffic Growth](/static/img/pages/postscomp/traffic-growth.png)
 
 The seeding phase was however, expensive and unsustainably heavy on internal
 manpower. To keep up the quality and pace incumbent of our initial success, we
 needed to decrease the effort of finding authors, reduce the time our internal
-team assited with editing. 
+team assited with editing.
 
 Every publisher dreams of ***user generated content*** magically
 appearing. From experience, we can tell you, great content takes time and
 energy. During our seed phase, each post consumed around 10 hours of internal
 manpower. There's no shortcut, so we've built a crowdsourcing review and rating
 system to crowdsource vetting and Q/A before our internal team gets involved.
-
+-->
 > ![Crowdsourced Editng](//airpair.github.io/img/2015/02/post-rating-signal.png)
 
-A great side effect is that stars immediately indicate to readers as the browse, which posts to pay attention to. 
+A great side effect is that stars immediately indicate to readers as the browse, which posts to pay attention to.
 
 <!-- insert contributors screenshot here -->
 
-### 2.3 What Git offers to the Authoring Experience
+### 2.2 What Git offers to the Authoring Experience
 
-** 2.3.1 Sharing editorial load with Pull Requests ** 
+** 2.2.1 Sharing editorial load with Pull Requests **
 
-Editing is a particularly time and energy intensive step in publishing. The last 10% of changes usually require a disproportionate amount of time and are the least fun... The same git flow you know and love for code review can enable fresh eyes that have spotted fixes to send them to you.
+Editing is a particularly time and energy intensive step in publishing. The last 10% of changes usually require a disproportionate amount of time and are the least fun... The same Git flow you know and love for code review can enable fresh eyes that have spotted fixes to send them to you.
 
-> ![Crowdsourced Editng](//airpair.github.io/img/2015/02/crowdsourced-post-editing.png)
+> ![Crowdsourced Editing](//airpair.github.io/img/2015/02/crowdsourced-post-editing.png)
 
-**2.3.2 Extend content life time and relevance** 
+**2.2.2 Extend content life time and relevance**
 
 We've covered how software moves exceptionally quick. The unfortunate byproduct
 is, software content decays exceptionally fast too. Often the principals of a
 piece remain relevant, but as new framework versions emerge, it becomes unclear
 if the content is still useful. Maintaining content against moving code bases
-has never really been possible as an individual and is an unwiedly endevour for
-companies. Git provides a way to collaboratively maintain posts through forks
-and pull requests. It can even be used to tag and retrieve iterations relevant
-to specific framework versions.
+has never really been possible as an individual and is an unwieldy endeavour
+for companies. Git provides a way to collaboratively maintain posts through
+forks and pull requests. It can even be used to tag and retrieve iterations
+relevant to specific framework versions.
 
-** 2.3.3 Discussing evolving ideas with Github Comments ** 
+** 2.2.3 Discussing evolving ideas with GitHub Comments **
 
 GitHub issues, discussions and comments provide an amazing opportunity to get
 feedback that will force you to re-think the subject matter. Influencers
-will help you reinforce your arguments and less advanced readers will force you to simplify and present concepts in clearer ways. 
+will help you reinforce your arguments and less advanced readers will force you to simplify and present concepts in clearer ways.
 
 ## 3 What we built
 
-### 3.1 A 3-Step Authoring Workflow 
+### 3.1 A 3-Step Authoring Workflow
 
 All posts go through 3 phases. Authors, Contributors and Editors have varying visibility and functions at each stage:
 
 ![3 Step Authoring Workflow](//www.airpair.com/static/img/pages/posts/social-authoring.png)
 
-### 3.2 Leveraging GitHub as much as possible 
+### 3.2 Leveraging GitHub as much as possible
 
 We wanted to use as much existing functionality provided by GitHub's API and github.com as we could. Not only does GitHub already have rock solid discussion
 capabilities, merge tools and such that we didn't want to rewrite, Developers are already familiar with and love their tooling.  
@@ -232,58 +225,107 @@ Theoretically, once a contributor forks a post, they can work exclusively on git
 
 ** 3.3.1 Posts in `DRAFT` **
 
-Authoring starts in our live editor. Posts are written in markdown via Cloud 9's [ace web IDE](http://ace.c9.io/). Next to the editor we periodically preview how the body of your post would render using the [marked library](https://github.com/chjj/marked"). 
+Authoring starts in our live editor. Posts are written in markdown via Cloud 9's [ace web IDE](http://ace.c9.io/). Next to the editor we periodically preview how the body of your post would render using the [marked library](https://github.com/chjj/marked").
 
 > ![AirPair Live Editor](//airpair.github.io/img/2015/02/edit-post.png)
 
-In DRAFT, things are simple. A single version of your markdown is stored in our database without any versioning or edit history. We wanted authors to be as comfortable as possible splatting whatever comes out of your head with no consequence or papertrail. When you click the PREVIEW button to see a full page preview your post, you will see the same copy of your draf markdown stroed in our db.
+In DRAFT, things are simple. A single version of your markdown is stored in our
+database without any versioning or edit history. We wanted authors to be as
+comfortable as possible splatting whatever comes out of your head with no
+consequence or papertrail. When you click the PREVIEW button to see a full page
+preview your post, you will see the same copy of your draft markdown stored in
+our db.
 
 ** 3.3.2 Post in `COMMUNITY REVIEW` **
 
-When a post is submitted to the community for review, a *master* open source repo is created on [AirPair's Github organization account](//www.github.com/airpair) so that authors can begin to recevie pull requests with suggested improvements. All edit history from this point ise tracked by git and can be explored by anyone on github.com same as any other open source code base.
+When a post is submitted to the community for review, a *master* open source
+repo is created on [AirPair's GitHub organization account](//www.github.com/airpair) so that authors can begin to receive pull
+requests with suggested improvements. All edit history from this point is
+tracked by git and can be explored by anyone on GitHub.com same as any other
+open source code base.
 
 >  ![AirPair Live Editor](//airpair.github.io/img/2015/02/my-contributions.png)
 
-To give authors permissions to edit and accept pull requests to the master repository we create an `organization team` exclusively for a post's repo adding only the author with write privilages.
+To give authors permissions to edit and accept pull requests to the master
+repository we create an `organization team` exclusively for a post's repo
+adding only the author with write privileges.
 
-A post's markdown is stored in a `post.md` on a branch called "Edit". Using a branch stops the post.md getting indexed by google. You're welcome to make edits to your post from any environment you like, but you will need to stay on the `edit` branch.
+A post's markdown is stored in a `post.md` on a branch called "Edit". Using a
+branch stops the post.md getting indexed by Google. You're welcome to make
+edits to your post from any environment you like, but you will need to stay on
+the `edit` branch.
 
 *** From the author point of view ***,
-when authors edit from the AirPair editor, they are editing HEAD on the `edit` branch from the master repository. The preview feature reads this same file. The version displayed to reviewers comes from a completely different source, the same placeholder in our database that previously stored the posts' markdown file in draft. This has two nice side effects. (1) We don't have to make round trips to github when showing a post to other users. (2) Authors can make changes and preview them without effecting the live version displayed to reviewers.
+when authors edit from the AirPair editor, they are editing HEAD on the `edit`
+branch from the master repository. The preview feature reads this same file.
+The version displayed to reviewers comes from a completely different source,
+the same placeholder in our database that previously stored the posts' markdown
+file in draft. This has two nice side effects. (1) We don't have to make round
+trips to GitHub when showing a post to other users. (2) Authors can make
+changes and preview them without affecting the live version displayed to reviewers.
 
-When the editor says your posts is `unsynced`, it means there is a newer version in git than being shown to others. Authors can SYNC changes from HEAD to the version in our database whenever they like. 
+When the editor says your posts is `unsynced`, it means there is a newer
+version in Git than being shown to others. Authors can SYNC changes from HEAD
+to the version in our database whenever they like.
 
-***From a contributors point of view***, when a contributor edits from the AirPair editor, they are editing HEAD on the `edit branch from THEIR FORKED repository. The preview feature reads this same file (on their fork). This is super cool, as an author can edit master and preview their changes as the same time a contributor makes and previews their own. All of this happens while the version other reviwers are seeing continues to be served and intact from our database.
+***From a contributors point of view***, when a contributor edits from the
+AirPair editor, they are editing HEAD on the `edit branch from THEIR FORKED
+repository. The preview feature reads this same file (on their fork). This is
+super cool, as an author can edit master and preview their changes as the same
+time a contributor makes and previews their own. All of this happens while the
+version other reviewers are seeing continues to be served and intact from our
+database.
 
-***All pull request and mergeing*** activity happens on GitHub.com via pull requests from the `edit` branch of a fork to the `edit` branch of the master repo on AirPair's org account.
+***All pull request and merging*** activity happens on GitHub.com via pull
+requests from the `edit` branch of a fork to the `edit` branch of the master
+repo on AirPair's org account.
 
 ** 3.3.3 `PUBLISHED` Posts **
 
 `PUBLISHED` posts take advantage of all the same forking and merging
-goodness as posts in `COMMUNITY REVIEW`. Everything is stored in all the same places. Contributors can continue to fork. Authors can continue to edit. The only exception is that a user must have AirPair `editor` privilages to `sync` HEAD to the published version of a post.  
+goodness as posts in `COMMUNITY REVIEW`. Everything is stored in all the same
+places. Contributors can continue to fork. Authors can continue to edit. The
+only exception is that a user much have AirPair `editor` privileges to `sync`
+HEAD to the published version of a post.  
 
 ### 3.4 Visibility, Ratings & Publishing
 
 ** 3.4.1 Posts in DRAFT **
 
-Post in draft are visible only to the author. They are not surfaced anywhere around the airpair.com website. As such they cannot be reviewed or given ratings. No repo exists, so no forking and merge activity is possible.
+Post in draft are visible only to the author. They are not surfaced anywhere
+around the airpair.com website. As such they cannot be reviewed or given
+ratings. No repo exists, so no forking and merge activity is possible.
+
 
 ** 3.4.2 Posts in COMMUNITY REVIEW **
 
-In review, posts are semi-private, in the sense that they are not shown in our main [posts section](//airpair.com/posts) and are not indexable by google. Users can only access posts if logged in. And all posts in review can be found on the [posts section](//airpair.com/posts/in-community-review) In Community review page. This is to allow an author to present unfinished work without permanent consequences.
+In review, posts are semi-private, in the sense that they are not shown in our
+main [posts section](//airpair.com/posts) and are not indexable by Google.
+Users can only access posts if logged in. And all posts in review can be found
+on the [posts section](//airpair.com/posts/in-community-review) In Community
+review page. This is to allow an author to present unfinished work without
+permanent consequences.
 
-Even reviews given by other users can be updated at anytime, so don't worry if someone gives you criticism. All you have to do is convince them through improving your work to take it down and replace their comment with a more positive one.
+Even reviews given by other users can be updated at anytime, so don't worry if
+someone gives you criticism. All you have to do is convince them through
+improving your work to take it down and replace their comment with a more
+positive one.
 
-A post in review can be published by its author once it has 3 reviews with a 3.5/5 start rating or higher.
+A post in review can be published by its author once it has 3 reviews with a
+3.5/5 start rating or higher.
 
 ** 3.4.2 PUBLISHED Posts **
 
-Published posts are visible by anyone, whether logged in, anonymous or actually a computer. Users will need an AirPair account to fork posts and leave reviews, though they will be able to read reviews by others without being logged in.
+Published posts are visible by anyone, whether logged in, anonymous or actually
+a computer. Users will need an AirPair account to fork posts and leave reviews,
+though they will be able to read reviews by others without being logged in.
 
 ## 4 Conclusion
 
 We hope this project is as impactful as we think it can be. At AirPair we come
-to work each day focused on how we enable knowledge transfer from one developer to another. We hope to see your posts and contributions. If you haven't yet, now is a great time to check out our $100k Writing Competition.
+to work each day focused on how we enable knowledge transfer from one developer
+to another. We hope to see your posts and contributions. If you haven't yet,
+now is a great time to check out our $100k Writing Competition.
 
 [![$100k Developer Writing
 Competition](//www.airpair.com/static/img/pages/postscomp/og.png)](http://airpair.com/100k-writing-competition)
